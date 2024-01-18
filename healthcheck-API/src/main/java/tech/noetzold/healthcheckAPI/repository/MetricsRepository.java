@@ -1,4 +1,7 @@
 package tech.noetzold.healthcheckAPI.repository;
 
-public class MetricsRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import tech.noetzold.healthcheckAPI.model.MetricResponse;
+
+public interface MetricsRepository extends JpaRepository<MetricResponse, Long> {
 }
