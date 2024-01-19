@@ -1,14 +1,15 @@
 package tech.noetzold.healthcheckAPI.service;
 
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tech.noetzold.healthcheckAPI.client.MetricsClient;
+import tech.noetzold.healthcheckAPI.model.Measurement;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
+import tech.noetzold.healthcheckAPI.model.Tag;
+import tech.noetzold.healthcheckAPI.repository.MeasurementRepository;
 import tech.noetzold.healthcheckAPI.repository.MetricsRepository;
-
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import tech.noetzold.healthcheckAPI.repository.TagRepository;
 
 @Service
 public class MetricsService {
@@ -19,330 +20,1246 @@ public class MetricsService {
     @Autowired
     private MetricsRepository metricsRepository;
 
+    @Autowired
+    private MeasurementRepository measurementRepository;
 
+    @Autowired
+    private TagRepository tagRepository;
+
+    @Transactional
     public void fetchAndSaveApplicationReadyTime() {
         MetricResponse response = metricsClient.getApplicationReadyTime();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveApplicationStartedTime() {
         MetricResponse response = metricsClient.getApplicationStartedTime();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveCacheGets() {
         MetricResponse response = metricsClient.getCacheGets();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveCacheLockDuration() {
         MetricResponse response = metricsClient.getCacheLockDuration();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveCachePuts() {
         MetricResponse response = metricsClient.getCachePuts();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveCacheRemovals() {
         MetricResponse response = metricsClient.getCacheRemovals();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveDiskFree() {
         MetricResponse response = metricsClient.getDiskFree();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveDiskTotal() {
         MetricResponse response = metricsClient.getDiskTotal();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorActive() {
         MetricResponse response = metricsClient.getExecutorActive();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorCompleted() {
         MetricResponse response = metricsClient.getExecutorCompleted();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorPoolCore() {
         MetricResponse response = metricsClient.getExecutorPoolCore();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorPoolMax() {
         MetricResponse response = metricsClient.getExecutorPoolMax();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorPoolSize() {
         MetricResponse response = metricsClient.getExecutorPoolSize();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorQueueRemaining() {
         MetricResponse response = metricsClient.getExecutorQueueRemaining();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveExecutorQueued() {
         MetricResponse response = metricsClient.getExecutorQueued();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnections() {
         MetricResponse response = metricsClient.getHikaricpConnections();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsAcquire() {
         MetricResponse response = metricsClient.getHikaricpConnectionsAcquire();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsActive() {
         MetricResponse response = metricsClient.getHikaricpConnectionsActive();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsCreation() {
         MetricResponse response = metricsClient.getHikaricpConnectionsCreation();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsIdle() {
         MetricResponse response = metricsClient.getHikaricpConnectionsIdle();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsMax() {
         MetricResponse response = metricsClient.getHikaricpConnectionsMax();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsMin() {
         MetricResponse response = metricsClient.getHikaricpConnectionsMin();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsPending() {
         MetricResponse response = metricsClient.getHikaricpConnectionsPending();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsTimeout() {
         MetricResponse response = metricsClient.getHikaricpConnectionsTimeout();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHikaricpConnectionsUsage() {
         MetricResponse response = metricsClient.getHikaricpConnectionsUsage();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHttpServerRequests() {
         MetricResponse response = metricsClient.getHttpServerRequests();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveHttpServerRequestsActive() {
         MetricResponse response = metricsClient.getHttpServerRequestsActive();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJdbcConnectionsActive() {
         MetricResponse response = metricsClient.getJdbcConnectionsActive();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJdbcConnectionsIdle() {
         MetricResponse response = metricsClient.getJdbcConnectionsIdle();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJdbcConnectionsMax() {
         MetricResponse response = metricsClient.getJdbcConnectionsMax();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJdbcConnectionsMin() {
         MetricResponse response = metricsClient.getJdbcConnectionsMin();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmBufferCount() {
         MetricResponse response = metricsClient.getJvmBufferCount();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmBufferMemoryUsed() {
         MetricResponse response = metricsClient.getJvmBufferMemoryUsed();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmBufferTotalCapacity() {
         MetricResponse response = metricsClient.getJvmBufferTotalCapacity();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmClassesLoaded() {
         MetricResponse response = metricsClient.getJvmClassesLoaded();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmClassesUnloaded() {
         MetricResponse response = metricsClient.getJvmClassesUnloaded();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmCompilationTime() {
         MetricResponse response = metricsClient.getJvmCompilationTime();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcLiveDataSize() {
         MetricResponse response = metricsClient.getJvmGcLiveDataSize();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcMaxDataSize() {
         MetricResponse response = metricsClient.getJvmGcMaxDataSize();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcMemoryAllocated() {
         MetricResponse response = metricsClient.getJvmGcMemoryAllocated();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcMemoryPromoted() {
         MetricResponse response = metricsClient.getJvmGcMemoryPromoted();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcOverhead() {
         MetricResponse response = metricsClient.getJvmGcOverhead();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmGcPause() {
         MetricResponse response = metricsClient.getJvmGcPause();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmInfo() {
         MetricResponse response = metricsClient.getJvmInfo();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmMemoryCommitted() {
         MetricResponse response = metricsClient.getJvmMemoryCommitted();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmMemoryMax() {
         MetricResponse response = metricsClient.getJvmMemoryMax();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmMemoryUsageAfterGc() {
         MetricResponse response = metricsClient.getJvmMemoryUsageAfterGc();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmMemoryUsed() {
         MetricResponse response = metricsClient.getJvmMemoryUsed();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmThreadsDaemon() {
         MetricResponse response = metricsClient.getJvmThreadsDaemon();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmThreadsLive() {
         MetricResponse response = metricsClient.getJvmThreadsLive();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmThreadsPeak() {
         MetricResponse response = metricsClient.getJvmThreadsPeak();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmThreadsStarted() {
         MetricResponse response = metricsClient.getJvmThreadsStarted();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveJvmThreadsStates() {
         MetricResponse response = metricsClient.getJvmThreadsStates();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveLettuceCommandCompletion() {
         MetricResponse response = metricsClient.getLettuceCommandCompletion();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveLettuceCommandFirstresponse() {
         MetricResponse response = metricsClient.getLettuceCommandFirstresponse();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveLogbackEvents() {
         MetricResponse response = metricsClient.getLogbackEvents();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveProcessCpuUsage() {
         MetricResponse response = metricsClient.getProcessCpuUsage();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveProcessFilesMax() {
         MetricResponse response = metricsClient.getProcessFilesMax();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveProcessFilesOpen() {
         MetricResponse response = metricsClient.getProcessFilesOpen();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveProcessStartTime() {
         MetricResponse response = metricsClient.getProcessStartTime();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveProcessUptime() {
         MetricResponse response = metricsClient.getProcessUptime();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveSpringDataRepositoryInvocations() {
         MetricResponse response = metricsClient.getSpringDataRepositoryInvocations();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveSystemCpuCount() {
         MetricResponse response = metricsClient.getSystemCpuCount();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveSystemCpuUsage() {
         MetricResponse response = metricsClient.getSystemCpuUsage();
-        metricsRepository.save(response);
-    }
+        MetricResponse savedResponse = metricsRepository.save(response);
 
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
+    }
+    @Transactional
     public void fetchAndSaveSystemLoadAverage1M() {
         MetricResponse response = metricsClient.getSystemLoadAverage1M();
-        metricsRepository.save(response);
+        MetricResponse savedResponse = metricsRepository.save(response);
+
+        if (savedResponse.getMeasurements() != null) {
+            for (Measurement measurement : savedResponse.getMeasurements()) {
+                measurement.setMetricResponse(savedResponse);
+                measurementRepository.save(measurement);
+            }
+        }
+
+        if (savedResponse.getAvailableTags() != null) {
+            for (Tag tag : savedResponse.getAvailableTags()) {
+                tag.setMetricResponse(savedResponse);
+                tagRepository.save(tag);
+            }
+        }
     }
 
 }
