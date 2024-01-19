@@ -1,5 +1,6 @@
 package tech.noetzold.healthcheckAPI.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,5 +19,6 @@ public class Measurement {
 
     @ManyToOne
     @JoinColumn(name = "metric_response_id")
+    @JsonBackReference
     private MetricResponse metricResponse;
 }
