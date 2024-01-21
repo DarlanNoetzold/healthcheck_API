@@ -6,10 +6,15 @@ import org.springframework.stereotype.Service;
 import tech.noetzold.healthcheckAPI.client.MetricsClient;
 import tech.noetzold.healthcheckAPI.model.Measurement;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
+import tech.noetzold.healthcheckAPI.model.MetricResponseGroupedDTO;
 import tech.noetzold.healthcheckAPI.model.Tag;
 import tech.noetzold.healthcheckAPI.repository.MeasurementRepository;
 import tech.noetzold.healthcheckAPI.repository.MetricsRepository;
 import tech.noetzold.healthcheckAPI.repository.TagRepository;
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class MetricsService {
@@ -25,6 +30,17 @@ public class MetricsService {
 
     @Autowired
     private TagRepository tagRepository;
+
+    public List<MetricResponseGroupedDTO> getMetricsGroupedByName() {
+        List<MetricResponse> metrics = metricsRepository.findAll();
+
+        Map<String, List<MetricResponse>> groupedMetrics = metrics.stream()
+                .collect(Collectors.groupingBy(MetricResponse::getName));
+
+        return groupedMetrics.entrySet().stream()
+                .map(entry -> new MetricResponseGroupedDTO(entry.getKey(), entry.getValue()))
+                .collect(Collectors.toList());
+    }
 
     @Transactional
     public void fetchAndSaveApplicationReadyTime() {
