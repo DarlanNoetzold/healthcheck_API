@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
 import tech.noetzold.healthcheckAPI.model.MetricResponseGroupedDTO;
 import tech.noetzold.healthcheckAPI.repository.MetricsRepository;
+import tech.noetzold.healthcheckAPI.service.MetricsService;
 
 import java.util.List;
 
@@ -19,6 +20,8 @@ public class MetricsController {
     @Autowired
     MetricsRepository metricsRepository;
 
+    @Autowired
+    MetricsService metricsService;
 
     @GetMapping("/ping")
     public String ping(){
@@ -32,7 +35,7 @@ public class MetricsController {
 
     @GetMapping("/all/byname")
     public List<MetricResponseGroupedDTO> getAllMetricsGroupByName(){
-        return metricsRepository.findAllGroupedByName();
+        return metricsService.getMetricsGroupedByName();
     }
 
 }
