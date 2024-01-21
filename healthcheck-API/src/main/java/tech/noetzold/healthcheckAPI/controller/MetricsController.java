@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
+import tech.noetzold.healthcheckAPI.model.MetricResponseGroupedDTO;
 import tech.noetzold.healthcheckAPI.repository.MetricsRepository;
 
 import java.util.List;
@@ -27,6 +28,11 @@ public class MetricsController {
     @GetMapping("/all")
     public List<MetricResponse> getAllMetrics(){
         return metricsRepository.findAll();
+    }
+
+    @GetMapping("/all/byname")
+    public List<MetricResponseGroupedDTO> getAllMetricsGroupByName(){
+        return metricsRepository.findAllGroupedByName();
     }
 
 }
