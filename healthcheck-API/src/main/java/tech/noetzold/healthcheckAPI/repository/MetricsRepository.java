@@ -8,8 +8,9 @@ import tech.noetzold.healthcheckAPI.model.MetricResponseGroupedDTO;
 import java.util.List;
 
 public interface MetricsRepository extends JpaRepository<MetricResponse, Long> {
-    @Query("SELECT mr.name as name, GROUP_CONCAT(mr) as metricResponses " +
-            "FROM MetricResponse mr " +
-            "GROUP BY mr.name")
+    @Query(value = "SELECT name, array_agg(description) AS descriptions " +
+            "FROM metric_response " +
+            "GROUP BY name", nativeQuery = true)
     List<MetricResponseGroupedDTO> findAllGroupedByName();
+
 }
