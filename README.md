@@ -1,6 +1,6 @@
 # healthcheck_API
  
-Estudos para criar uma API que prevê quedas e problemas de performance.
+Estudos para criar uma API que prevê quedas e problemas de performance. Atualmente a API está capturando os dados de metricas para o dataset.
 
 API Endpoint Setup:
 - Define endpoints for registering APIs to monitor
