@@ -16,19 +16,16 @@ public class RecordController {
     @Autowired
     RecordService recordService;
 
-    // Create a new record
     @PostMapping("/records")
     public Record createRecord(@RequestBody Record record) {
         return recordService.createRecord(record);
     }
 
-    // Retrieve all records
     @GetMapping("/records")
     public List<Record> getAllRecords() {
         return recordService.getAllRecords();
     }
 
-    // Retrieve a single record by ID
     @GetMapping("/records/{id}")
     public ResponseEntity<Record> getRecordById(@PathVariable(value = "id") Long recordId) throws Exception {
         Record record = recordService.getRecordById(recordId)
@@ -36,7 +33,6 @@ public class RecordController {
         return ResponseEntity.ok().body(record);
     }
 
-    // Update a record
     @PutMapping("/records/{id}")
     public ResponseEntity<Record> updateRecord(@PathVariable(value = "id") Long recordId,
                                                @RequestBody Record recordDetails) throws Exception {
@@ -44,7 +40,6 @@ public class RecordController {
         return ResponseEntity.ok(updatedRecord);
     }
 
-    // Delete a record
     @DeleteMapping("/records/{id}")
     public ResponseEntity<?> deleteRecord(@PathVariable(value = "id") Long recordId) throws Exception {
         recordService.deleteRecord(recordId);
