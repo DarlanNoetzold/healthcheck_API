@@ -1,9 +1,12 @@
 package tech.noetzold.healthcheckAPI.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
 
-@Repository
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
 public interface MetricsRepository extends JpaRepository<MetricResponse, Long> {
+    Page<MetricResponse> findAll(Pageable pageable);
 }
+
