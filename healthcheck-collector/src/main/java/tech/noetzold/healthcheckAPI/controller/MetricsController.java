@@ -1,6 +1,8 @@
 package tech.noetzold.healthcheckAPI.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,13 +31,13 @@ public class MetricsController {
     }
 
     @GetMapping("/all")
-    public List<MetricResponse> getAllMetrics(){
-        return metricsRepository.findAll();
+    public List<MetricResponse> getAllMetrics(@PageableDefault(size = 10) Pageable pageable) {
+        return metricsService.getAllMetricsPaginated(pageable);
     }
 
     @GetMapping("/all/byname")
-    public List<MetricResponseGroupedDTO> getAllMetricsGroupByName(){
-        return metricsService.getMetricsGroupedByName();
+    public List<MetricResponseGroupedDTO> getAllMetricsGroupByName(@PageableDefault(size = 10) Pageable pageable) {
+        return metricsService.getAllMetricsGroupedByNamePaginated(pageable);
     }
 
 }
