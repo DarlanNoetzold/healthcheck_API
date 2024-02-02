@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
 import tech.noetzold.healthcheckAPI.model.MetricResponseGroupedDTO;
-import tech.noetzold.healthcheckAPI.repository.MetricsRepository;
 import tech.noetzold.healthcheckAPI.service.MetricsService;
 
 import java.util.List;
@@ -18,9 +17,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class MetricsController {
-
-    @Autowired
-    MetricsRepository metricsRepository;
 
     @Autowired
     MetricsService metricsService;
