@@ -1,6 +1,8 @@
 package tech.noetzold.healthcheckAPI.service;
 
 import jakarta.transaction.Transactional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -33,20 +35,28 @@ public class MetricsService {
     @Autowired
     private TagRepository tagRepository;
 
+    private static final Logger logger = LoggerFactory.getLogger(MetricsService.class);
+
     public List<MetricResponse> getAllMetricsPaginated(Pageable pageable) {
-        return metricsRepository.findAll(pageable).getContent();
+        logger.info("Iniciando getAllMetricsPaginated");
+        List<MetricResponse> responses = metricsRepository.findAll(pageable).getContent();
+        logger.info("Finalizando getAllMetricsPaginated");
+        return responses;
     }
 
     public List<MetricResponseGroupedDTO> getAllMetricsGroupedByNamePaginated(Pageable pageable) {
+        logger.info("Iniciando getAllMetricsGroupedByNamePaginated");
         Page<MetricResponse> metricsPage = metricsRepository.findAll(pageable);
         List<MetricResponse> metrics = metricsPage.getContent();
 
         Map<String, List<MetricResponse>> groupedMetrics = metrics.stream()
                 .collect(Collectors.groupingBy(MetricResponse::getName));
 
-        return groupedMetrics.entrySet().stream()
+        List<MetricResponseGroupedDTO> result = groupedMetrics.entrySet().stream()
                 .map(entry -> new MetricResponseGroupedDTO(entry.getKey(), entry.getValue()))
                 .collect(Collectors.toList());
+        logger.info("Finalizando getAllMetricsGroupedByNamePaginated");
+        return result;
     }
 
     @Transactional
