@@ -2,6 +2,19 @@ import os
 import requests
 import pandas as pd
 
+# Lista de métricas de interesse selecionadas
+metrics_of_interest = [
+    "application.ready.time", "application.started.time", "cache.gets",
+    "cache.puts", "cache.removals", "hikaricp.connections",
+    "hikaricp.connections.acquire", "hikaricp.connections.active",
+    "hikaricp.connections.idle", "hikaricp.connections.max", "hikaricp.connections.min",
+    "http.server.requests", "http.server.requests.active", "jvm.memory.used",
+    "jvm.threads.live", "disk.free", "system.cpu.usage", "process.uptime"
+]
+
+# Estrutura para manter o último valor registrado para evitar duplicatas consecutivas
+last_recorded_values = {metric: None for metric in metrics_of_interest}
+
 def fetch_data_from_api(base_url, page, size):
     url = f"{base_url}/api/all/byname?page={page}&size={size}"
     response = requests.get(url)
@@ -11,25 +24,29 @@ def fetch_data_from_api(base_url, page, size):
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
 def process_metric_responses(metric_responses, accumulated_data):
-    for metric in metric_responses:  # Ajuste para processar corretamente a estrutura da API
-        for response in metric['metricResponses']:  # Corrigido para acessar 'metricResponses'
-            if 'measurements' in response:  # Verificação para 'measurements'
-                for measurement in response['measurements']:
-                    record = {
-                        "metric_id": response['id'],
-                        "name": response['name'],
-                        "description": response.get("description", ""),
-                        "baseUnit": response.get("baseUnit", ""),
-                        "statistic": measurement['statistic'],
-                        "value": measurement['value'],
-                        "tags": "; ".join([f"{tag['tag']}: {', '.join(tag['values'])}" for tag in response.get('availableTags', [])])  # Garante que 'availableTags' também está presente
-                    }
-                    if response['name'] not in accumulated_data:
-                        accumulated_data[response['name']] = []
-                    accumulated_data[response['name']].append(record)
-            else:  # Caso 'measurements' não esteja presente
-                print(f"Warning: 'measurements' not found in response for metric {response.get('name', 'Unknown')}")
-
+    for metric in metric_responses:
+        if metric['name'] in metrics_of_interest:  # Filtra apenas métricas de interesse
+            for response in metric['metricResponses']:
+                if 'measurements' in response:
+                    for measurement in response['measurements']:
+                        value = measurement['value']
+                        # Verifica se o registro é uma duplicata consecutiva
+                        if last_recorded_values[metric['name']] != value:
+                            record = {
+                                "metric_id": response['id'],
+                                "name": response['name'],
+                                "description": response.get("description", ""),
+                                "baseUnit": response.get("baseUnit", ""),
+                                "statistic": measurement['statistic'],
+                                "value": value,
+                                "tags": "; ".join([f"{tag['tag']}: {', '.join(tag['values'])}" for tag in response.get('availableTags', [])])
+                            }
+                            if response['name'] not in accumulated_data:
+                                accumulated_data[response['name']] = []
+                            accumulated_data[response['name']].append(record)
+                            last_recorded_values[metric['name']] = value
+                else:
+                    print(f"Warning: 'measurements' not found in response for metric {response.get('name', 'Unknown')}")
 
 def save_to_csv(accumulated_data, directory):
     if not os.path.exists(directory):
