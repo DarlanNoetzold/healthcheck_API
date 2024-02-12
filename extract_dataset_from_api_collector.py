@@ -18,12 +18,13 @@ accumulated_data = {metric: [] for metric in metrics_of_interest}
 last_value = {metric: None for metric in metrics_of_interest}
 
 base_url = "http://192.168.18.75:8194"
-size = 100
+size = 1000
 
 def fetch_data_from_api(page):
     url = f"{base_url}/api/all/byname?page={page}&size={size}"
     response = requests.get(url)
     if response.status_code == 200:
+        print(response.json())
         return response.json()
     else:
         print(f"Failed to fetch data: {response.status_code}")
@@ -64,7 +65,7 @@ def main():
     directory = "metrics_data"
     page = 1
     futures_list = []
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=20000) as executor:
         while True:
             future = executor.submit(fetch_data_from_api, page)
             futures_list.append(future)
