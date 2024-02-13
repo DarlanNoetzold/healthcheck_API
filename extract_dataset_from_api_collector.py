@@ -51,7 +51,7 @@ def process_metric_data(metric_data, accumulated_data, last_value):
                             accumulated_data[metric_key].append(record)
                             last_value[metric_key] = current_value
 
-def save_to_csv(accumulated_data, directory="metrics_data"):
+def save_to_csv(accumulated_data, directory="metrics_data_from_api"):
     if not os.path.exists(directory):
         os.makedirs(directory)
     for metric, records in accumulated_data.items():
