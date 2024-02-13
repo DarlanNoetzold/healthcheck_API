@@ -1,0 +1,4 @@
+metric_id,name,description,baseUnit,statistic,value,tags
+107,jvm.gc.overhead,"An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]",percent,VALUE,0.0,
+105496,jvm.gc.overhead,"An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]",percent,VALUE,0.0019391067355139975,
+105549,jvm.gc.overhead,"An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]",percent,VALUE,0.0,

@@ -1,0 +1,3 @@
+metric_id,name,description,baseUnit,statistic,value,tags
+121,logback.events,Number of log events that were enabled by the effective log level,events,COUNT,1828.0,"level: warn, trace, debug, error, info"
+118656,logback.events,Number of log events that were enabled by the effective log level,events,COUNT,270.0,"level: warn, trace, debug, error, info"

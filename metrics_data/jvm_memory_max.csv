@@ -1,0 +1,2 @@
+metric_id,name,description,baseUnit,statistic,value,tags
+111,jvm.memory.max,The maximum amount of memory in bytes that can be used for memory management,bytes,VALUE,5494538237.0,"area: heap, nonheap; id: CodeHeap 'profiled nmethods', G1 Old Gen, CodeHeap 'non-profiled nmethods', G1 Survivor Space, Compressed Class Space, Metaspace, G1 Eden Space, CodeHeap 'non-nmethods'"

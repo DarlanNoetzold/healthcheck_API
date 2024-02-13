@@ -1,0 +1,2 @@
+metric_id,name,description,baseUnit,statistic,value,tags
+128,system.cpu.count,The number of processors available to the Java virtual machine,,VALUE,4.0,
