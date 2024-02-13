@@ -5,12 +5,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Lista de métricas de interesse
 metrics_of_interest = [
-    "application.ready.time", "application.started.time", "cache.gets",
-    "cache.puts", "cache.removals", "hikaricp.connections",
-    "hikaricp.connections.acquire", "hikaricp.connections.active",
-    "hikaricp.connections.idle", "hikaricp.connections.max", "hikaricp.connections.min",
-    "http.server.requests", "http.server.requests.active", "jvm.memory.used",
-    "jvm.threads.live", "disk.free", "system.cpu.usage", "process.uptime"
+    "disk.free", "hikaricp.connections.acquire",
+    "http.server.requests", "http.server.requests.active",
+    "jvm.buffer.count", "jvm.buffer.memory.used", "jvm.buffer.total.capacity",
+    "jvm.classes.loaded", "jvm.compilation.time", "jvm.gc.memory.allocated",
+    "jvm.gc.memory.promoted", "jvm.gc.overhead", "jvm.gc.pause",
+    "jvm.memory.committed", "jvm.memory.usage.after.gc",
+    "jvm.memory.used", "jvm.threads.daemon", "jvm.threads.live", "jvm.threads.peak",
+    "jvm.threads.started", "jvm.threads.states", "logback.events", "process.cpu.usage",
+    "process.uptime", "system.cpu.usage", "system.load.average.1m"
 ]
 
 base_url = "http://192.168.18.75:8194"
