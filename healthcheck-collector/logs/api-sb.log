@@ -1,26 +1,25 @@
-2024-02-11 21:01:35,353 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] Starting HealthcheckApiApplication using Java 17.0.7 with PID 20604 (C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-collector\target\classes started by Darlan in C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-collector)
-2024-02-11 21:01:35,356 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-02-11 21:01:36,099 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-02-11 21:01:36,168 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
-2024-02-11 21:01:36,375 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=ea568fba-e237-36ba-9b03-d77cf0d76036
-2024-02-11 21:01:36,773 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8194 (http)
-2024-02-11 21:01:36,782 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8194"]
-2024-02-11 21:01:36,783 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2024-02-11 21:01:36,783 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.17]
-2024-02-11 21:01:36,846 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2024-02-11 21:01:36,846 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1436 ms
-2024-02-11 21:01:37,007 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-02-11 21:01:37,073 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
-2024-02-11 21:01:37,108 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-02-11 21:01:37,325 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-02-11 21:01:37,349 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2024-02-11 21:01:37,476 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1da75dde
-2024-02-11 21:01:37,477 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-02-11 21:01:38,232 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-02-11 21:01:38,361 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-02-11 21:01:38,476 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-02-11 21:01:38,630 DEBUG org.hibernate.stat.internal.StatisticsInitiator [main] Statistics initialized [enabled=true]
-2024-02-11 21:01:38,636 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:48,903 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] Starting HealthcheckApiApplication using Java 17.0.7 with PID 12276 (C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-collector\target\classes started by Darlan in C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-collector)
+2024-02-13 12:48:48,909 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-13 12:48:49,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-13 12:48:49,662 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2024-02-13 12:48:49,861 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=ea568fba-e237-36ba-9b03-d77cf0d76036
+2024-02-13 12:48:50,284 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8194 (http)
+2024-02-13 12:48:50,296 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8194"]
+2024-02-13 12:48:50,300 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-02-13 12:48:50,301 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-02-13 12:48:50,377 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-02-13 12:48:50,377 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1414 ms
+2024-02-13 12:48:50,577 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-13 12:48:50,648 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-13 12:48:50,689 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-13 12:48:50,916 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-13 12:48:50,945 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-13 12:48:51,097 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f935d49
+2024-02-13 12:48:51,099 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-13 12:48:52,067 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-13 12:48:52,313 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13 12:48:52,406 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-13 12:48:52,556 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -32,7 +31,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,637 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,556 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -44,7 +43,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,691 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,611 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -56,7 +55,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,743 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,656 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -68,7 +67,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,744 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,656 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -80,7 +79,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,760 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,668 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -92,7 +91,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:38,760 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+2024-02-13 12:48:52,669 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -104,1006 +103,474 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:40,287 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
-2024-02-11 21:01:40,318 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8194"]
-2024-02-11 21:01:40,338 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8194 (http) with context path ''
-2024-02-11 21:01:41,431 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
-2024-02-11 21:01:41,440 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] Started HealthcheckApiApplication in 7.529 seconds (process running for 8.15)
-2024-02-11 21:01:41,533 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,543 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,548 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,564 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,573 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    613700 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:54,138 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-02-13 12:48:54,163 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8194"]
+2024-02-13 12:48:54,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8194 (http) with context path ''
+2024-02-13 12:48:55,283 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-02-13 12:48:55,297 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplication [main] Started HealthcheckApiApplication in 7.82 seconds (process running for 8.423)
+2024-02-13 12:48:55,832 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    590500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    384400 nanoseconds spent preparing 4 JDBC statements;
-    10446300 nanoseconds spent executing 4 JDBC statements;
+    326700 nanoseconds spent preparing 4 JDBC statements;
+    5869900 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    18408400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    11931500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,576 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,577 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,579 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,581 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,583 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    14200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    133700 nanoseconds spent preparing 4 JDBC statements;
-    3216600 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1072800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,585 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,586 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,587 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,588 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,589 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,590 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,591 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,592 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,593 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,593 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,594 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,595 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,595 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,596 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,596 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,597 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,598 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,598 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,599 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,599 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,600 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,600 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,601 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,602 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,603 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,603 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,603 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,605 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,607 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    499400 nanoseconds spent preparing 28 JDBC statements;
-    14426900 nanoseconds spent executing 28 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    14733000 nanoseconds spent executing 1 flushes (flushing a total of 6 entities and 6 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,609 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,611 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,612 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,613 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,614 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,616 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,616 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,617 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,618 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,619 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,619 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,620 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,621 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,621 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,622 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,623 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,623 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,624 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,624 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,625 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,626 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,626 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,627 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,628 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,630 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7900 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    373300 nanoseconds spent preparing 24 JDBC statements;
-    13551800 nanoseconds spent executing 24 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    13251400 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,632 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,633 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,635 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,636 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,637 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,639 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,640 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,640 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,641 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,642 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,642 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,643 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,643 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,644 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,644 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,644 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,645 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,645 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,646 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,646 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,647 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,647 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,648 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,648 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,650 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9100 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    363900 nanoseconds spent preparing 24 JDBC statements;
-    10634300 nanoseconds spent executing 24 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    9861200 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,652 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,653 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,654 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,655 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,656 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,657 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,657 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,658 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,658 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,658 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,659 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,659 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,660 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,660 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,660 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,661 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,661 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,662 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,662 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,662 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,663 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,663 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,663 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,663 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,666 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    368900 nanoseconds spent preparing 24 JDBC statements;
-    7856300 nanoseconds spent executing 24 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    7916900 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,668 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,669 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,670 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,671 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,673 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8400 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    80200 nanoseconds spent preparing 4 JDBC statements;
-    1742100 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    815300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,675 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,677 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,678 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,679 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,681 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    10300 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    110900 nanoseconds spent preparing 4 JDBC statements;
-    3544600 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    957000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,683 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,684 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,685 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,686 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,688 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    75000 nanoseconds spent preparing 4 JDBC statements;
-    1603900 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    820600 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,692 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,693 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,693 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,695 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,696 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    11100 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    119700 nanoseconds spent preparing 4 JDBC statements;
-    1610500 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    880100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,698 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,699 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,700 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,701 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,703 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    12400 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    101700 nanoseconds spent preparing 4 JDBC statements;
-    1514500 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    900900 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,705 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,706 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,707 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,708 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,710 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    11900 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    115400 nanoseconds spent preparing 4 JDBC statements;
-    1489000 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    704300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,711 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,712 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,712 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,713 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,715 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8900 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    54400 nanoseconds spent preparing 4 JDBC statements;
-    1280200 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    664200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,716 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,717 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,718 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,719 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,720 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    6900 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    73900 nanoseconds spent preparing 4 JDBC statements;
-    1446100 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    712600 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,723 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,724 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,724 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,725 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,727 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    22300 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    81700 nanoseconds spent preparing 4 JDBC statements;
-    1414700 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    769200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,729 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,730 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,731 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,732 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,733 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    10800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    65700 nanoseconds spent preparing 4 JDBC statements;
-    1352400 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    641200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,735 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,736 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,737 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,738 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,739 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,741 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,744 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7400 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    129200 nanoseconds spent preparing 6 JDBC statements;
-    5340500 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    2597400 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,752 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,754 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,755 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,757 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,759 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    11200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    148000 nanoseconds spent preparing 4 JDBC statements;
-    2522900 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1132400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,761 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,762 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,764 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,765 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,766 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,768 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,772 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    169500 nanoseconds spent preparing 6 JDBC statements;
-    4100400 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1343700 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,775 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,777 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,778 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,785 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,788 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    12300 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    143900 nanoseconds spent preparing 4 JDBC statements;
-    8573200 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    2119400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,791 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,793 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,796 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,798 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,801 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    15000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    141900 nanoseconds spent preparing 4 JDBC statements;
-    4154100 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1439000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,803 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,806 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,812 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,814 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,816 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    12200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    155500 nanoseconds spent preparing 4 JDBC statements;
-    8473400 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1253100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,819 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,820 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,822 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,824 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,826 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    15200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    177600 nanoseconds spent preparing 4 JDBC statements;
-    2858000 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1181800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,828 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,829 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,831 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,843 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,845 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    10000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    144200 nanoseconds spent preparing 4 JDBC statements;
-    12607100 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1636400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,849 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,850 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,851 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,852 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,853 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,857 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,859 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    36800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    194400 nanoseconds spent preparing 6 JDBC statements;
-    5055000 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1337500 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,862 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,863 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,864 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,864 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,865 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,866 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,867 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,868 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,869 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,870 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,872 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,872 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,873 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,874 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,874 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,875 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,876 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,877 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,877 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,879 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    10100 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    275500 nanoseconds spent preparing 19 JDBC statements;
-    11075800 nanoseconds spent executing 19 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    6726000 nanoseconds spent executing 1 flushes (flushing a total of 10 entities and 8 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,882 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,883 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,883 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,884 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,885 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,885 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,886 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,888 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,890 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,891 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,891 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,892 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,893 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,895 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    180400 nanoseconds spent preparing 13 JDBC statements;
-    8212400 nanoseconds spent executing 13 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    3522800 nanoseconds spent executing 1 flushes (flushing a total of 8 entities and 7 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,896 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,897 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,898 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,899 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,901 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    70400 nanoseconds spent preparing 4 JDBC statements;
-    2094500 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    779200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,903 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,905 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,905 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,907 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,908 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    73100 nanoseconds spent preparing 4 JDBC statements;
-    2259800 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    885500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,910 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,911 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,912 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,913 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,915 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    53700 nanoseconds spent preparing 4 JDBC statements;
-    2214300 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    810500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,917 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,918 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,919 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,920 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,922 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    91100 nanoseconds spent preparing 4 JDBC statements;
-    2639100 nanoseconds spent executing 4 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    1075200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,924 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,926 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,927 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,928 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,929 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,929 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,931 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    90600 nanoseconds spent preparing 6 JDBC statements;
-    3621700 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    2112300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,933 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,934 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,934 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,935 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,936 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,937 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,941 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    106200 nanoseconds spent preparing 6 JDBC statements;
-    4789900 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    4063400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,943 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,945 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,946 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,947 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,948 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,949 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,951 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    10500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    147900 nanoseconds spent preparing 6 JDBC statements;
-    4028100 nanoseconds spent executing 6 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    2535800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,953 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,958 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,961 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8700 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    87600 nanoseconds spent preparing 2 JDBC statements;
-    3694100 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    214700 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,963 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,964 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,966 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    56600 nanoseconds spent preparing 2 JDBC statements;
-    1212700 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    189300 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:41,968 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,970 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:41,971 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,972 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:41,974 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8100 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:56,516 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13100 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     155100 nanoseconds spent preparing 4 JDBC statements;
-    2089700 nanoseconds spent executing 4 JDBC statements;
+    4098900 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    883600 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    1140300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,975 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,976 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,978 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9500 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:57,037 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8400 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    54200 nanoseconds spent preparing 2 JDBC statements;
-    899200 nanoseconds spent executing 2 JDBC statements;
+    513300 nanoseconds spent preparing 28 JDBC statements;
+    34844500 nanoseconds spent executing 28 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    199900 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    30198200 nanoseconds spent executing 1 flushes (flushing a total of 6 entities and 6 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,980 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,982 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,984 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9600 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:57,552 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    78800 nanoseconds spent preparing 2 JDBC statements;
-    938800 nanoseconds spent executing 2 JDBC statements;
+    375100 nanoseconds spent preparing 24 JDBC statements;
+    24043200 nanoseconds spent executing 24 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    175100 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    14070400 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,987 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,990 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,992 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9400 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:58,071 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10200 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    74100 nanoseconds spent preparing 2 JDBC statements;
-    2973600 nanoseconds spent executing 2 JDBC statements;
+    383700 nanoseconds spent preparing 24 JDBC statements;
+    14757000 nanoseconds spent executing 24 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    169500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    11495300 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,994 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:41,994 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:41,997 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    12800 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:58,590 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    25800 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    57500 nanoseconds spent preparing 2 JDBC statements;
-    1388400 nanoseconds spent executing 2 JDBC statements;
+    388500 nanoseconds spent preparing 24 JDBC statements;
+    21522700 nanoseconds spent executing 24 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    248000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    15950200 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:41,999 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,000 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,002 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    9000 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:48:59,059 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    7600 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    48800 nanoseconds spent preparing 2 JDBC statements;
-    815400 nanoseconds spent executing 2 JDBC statements;
+    86800 nanoseconds spent preparing 4 JDBC statements;
+    3227500 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    180600 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    945700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,012 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,013 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,017 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,018 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,019 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,019 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,022 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,023 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,024 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,024 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,027 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+2024-02-13 12:48:59,558 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    96200 nanoseconds spent preparing 4 JDBC statements;
+    6560100 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    4455400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:00,179 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    87800 nanoseconds spent preparing 4 JDBC statements;
+    2686400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1089000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:00,713 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    90900 nanoseconds spent preparing 4 JDBC statements;
+    3733200 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    869500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:01,197 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    99200 nanoseconds spent preparing 4 JDBC statements;
+    2043500 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    947900 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:01,673 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    91200 nanoseconds spent preparing 4 JDBC statements;
+    2421600 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    857200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:02,180 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    102400 nanoseconds spent preparing 4 JDBC statements;
+    2402600 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    968300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:02,695 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    98100 nanoseconds spent preparing 4 JDBC statements;
+    11372100 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1762000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:03,215 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    77900 nanoseconds spent preparing 4 JDBC statements;
+    2651100 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    621600 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:03,639 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    89100 nanoseconds spent preparing 4 JDBC statements;
+    2832000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    775800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:04,125 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    107100 nanoseconds spent preparing 6 JDBC statements;
+    3019600 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    822800 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:04,536 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    88600 nanoseconds spent preparing 4 JDBC statements;
+    2151700 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    919400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:04,908 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
     10500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    222800 nanoseconds spent preparing 10 JDBC statements;
-    9396900 nanoseconds spent executing 10 JDBC statements;
+    101700 nanoseconds spent preparing 6 JDBC statements;
+    4358100 nanoseconds spent executing 6 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    1504200 nanoseconds spent executing 1 flushes (flushing a total of 7 entities and 5 collections);
+    1129700 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,029 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,030 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,031 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,032 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,032 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,033 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,035 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,035 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,036 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    22400 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:49:05,338 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8600 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    149200 nanoseconds spent preparing 8 JDBC statements;
-    2742800 nanoseconds spent executing 8 JDBC statements;
+    99300 nanoseconds spent preparing 4 JDBC statements;
+    2736200 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    1589300 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
+    812100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,039 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,043 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,044 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,045 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,046 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,047 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,047 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,048 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,048 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,049 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,049 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,049 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,050 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,050 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,053 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    47700 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:49:05,817 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    304700 nanoseconds spent preparing 14 JDBC statements;
-    8391900 nanoseconds spent executing 14 JDBC statements;
+    109400 nanoseconds spent preparing 4 JDBC statements;
+    9169600 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    5688700 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    3753800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,055 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,058 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,059 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,059 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,060 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,060 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,061 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,061 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,061 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,062 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,062 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,062 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,063 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,063 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,072 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    14600 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:49:06,218 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    205100 nanoseconds spent preparing 14 JDBC statements;
-    4912200 nanoseconds spent executing 14 JDBC statements;
+    93000 nanoseconds spent preparing 4 JDBC statements;
+    4054600 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    3466200 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    655700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,074 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,075 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,075 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,076 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,077 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,078 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,079 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+2024-02-13 12:49:06,741 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    14400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    87200 nanoseconds spent preparing 4 JDBC statements;
+    5334300 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1805500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:07,200 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    86300 nanoseconds spent preparing 4 JDBC statements;
+    2689900 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    928500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:07,682 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    140900 nanoseconds spent preparing 6 JDBC statements;
+    14330800 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5313700 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:08,196 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    617800 nanoseconds spent preparing 36 JDBC statements;
+    52082100 nanoseconds spent executing 36 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    41985000 nanoseconds spent executing 1 flushes (flushing a total of 10 entities and 8 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:08,795 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    517200 nanoseconds spent preparing 17 JDBC statements;
+    36587900 nanoseconds spent executing 17 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    19632000 nanoseconds spent executing 1 flushes (flushing a total of 8 entities and 7 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:09,320 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    16300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    133200 nanoseconds spent preparing 4 JDBC statements;
+    3369700 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1249000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:09,865 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    97000 nanoseconds spent preparing 4 JDBC statements;
+    3802400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    723400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:10,346 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    123900 nanoseconds spent preparing 4 JDBC statements;
+    13484100 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1534400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:10,729 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    117900 nanoseconds spent preparing 4 JDBC statements;
+    2678800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    893300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:11,201 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    229700 nanoseconds spent preparing 6 JDBC statements;
+    30782000 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    18224000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:11,650 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    208300 nanoseconds spent preparing 6 JDBC statements;
+    22377000 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    7662800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:12,033 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    130900 nanoseconds spent preparing 6 JDBC statements;
+    2455400 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1565200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:12,409 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    110800 nanoseconds spent preparing 2 JDBC statements;
+    3318800 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    353500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:12,796 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    53000 nanoseconds spent preparing 2 JDBC statements;
+    1638300 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    161100 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:49:13,175 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
     9400 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    97400 nanoseconds spent preparing 6 JDBC statements;
-    2435500 nanoseconds spent executing 6 JDBC statements;
+    84900 nanoseconds spent preparing 4 JDBC statements;
+    3707200 nanoseconds spent executing 4 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    1121100 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    2259800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,081 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,082 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,083 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,084 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,085 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,085 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,086 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,086 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,088 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,088 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,089 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,089 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,090 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,090 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,092 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    148400 nanoseconds spent preparing 14 JDBC statements;
-    7672700 nanoseconds spent executing 14 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    6703300 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,095 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,095 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,098 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    31400 nanoseconds spent preparing 2 JDBC statements;
-    1175700 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    126200 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,099 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,101 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,103 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7100 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    28200 nanoseconds spent preparing 2 JDBC statements;
-    1565900 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    126700 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,105 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,107 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,109 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    6000 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    99000 nanoseconds spent preparing 2 JDBC statements;
-    1409100 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    154200 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,111 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,112 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,114 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    8100 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    42300 nanoseconds spent preparing 2 JDBC statements;
-    1161400 nanoseconds spent executing 2 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    137900 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,116 DEBUG org.hibernate.SQL [scheduling-1] insert into metric_response (base_unit,description,name) values (?,?,?)
-2024-02-11 21:01:42,117 DEBUG org.hibernate.SQL [scheduling-1] insert into tag (metric_response_id,tag) values (?,?)
-2024-02-11 21:01:42,118 DEBUG org.hibernate.SQL [scheduling-1] insert into measurement (metric_response_id,statistic,value) values (?,?,?)
-2024-02-11 21:01:42,120 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,120 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,121 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,122 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,122 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,123 DEBUG org.hibernate.SQL [scheduling-1] insert into tag_values (tag_id,value) values (?,?)
-2024-02-11 21:01:42,125 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    6600 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    142500 nanoseconds spent preparing 9 JDBC statements;
-    5257000 nanoseconds spent executing 9 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    4336000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-2024-02-11 21:01:42,129 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
-    7700 nanoseconds spent acquiring 1 JDBC connections;
+2024-02-13 12:50:21,993 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [tech.noetzold.healthcheckAPI.HealthcheckApiApplicationTests]: HealthcheckApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-13 12:50:22,079 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration tech.noetzold.healthcheckAPI.HealthcheckApiApplication for test class tech.noetzold.healthcheckAPI.HealthcheckApiApplicationTests
+2024-02-13 12:50:23,511 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplicationTests [main] Starting HealthcheckApiApplicationTests using Java 17.0.7 with PID 13684 (started by Darlan in C:\Users\Usu�rio\Documents\Projetos\GitHub\healthcheck_API\healthcheck-collector)
+2024-02-13 12:50:23,512 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-13 12:50:24,153 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-13 12:50:24,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 135 ms. Found 3 JPA repository interfaces.
+2024-02-13 12:50:24,481 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=67b4baba-afc5-36fe-8c1f-7199496fb8fa
+2024-02-13 12:50:24,716 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-13 12:50:24,765 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-13 12:50:24,798 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-13 12:50:25,050 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-13 12:50:25,076 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-13 12:50:25,212 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@693f2c89
+2024-02-13 12:50:25,214 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-13 12:50:25,972 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-13 12:50:26,214 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13 12:50:26,316 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-13 12:50:26,469 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
     0 nanoseconds spent executing 0 JDBC statements;
@@ -1114,51 +581,860 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-2024-02-11 21:01:42,130 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
-feign.FeignException$NotFound: [404 Not Found] during [GET] to [http://192.168.18.75:8193/actuator/metrics/lettuce.command.completion] [MetricsClient#getLettuceCommandCompletion()]: []
-	at feign.FeignException.clientErrorStatus(FeignException.java:228)
-	at feign.FeignException.errorStatus(FeignException.java:203)
-	at feign.FeignException.errorStatus(FeignException.java:194)
-	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103)
-	at feign.InvocationContext.decodeError(InvocationContext.java:126)
-	at feign.InvocationContext.proceed(InvocationContext.java:72)
-	at feign.ResponseHandler.handleResponse(ResponseHandler.java:63)
-	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:114)
-	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:70)
-	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:99)
-	at jdk.proxy2/jdk.proxy2.$Proxy125.getLettuceCommandCompletion(Unknown Source)
-	at tech.noetzold.healthcheckAPI.service.MetricsService.fetchAndSaveLettuceCommandCompletion(MetricsService.java:1071)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
-	at tech.noetzold.healthcheckAPI.service.MetricsService$$SpringCGLIB$$0.fetchAndSaveLettuceCommandCompletion(<generated>)
-	at tech.noetzold.healthcheckAPI.service.MetricsScheduler.fetchAndSaveMetrics(MetricsScheduler.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
-	at io.micrometer.observation.Observation.observe(Observation.java:499)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-02-11 21:02:02,471 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-02-11 21:02:02,473 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-02-11 21:02:02,476 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-02-13 12:50:26,470 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:26,525 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:26,577 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:26,578 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:26,592 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:26,593 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:28,159 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-02-13 12:50:28,190 INFO tech.noetzold.healthcheckAPI.HealthcheckApiApplicationTests [main] Started HealthcheckApiApplicationTests in 5.99 seconds (process running for 6.935)
+2024-02-13 12:50:28,686 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    1422800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    446200 nanoseconds spent preparing 4 JDBC statements;
+    13317800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    13769700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:29,107 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    125700 nanoseconds spent preparing 4 JDBC statements;
+    3685800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2006300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:29,537 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    372500 nanoseconds spent preparing 28 JDBC statements;
+    15202300 nanoseconds spent executing 28 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    12711400 nanoseconds spent executing 1 flushes (flushing a total of 6 entities and 6 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:29,937 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    392300 nanoseconds spent preparing 24 JDBC statements;
+    17073900 nanoseconds spent executing 24 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    13202200 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:30,333 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    395600 nanoseconds spent preparing 24 JDBC statements;
+    23646100 nanoseconds spent executing 24 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    21467100 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:30,699 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    395500 nanoseconds spent preparing 24 JDBC statements;
+    19161800 nanoseconds spent executing 24 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    16767900 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:30,953 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    99200 nanoseconds spent preparing 4 JDBC statements;
+    2351700 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1137300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:31,248 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    87200 nanoseconds spent preparing 4 JDBC statements;
+    3263800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1141300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:31,576 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    94200 nanoseconds spent preparing 4 JDBC statements;
+    15467400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    13802700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:31,873 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    14500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    103300 nanoseconds spent preparing 4 JDBC statements;
+    3232800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    961200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:32,163 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    119000 nanoseconds spent preparing 4 JDBC statements;
+    3016400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1725100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:32,417 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    15000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    96600 nanoseconds spent preparing 4 JDBC statements;
+    2532500 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    984000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:32,617 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    88500 nanoseconds spent preparing 4 JDBC statements;
+    2293300 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    924000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:32,889 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    104900 nanoseconds spent preparing 4 JDBC statements;
+    2755900 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1275700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:33,318 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    89800 nanoseconds spent preparing 4 JDBC statements;
+    3490000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    659300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:33,696 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    94300 nanoseconds spent preparing 4 JDBC statements;
+    2768400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    868300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:34,136 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    98000 nanoseconds spent preparing 6 JDBC statements;
+    2863000 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    755900 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:34,599 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    95700 nanoseconds spent preparing 4 JDBC statements;
+    2814000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    960300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:34,897 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    119200 nanoseconds spent preparing 6 JDBC statements;
+    3344000 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    949200 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:35,194 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    108700 nanoseconds spent preparing 4 JDBC statements;
+    9129900 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1286400 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:35,550 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    100800 nanoseconds spent preparing 4 JDBC statements;
+    2553400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    826700 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:35,960 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    91900 nanoseconds spent preparing 4 JDBC statements;
+    2659000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    803500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:36,386 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    125200 nanoseconds spent preparing 4 JDBC statements;
+    2686200 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1172800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:36,667 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    84400 nanoseconds spent preparing 4 JDBC statements;
+    1958000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    673800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:36,944 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    124800 nanoseconds spent preparing 6 JDBC statements;
+    5645900 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1085600 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:37,254 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    17400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    467900 nanoseconds spent preparing 36 JDBC statements;
+    25127600 nanoseconds spent executing 36 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    21008100 nanoseconds spent executing 1 flushes (flushing a total of 10 entities and 8 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:37,543 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    275400 nanoseconds spent preparing 17 JDBC statements;
+    10035400 nanoseconds spent executing 17 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6003600 nanoseconds spent executing 1 flushes (flushing a total of 8 entities and 7 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:37,832 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    95800 nanoseconds spent preparing 4 JDBC statements;
+    2921300 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1119800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:38,099 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    137600 nanoseconds spent preparing 4 JDBC statements;
+    3906300 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1370100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:38,390 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    92800 nanoseconds spent preparing 4 JDBC statements;
+    4541000 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1240000 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:38,711 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    300300 nanoseconds spent preparing 4 JDBC statements;
+    2777400 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    684600 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:39,001 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    227800 nanoseconds spent preparing 6 JDBC statements;
+    4262900 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2554200 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:39,351 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    167900 nanoseconds spent preparing 6 JDBC statements;
+    5760100 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3381100 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:39,663 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    212600 nanoseconds spent preparing 6 JDBC statements;
+    6484700 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3176300 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:39,937 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    79600 nanoseconds spent preparing 2 JDBC statements;
+    1309000 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    162800 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:40,248 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    47500 nanoseconds spent preparing 2 JDBC statements;
+    1204400 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    162700 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:40,571 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    125000 nanoseconds spent preparing 4 JDBC statements;
+    4680800 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1099500 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:40,889 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    84700 nanoseconds spent preparing 2 JDBC statements;
+    2798900 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    468500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:41,205 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    16200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    48200 nanoseconds spent preparing 2 JDBC statements;
+    1322000 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    171000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:41,481 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    13800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    68700 nanoseconds spent preparing 2 JDBC statements;
+    1721700 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    261900 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:41,779 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    51300 nanoseconds spent preparing 2 JDBC statements;
+    1199200 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    232200 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:42,084 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    64600 nanoseconds spent preparing 2 JDBC statements;
+    1407900 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    144100 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:42,443 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    221800 nanoseconds spent preparing 11 JDBC statements;
+    8150800 nanoseconds spent executing 11 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3244900 nanoseconds spent executing 1 flushes (flushing a total of 7 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:42,834 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    156100 nanoseconds spent preparing 8 JDBC statements;
+    18531200 nanoseconds spent executing 8 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    13534400 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:43,226 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    175200 nanoseconds spent preparing 14 JDBC statements;
+    6201400 nanoseconds spent executing 14 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    4733700 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:43,616 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    291300 nanoseconds spent preparing 14 JDBC statements;
+    15036500 nanoseconds spent executing 14 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    7595400 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:43,945 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    133100 nanoseconds spent preparing 6 JDBC statements;
+    7418400 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1599700 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:44,294 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    214200 nanoseconds spent preparing 14 JDBC statements;
+    7665600 nanoseconds spent executing 14 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5487700 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 4 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:44,599 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    66600 nanoseconds spent preparing 2 JDBC statements;
+    2997700 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    162900 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:44,908 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    73400 nanoseconds spent preparing 2 JDBC statements;
+    4499100 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    259000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:45,274 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    48300 nanoseconds spent preparing 2 JDBC statements;
+    3298500 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    225100 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:45,587 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    17600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    46400 nanoseconds spent preparing 2 JDBC statements;
+    1346200 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    165200 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:45,978 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    145400 nanoseconds spent preparing 9 JDBC statements;
+    6664500 nanoseconds spent executing 9 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5057800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:46,392 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    204900 nanoseconds spent preparing 15 JDBC statements;
+    9870000 nanoseconds spent executing 15 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5333000 nanoseconds spent executing 1 flushes (flushing a total of 7 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:46,820 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    207600 nanoseconds spent preparing 15 JDBC statements;
+    10309600 nanoseconds spent executing 15 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5720100 nanoseconds spent executing 1 flushes (flushing a total of 7 entities and 5 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:47,216 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    90200 nanoseconds spent preparing 8 JDBC statements;
+    3852200 nanoseconds spent executing 8 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2583800 nanoseconds spent executing 1 flushes (flushing a total of 3 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:47,695 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    8200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    40300 nanoseconds spent preparing 2 JDBC statements;
+    1906100 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    241200 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:48,187 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    39600 nanoseconds spent preparing 2 JDBC statements;
+    5505300 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    174900 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:48,628 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    50500 nanoseconds spent preparing 2 JDBC statements;
+    1394800 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    331000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:48,969 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    10300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    42800 nanoseconds spent preparing 2 JDBC statements;
+    1305000 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    151600 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:49,347 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    11500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    65800 nanoseconds spent preparing 2 JDBC statements;
+    1441100 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    229000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:49,902 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    17100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    165100 nanoseconds spent preparing 23 JDBC statements;
+    13243300 nanoseconds spent executing 23 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6674800 nanoseconds spent executing 1 flushes (flushing a total of 8 entities and 6 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:50,212 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    9300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    41700 nanoseconds spent preparing 2 JDBC statements;
+    1361700 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    147800 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:50,523 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    12500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    46000 nanoseconds spent preparing 2 JDBC statements;
+    895800 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    163300 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:50,871 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [scheduling-1] Session Metrics {
+    7900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    36200 nanoseconds spent preparing 2 JDBC statements;
+    997300 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    158000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-02-13 12:50:50,873 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13 12:50:50,875 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-13 12:50:50,876 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
