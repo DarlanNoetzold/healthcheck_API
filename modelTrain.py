@@ -1,135 +1,51 @@
-import numpy as np
+import os
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
-from sklearn.pipeline import Pipeline
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
+import numpy as np
 import joblib
 
+# Diretório onde os CSVs estão armazenados
+input_dir = "metrics_from_database"
 
 
-# Geração de dados mais realista e equilibrada
-np.random.seed(42)
-n_samples = 1000
+# Preparando os dados
+def prepare_data(df, n=10):
+    X, y = [], []
+    for i in range(len(df) - n):
+        X.append(df.iloc[i:(i + n)].values.reshape(-1))
+        y.append(df.iloc[i + n])
+    return np.array(X), np.array(y)
 
-response_time_0 = np.random.normal(1000, 150, n_samples // 2)
-error_rate_0 = np.random.uniform(0.1, 0.5, n_samples // 2)
-api_status_0 = np.zeros(n_samples // 2)
 
-response_time_1 = np.random.normal(500, 100, n_samples // 2)
-error_rate_1 = np.random.uniform(0, 0.3, n_samples // 2)
-api_status_1 = np.ones(n_samples // 2)
+# Carregando e processando cada dataset
+for filename in os.listdir(input_dir):
+    if filename.endswith(".csv"):
+        metric_name = filename.replace('.csv', '')
+        df = pd.read_csv(os.path.join(input_dir, filename))
 
-response_time = np.concatenate((response_time_0, response_time_1))
-error_rate = np.concatenate((error_rate_0, error_rate_1))
-api_status = np.concatenate((api_status_0, api_status_1))
+        # Supondo que 'value' é a coluna de interesse
+        if 'measurement_value' in df.columns:
+            df = df['measurement_value'].dropna()
+        else:
+            print(f"Coluna 'measurement_value' não encontrada em {filename}. Pulando.")
+            continue
 
-data = pd.DataFrame({'response_time': response_time, 'error_rate': error_rate, 'api_status': api_status})
+        X, y = prepare_data(df)
 
-# Divisão em features (X) e target (y)
-X = data[['response_time', 'error_rate']]
-y = data['api_status']
+        # Dividindo os dados em conjuntos de treinamento e teste
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Divisão em conjunto de treinamento e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        # Treinamento do modelo
+        model = RandomForestRegressor(n_estimators=100, random_state=42)
+        model.fit(X_train, y_train)
 
-# Treinamento e otimização dos modelos
-models = [
-    ('XGBoost', XGBClassifier(random_state=42)),
-    ('Random Forest', RandomForestClassifier(random_state=42)),
-    ('SVM', SVC(random_state=42))
-]
+        # Avaliação do modelo
+        predictions = model.predict(X_test)
+        mse = mean_squared_error(y_test, predictions)
+        print(f"Modelo para {metric_name}: MSE = {mse}")
 
-accuracies = []
-
-for name, model in models:
-    pipeline = Pipeline([
-        ('scaler', StandardScaler()),
-        ('model', model)
-    ])
-
-    # Definindo grid de hiperparâmetros para otimização
-    param_grid = {}
-    if name == 'XGBoost':
-        param_grid = {
-            'model__n_estimators': [50, 100, 200],
-            'model__learning_rate': [0.01, 0.1, 0.2],
-            'model__max_depth': [3, 4, 5]
-        }
-    elif name == 'Random Forest':
-        param_grid = {
-            'model__n_estimators': [50, 100, 200],
-            'model__max_depth': [3, 4, 5]
-        }
-    elif name == 'SVM':
-        param_grid = {
-            'model__C': [0.1, 1, 10],
-            'model__kernel': ['linear', 'rbf']
-        }
-
-    grid_search = GridSearchCV(pipeline, param_grid, cv=3)
-    grid_search.fit(X_train, y_train)
-
-    best_model = grid_search.best_estimator_
-    y_pred = best_model.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    accuracies.append(accuracy)
-    models = [
-        ('XGBoost', XGBClassifier(random_state=42)),
-        ('Random Forest', RandomForestClassifier(random_state=42)),
-        ('SVM', SVC(random_state=42))
-    ]
-
-    model_filenames = []
-
-    for name, model in models:
-        pipeline = Pipeline([
-            ('scaler', StandardScaler()),
-            ('model', model)
-        ])
-
-        # Definindo grid de hiperparâmetros para otimização
-        param_grid = {}
-        if name == 'XGBoost':
-            param_grid = {
-                'model__n_estimators': [50, 100, 200],
-                'model__learning_rate': [0.01, 0.1, 0.2],
-                'model__max_depth': [3, 4, 5]
-            }
-        elif name == 'Random Forest':
-            param_grid = {
-                'model__n_estimators': [50, 100, 200],
-                'model__max_depth': [3, 4, 5]
-            }
-        elif name == 'SVM':
-            param_grid = {
-                'model__C': [0.1, 1, 10],
-                'model__kernel': ['linear', 'rbf']
-            }
-
-        grid_search = GridSearchCV(pipeline, param_grid, cv=3)
-        grid_search.fit(X_train, y_train)
-
-        best_model = grid_search.best_estimator_
-        y_pred = best_model.predict(X_test)
-        accuracy = accuracy_score(y_test, y_pred)
-
-        # Exportar modelo treinado em formato .pkl
-        model_filename = f'{name}_model.pkl'
-        joblib.dump(best_model, model_filename)
-        model_filenames.append(model_filename)
-
-    print("Models saved as:")
-    print(model_filenames)
-
-# Gráfico de acurácia
-plt.bar([name for name, _ in models], accuracies, color='skyblue')
-plt.xlabel('Model')
-plt.ylabel('Accuracy')
-plt.title('Accuracy of Different Models')
-plt.ylim(0.5, 1.0)
-plt.show()
+        # Salvando o modelo
+        model_filename = os.path.join("trained_models", f"{metric_name}_model.pkl")
+        joblib.dump(model, model_filename)
