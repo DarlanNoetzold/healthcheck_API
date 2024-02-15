@@ -1,13 +1,15 @@
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, explained_variance_score
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, explained_variance_score
 from scipy.stats import randint, uniform
 import joblib
 import os
+from concurrent.futures import ThreadPoolExecutor
+
 
 def prepare_data(df, n=10):
     X, y = [], []
@@ -16,8 +18,11 @@ def prepare_data(df, n=10):
         y.append(df.iloc[i + n])
     return np.array(X), np.array(y)
 
-# Função para treinar, avaliar modelos e imprimir as métricas
-def train_and_evaluate(X_train_scaled, X_test_scaled, y_train, y_test, random_search):
+
+def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp):
+    print(f"Treinando {model_name} para {metric_name}")
+    random_search = RandomizedSearchCV(mp['model'], mp['params'], n_iter=20, cv=3, scoring='neg_mean_squared_error',
+                                       random_state=42, n_jobs=-1)
     random_search.fit(X_train_scaled, y_train)
     best_model = random_search.best_estimator_
 
@@ -27,15 +32,19 @@ def train_and_evaluate(X_train_scaled, X_test_scaled, y_train, y_test, random_se
     r2 = r2_score(y_test, predictions)
     explained_variance = explained_variance_score(y_test, predictions)
 
-    print(f"MSE: {mse}, MAE: {mae}, R2: {r2}, Explained Variance: {explained_variance}")
-    return best_model
+    print(f"{model_name} - {metric_name} - MSE: {mse}, MAE: {mae}, R2: {r2}, Explained Variance: {explained_variance}")
+
+    model_filename = os.path.join("trained_models", f"{metric_name}_{model_name}.pkl")
+    joblib.dump(best_model, model_filename)
+
 
 input_dir = "metrics_from_database"
 models_dir = "trained_models"
 if not os.path.exists(models_dir):
     os.makedirs(models_dir)
 
-for filename in os.listdir(input_dir):
+
+def process_metric(filename):
     if filename.endswith(".csv"):
         metric_name = filename[:-4]  # Remove .csv
         df = pd.read_csv(os.path.join(input_dir, filename))['measurement_value']
@@ -75,10 +84,15 @@ for filename in os.listdir(input_dir):
             }
         }
 
-        for model_name, mp in models_params.items():
-            print(f"Treinando {model_name} para {metric_name}")
-            random_search = RandomizedSearchCV(mp['model'], mp['params'], n_iter=20, cv=3, scoring='neg_mean_squared_error', random_state=42)
-            best_model = train_and_evaluate(X_train_scaled, X_test_scaled, y_train, y_test, random_search)
+        with ThreadPoolExecutor(max_workers=len(models_params)) as executor:
+            futures = [
+                executor.submit(model_training_evaluation, metric_name, X_train_scaled, X_test_scaled, y_train, y_test,
+                                model_name, mp)
+                for model_name, mp in models_params.items()]
+            for future in futures:
+                future.result()  # Wait for all futures to complete
 
-            model_filename = os.path.join(models_dir, f"{metric_name}_{model_name}.pkl")
-            joblib.dump(best_model, model_filename)
+
+# Process each metric file in parallel
+with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
+    list(executor.map(process_metric, os.listdir(input_dir)))
