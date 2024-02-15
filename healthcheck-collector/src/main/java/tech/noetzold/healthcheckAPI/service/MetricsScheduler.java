@@ -11,7 +11,7 @@ public class MetricsScheduler {
     @Autowired
     private MetricsService metricsService;
 
-    @Scheduled(fixedRate = 900000) // 15 minutos em milissegundos
+    @Scheduled(fixedRate = 300000) // 15 minutos em milissegundos
     public void fetchAndSaveMetrics() {
         metricsService.fetchAndSaveApplicationReadyTime();
         metricsService.fetchAndSaveApplicationStartedTime();
