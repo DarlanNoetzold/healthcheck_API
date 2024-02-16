@@ -10,7 +10,7 @@ from scipy.stats import randint, uniform
 from skopt import BayesSearchCV
 from skopt.space import Real, Integer
 import os
-from concurrent.futures import ProcessPoolExecutor  # Mudança para ProcessPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 
 def prepare_data(df, n=10):
     X, y = [], []
@@ -19,7 +19,8 @@ def prepare_data(df, n=10):
         y.append(df.iloc[i + n])
     return np.array(X), np.array(y)
 
-def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp):
+def model_training_evaluation(args):
+    metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp = args
     print(f"Treinando {model_name} para {metric_name}")
 
     if model_name == 'RandomForestRegressor':
@@ -30,7 +31,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
-            n_jobs=-1  # Utilize todos os núcleos disponíveis
+            n_jobs=-1
         )
     else:
         opt = RandomizedSearchCV(
@@ -40,7 +41,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
-            n_jobs=-1  # Utilize todos os núcleos disponíveis
+            n_jobs=-1
         )
 
     opt.fit(X_train_scaled, y_train)
@@ -103,10 +104,14 @@ def process_metric(filename):
             X_train_scaled = scaler.fit_transform(X_train)
             X_test_scaled = scaler.transform(X_test)
 
-            for model_name, mp in models_params.items():
-                model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp)
+            args_list = [(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp) for model_name, mp in models_params.items()]
+
+            with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+                results = list(executor.map(model_training_evaluation, args_list))
+                for result in results:
+                    print(result)
 
 if __name__ == "__main__":
     with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
-        files = os.listdir(input_dir)
-        executor.map(process_metric, files)
+        filenames = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
+        executor.map(process_metric, filenames)
