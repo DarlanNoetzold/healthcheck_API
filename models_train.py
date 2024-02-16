@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
@@ -27,7 +28,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
         opt = BayesSearchCV(
             mp['model'],
             search_spaces=mp['params'],
-            n_iter=20,
+            n_iter=10,
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
@@ -37,7 +38,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
         opt = RandomizedSearchCV(
             mp['model'],
             param_distributions=mp['params'],
-            n_iter=20,
+            n_iter=10,
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
@@ -68,24 +69,24 @@ models_params = {
     'RandomForestRegressor': {
         'model': RandomForestRegressor(random_state=42),
         'params': {
-            'n_estimators': Integer(100, 500),
-            'max_depth': Integer(10, 20),
-            'min_samples_split': Integer(2, 11),
-            'min_samples_leaf': Integer(1, 11)
+            'n_estimators': Integer(100, 250),
+            'max_depth': Integer(5, 10),
+            'min_samples_split': Integer(2, 5),
+            'min_samples_leaf': Integer(1, 4)
         }
     },
     'GradientBoostingRegressor': {
         'model': GradientBoostingRegressor(random_state=42),
         'params': {
-            'n_estimators': randint(100, 500),
-            'learning_rate': uniform(0.01, 0.2),
-            'max_depth': randint(3, 10)
+            'n_estimators': randint(100, 250),
+            'learning_rate': uniform(0.01, 0.1),
+            'max_depth': randint(3, 7)
         }
     },
     'SVR': {
         'model': SVR(),
         'params': {
-            'C': uniform(0.1, 1000),
+            'C': uniform(0.1, 100),
             'gamma': ['scale', 'auto'],
             'kernel': ['linear', 'poly', 'rbf', 'sigmoid']
         }
