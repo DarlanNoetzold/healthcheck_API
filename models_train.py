@@ -10,8 +10,7 @@ from scipy.stats import randint, uniform
 from skopt import BayesSearchCV
 from skopt.space import Real, Integer
 import os
-from concurrent.futures import ThreadPoolExecutor
-
+from concurrent.futures import ProcessPoolExecutor  # Mudança para ProcessPoolExecutor
 
 def prepare_data(df, n=10):
     X, y = [], []
@@ -19,7 +18,6 @@ def prepare_data(df, n=10):
         X.append(df.iloc[i:(i + n)].values.reshape(-1))
         y.append(df.iloc[i + n])
     return np.array(X), np.array(y)
-
 
 def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp):
     print(f"Treinando {model_name} para {metric_name}")
@@ -32,7 +30,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
-            n_jobs=-1
+            n_jobs=-1  # Utilize todos os núcleos disponíveis
         )
     else:
         opt = RandomizedSearchCV(
@@ -42,7 +40,7 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
             cv=3,
             scoring='neg_mean_squared_error',
             random_state=42,
-            n_jobs=-1
+            n_jobs=-1  # Utilize todos os núcleos disponíveis
         )
 
     opt.fit(X_train_scaled, y_train)
@@ -58,7 +56,6 @@ def model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_trai
 
     model_filename = os.path.join("trained_models", f"{metric_name}_{model_name}.pkl")
     joblib.dump(best_model, model_filename)
-
 
 input_dir = "metrics_from_database"
 models_dir = "trained_models"
@@ -93,7 +90,6 @@ models_params = {
     }
 }
 
-
 def process_metric(filename):
     if filename.endswith(".csv"):
         metric_name = filename[:-4]  # Remove .csv
@@ -107,15 +103,10 @@ def process_metric(filename):
             X_train_scaled = scaler.fit_transform(X_train)
             X_test_scaled = scaler.transform(X_test)
 
-            with ThreadPoolExecutor(max_workers=len(models_params)) as executor:
-                futures = [
-                    executor.submit(model_training_evaluation, metric_name, X_train_scaled, X_test_scaled, y_train,
-                                    y_test, model_name, mp)
-                    for model_name, mp in models_params.items()
-                ]
-                for future in futures:
-                    future.result()
+            for model_name, mp in models_params.items():
+                model_training_evaluation(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp)
 
-
-with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
-    executor.map(process_metric, os.listdir(input_dir))
+if __name__ == "__main__":
+    with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+        files = os.listdir(input_dir)
+        executor.map(process_metric, files)
