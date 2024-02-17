@@ -11,6 +11,7 @@ from skopt import BayesSearchCV
 from skopt.space import Real, Integer
 import os
 from concurrent.futures import ProcessPoolExecutor
+import extract_dataset_from_database
 
 def prepare_data(df, n=10):
     X, y = [], []
@@ -73,7 +74,7 @@ models_params = {
     'RandomForestRegressor': {
         'model': RandomForestRegressor(random_state=42),
         'params': {
-            'n_estimators': Integer(100, 250),
+            'n_estimators': Integer(50, 200),
             'max_depth': Integer(5, 10),
             'min_samples_split': Integer(2, 5),
             'min_samples_leaf': Integer(1, 4)
@@ -82,7 +83,7 @@ models_params = {
     'GradientBoostingRegressor': {
         'model': GradientBoostingRegressor(random_state=42),
         'params': {
-            'n_estimators': randint(100, 250),
+            'n_estimators': randint(50, 200),
             'learning_rate': uniform(0.01, 0.1),
             'max_depth': randint(3, 7)
         }
@@ -118,6 +119,7 @@ def process_metric(filename):
                     print(result)
 
 if __name__ == "__main__":
+    extract_dataset_from_database.extract()
     with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
         filenames = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
         executor.map(process_metric, filenames)
