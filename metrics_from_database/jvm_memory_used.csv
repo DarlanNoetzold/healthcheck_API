@@ -21899,8 +21899,8 @@ jvm.memory.used,The amount of used memory,bytes,VALUE,241371744.0,id,Compressed 
 jvm.memory.used,The amount of used memory,bytes,VALUE,241371744.0,id,Metaspace
 jvm.memory.used,The amount of used memory,bytes,VALUE,241371744.0,id,G1 Eden Space
 jvm.memory.used,The amount of used memory,bytes,VALUE,241371744.0,id,CodeHeap 'non-nmethods'
-jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,area,heap
 jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,area,heap
 jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,id,CodeHeap 'profiled nmethods'
 jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,id,G1 Old Gen
 jvm.memory.used,The amount of used memory,bytes,VALUE,247663200.0,id,CodeHeap 'non-profiled nmethods'
@@ -24499,3 +24499,643 @@ jvm.memory.used,The amount of used memory,bytes,VALUE,888924008.0,id,Compressed 
 jvm.memory.used,The amount of used memory,bytes,VALUE,888924008.0,id,Metaspace
 jvm.memory.used,The amount of used memory,bytes,VALUE,888924008.0,id,G1 Eden Space
 jvm.memory.used,The amount of used memory,bytes,VALUE,888924008.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,944618888.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,963775888.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1023866320.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1034458904.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1028894192.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1076738912.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1227955632.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1270319152.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1237503088.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1291345176.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1398909192.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1491085088.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1455961408.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1483241840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1538930664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1569040728.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1610481896.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1790910816.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1732240888.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1798951632.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1868831720.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1907118120.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1934237288.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,423488520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,473712984.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,655618280.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,550175688.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,806645408.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,704558112.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,801398456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,683302520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,773669504.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,719574920.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,844017672.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,876041160.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,888534728.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,973808256.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1199758592.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1129739400.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1051940104.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230244232.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1180569048.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1230100232.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1331802024.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1361183792.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1362280456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,1458935368.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,196122800.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,199169600.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,208546016.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,395103488.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,406423728.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,427807016.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,536091720.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,447882360.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,469994096.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,220289792.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,229803120.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,232570984.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,241774120.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,244469408.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,253236736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,255650320.0,id,CodeHeap 'non-nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,area,heap
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,area,nonheap
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,G1 Old Gen
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,G1 Survivor Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,Compressed Class Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,Metaspace
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,G1 Eden Space
+jvm.memory.used,The amount of used memory,bytes,VALUE,262598336.0,id,CodeHeap 'non-nmethods'
