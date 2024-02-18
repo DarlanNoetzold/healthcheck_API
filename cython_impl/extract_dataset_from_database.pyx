@@ -32,7 +32,7 @@ def extract():
     for metric_name in metric_names:
         query = """
         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
-        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value
+        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert
         FROM metric_response mr
         LEFT JOIN measurement m ON mr.id = m.metric_response_id
         LEFT JOIN tag t ON mr.id = t.metric_response_id

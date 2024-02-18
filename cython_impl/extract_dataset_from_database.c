@@ -2154,7 +2154,7 @@ static const char __pyx_k_jvm_memory_usage_after_gc[] = "jvm.memory.usage.after.
 static const char __pyx_k_http_server_requests_active[] = "http.server.requests.active";
 static const char __pyx_k_hikaricp_connections_acquire[] = "hikaricp.connections.acquire";
 static const char __pyx_k_extract_dataset_from_database[] = "extract_dataset_from_database";
-static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
+static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
@@ -2914,7 +2914,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *     for metric_name in metric_names:
  *         query = """             # <<<<<<<<<<<<<<
  *         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
- *         m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value
+ *         m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert
  */
     __Pyx_INCREF(__pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
     __Pyx_XDECREF_SET(__pyx_v_query, __pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
