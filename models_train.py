@@ -8,10 +8,11 @@ from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, explained_variance_score
 from scipy.stats import randint, uniform
 from skopt import BayesSearchCV
-from skopt.space import Real, Integer
+from skopt.space import Integer
 import os
 from concurrent.futures import ProcessPoolExecutor
 import extract_dataset_from_database
+
 
 def prepare_data(df, n=10):
     X, y = [], []
@@ -74,24 +75,24 @@ models_params = {
     'RandomForestRegressor': {
         'model': RandomForestRegressor(random_state=42),
         'params': {
-            'n_estimators': Integer(50, 200),
-            'max_depth': Integer(5, 10),
-            'min_samples_split': Integer(2, 5),
-            'min_samples_leaf': Integer(1, 4)
+            'n_estimators': Integer(10, 100),
+            'max_depth': Integer(1, 5),
+            'min_samples_split': Integer(1, 3),
+            'min_samples_leaf': Integer(1, 3)
         }
     },
     'GradientBoostingRegressor': {
         'model': GradientBoostingRegressor(random_state=42),
         'params': {
-            'n_estimators': randint(50, 200),
+            'n_estimators': randint(10, 100),
             'learning_rate': uniform(0.01, 0.1),
-            'max_depth': randint(3, 7)
+            'max_depth': randint(1, 4)
         }
     },
     'SVR': {
         'model': SVR(),
         'params': {
-            'C': uniform(0.1, 100),
+            'C': uniform(0.1, 50),
             'gamma': ['scale', 'auto'],
             'kernel': ['linear', 'poly', 'rbf', 'sigmoid']
         }
