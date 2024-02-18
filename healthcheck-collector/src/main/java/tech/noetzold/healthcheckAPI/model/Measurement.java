@@ -17,6 +17,9 @@ public class Measurement {
     private String statistic;
     private double value;
 
+    @Column
+    private boolean isAlert;
+
     @ManyToOne
     @JoinColumn(name = "metric_response_id")
     @JsonBackReference
