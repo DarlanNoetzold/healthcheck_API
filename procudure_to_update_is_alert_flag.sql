@@ -7,6 +7,9 @@ DECLARE
     var_stddev_val DOUBLE PRECISION;
     var_threshold DOUBLE PRECISION;
 BEGIN
+    UPDATE measurement m
+    SET is_alert = FALSE;
+    
     FOR var_name, var_avg_val, var_stddev_val IN
         SELECT 
             mr.name,
@@ -27,5 +30,3 @@ BEGIN
     END LOOP;
 END;
 $$;
-
-call update_is_alert_flag();
