@@ -17,8 +17,8 @@ public class Measurement {
     private String statistic;
     private double value;
 
-    @Column
-    private boolean isAlert;
+    @Column(nullable = true)
+    private Boolean isAlert;
 
     @ManyToOne
     @JoinColumn(name = "metric_response_id")
