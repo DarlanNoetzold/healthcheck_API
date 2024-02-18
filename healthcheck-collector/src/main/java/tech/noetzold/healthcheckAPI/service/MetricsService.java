@@ -37,6 +37,24 @@ public class MetricsService {
 
     private static final Logger logger = LoggerFactory.getLogger(MetricsService.class);
 
+    private void calculateAndSetFlagForMeasurement(Measurement measurement) {
+        List<Measurement> existingMeasurements = measurementRepository.findByMetricResponse(measurement.getMetricResponse());
+
+        if (!existingMeasurements.isEmpty()) {
+            double sum = existingMeasurements.stream().mapToDouble(Measurement::getValue).sum();
+            double mean = sum / existingMeasurements.size();
+            double variance = existingMeasurements.stream()
+                    .mapToDouble(m -> Math.pow(m.getValue() - mean, 2))
+                    .sum() / existingMeasurements.size();
+            double stdDev = Math.sqrt(variance);
+
+            boolean isHigher = measurement.getValue() > (mean + stdDev);
+            measurement.setAlert(isHigher);
+        } else {
+            measurement.setAlert(false);
+        }
+    }
+
     public List<MetricResponse> getAllMetricsPaginated(Pageable pageable) {
         logger.info("Iniciando getAllMetricsPaginated");
         List<MetricResponse> responses = metricsRepository.findAll(pageable).getContent();
@@ -66,6 +84,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
+                calculateAndSetFlagForMeasurement(measurement);
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
