@@ -22859,8 +22859,8 @@ jvm.memory.committed,The amount of memory in bytes that is committed for the Jav
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,320405504.0,id,Metaspace
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,320405504.0,id,G1 Eden Space
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,320405504.0,id,CodeHeap 'non-nmethods'
-jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,area,heap
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,area,heap
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,id,CodeHeap 'profiled nmethods'
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,id,G1 Old Gen
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,4335075328.0,id,G1 Survivor Space
@@ -23659,8 +23659,8 @@ jvm.memory.committed,The amount of memory in bytes that is committed for the Jav
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,Metaspace
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,G1 Eden Space
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,CodeHeap 'non-nmethods'
-jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,area,heap
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,area,heap
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,CodeHeap 'profiled nmethods'
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,G1 Old Gen
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,1060896768.0,id,CodeHeap 'non-profiled nmethods'
@@ -25169,3 +25169,1173 @@ jvm.memory.committed,The amount of memory in bytes that is committed for the Jav
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368115712.0,id,Metaspace
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368115712.0,id,G1 Eden Space
 jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368115712.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368508928.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368705536.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,368771072.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369033216.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369295360.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369557504.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,369950720.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370212864.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370343936.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370606080.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,370671616.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371064832.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371326976.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371392512.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371523584.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371589120.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371851264.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,371982336.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372113408.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372178944.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372310016.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372506624.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372572160.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372899840.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,372965376.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373030912.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373096448.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373227520.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373293056.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373358592.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373424128.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373489664.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373555200.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373620736.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373686272.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373817344.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,373948416.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374013952.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374079488.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374145024.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374210560.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374407168.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374472704.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374538240.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374603776.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374669312.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374734848.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374800384.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374865920.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374931456.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'non-nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,area,heap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,area,nonheap
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Old Gen
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Survivor Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'non-profiled nmethods'
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,Compressed Class Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,Metaspace
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,G1 Eden Space
+jvm.memory.committed,The amount of memory in bytes that is committed for the Java virtual machine to use,bytes,VALUE,374996992.0,id,CodeHeap 'non-nmethods'
