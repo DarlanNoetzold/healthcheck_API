@@ -39,6 +39,7 @@ def extract():
                 mr.base_unit,
                 m.statistic,
                 m.value AS measurement_value,
+                m.is_alert,
                 t.tag,
                 tv.value AS tag_value
             FROM 
@@ -50,7 +51,7 @@ def extract():
             LEFT JOIN 
                 tag_values tv ON t.id = tv.tag_id
             WHERE 
-                mr.name = '{metric_name}'  -- Cuidado com injeção SQL aqui!
+                mr.name = '{metric_name}'
             ORDER BY 
                 mr.name, m.id, t.id, tv.tag_id;
         """
