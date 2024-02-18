@@ -1,34 +1,31 @@
-CREATE OR REPLACE PROCEDURE update_measurement_calculated_field()
-LANGUAGE plpgsql AS $$
+CREATE OR REPLACE PROCEDURE update_is_alert_flag()
+LANGUAGE plpgsql
+AS $$
 DECLARE
-    metric_name VARCHAR;
-    average DOUBLE PRECISION;
-    stddev DOUBLE PRECISION;
-    threshold DOUBLE PRECISION;
-    cur CURSOR FOR SELECT DISTINCT name FROM metric_response;
+    var_name TEXT;
+    var_avg_val DOUBLE PRECISION;
+    var_stddev_val DOUBLE PRECISION;
+    var_threshold DOUBLE PRECISION;
 BEGIN
-    OPEN cur;
-    LOOP
-        FETCH cur INTO metric_name;
-        EXIT WHEN NOT FOUND;
-
-        -- Calcula a média e o desvio padrão dos values de todas as Measurements com o mesmo name
-        SELECT AVG(m.value), STDDEV(m.value) INTO average, stddev
+    FOR var_name, var_avg_val, var_stddev_val IN
+        SELECT 
+            mr.name,
+            AVG(m.value) AS avg_val, 
+            STDDEV(m.value) AS stddev_val
         FROM measurement m
         JOIN metric_response mr ON m.metric_response_id = mr.id
-        WHERE mr.name = metric_name;
+        GROUP BY mr.name
+    LOOP
+        var_threshold := var_avg_val + var_stddev_val;
 
-        -- Calcula o limiar como média + desvio padrão
-        threshold := average + stddev;
-
-        -- Atualiza is_alert para cada Measurement baseado no limiar calculado
         UPDATE measurement m
-        SET is_alert = CASE WHEN m.value > threshold THEN TRUE ELSE FALSE END
+        SET is_alert = TRUE
         FROM metric_response mr
-        WHERE m.metric_response_id = mr.id AND mr.name = metric_name;
+        WHERE m.metric_response_id = mr.id
+        AND mr.name = var_name
+        AND m.value > var_threshold;
     END LOOP;
-    CLOSE cur;
 END;
 $$;
 
-CALL update_measurement_calculated_field();
+call update_is_alert_flag();
