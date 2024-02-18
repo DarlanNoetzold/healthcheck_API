@@ -20,9 +20,6 @@ public class MetricResponse {
     private String description;
     private String baseUnit;
 
-    @Column
-    private boolean collected;
-
     @OneToMany(mappedBy = "metricResponse", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Measurement> measurements = new ArrayList<>();

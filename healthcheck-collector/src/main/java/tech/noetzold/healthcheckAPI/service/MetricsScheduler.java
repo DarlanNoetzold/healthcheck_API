@@ -1,6 +1,8 @@
 package tech.noetzold.healthcheckAPI.service;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -11,8 +13,11 @@ public class MetricsScheduler {
     @Autowired
     private MetricsService metricsService;
 
-    @Scheduled(fixedRate = 300000) // 15 minutos em milissegundos
+    private static final Logger logger = LoggerFactory.getLogger(MetricsScheduler.class);
+
+    @Scheduled(fixedRate = 300000) // 5 minutos em milissegundos
     public void fetchAndSaveMetrics() {
+        logger.info("Init Schedulling");
         metricsService.fetchAndSaveApplicationReadyTime();
         metricsService.fetchAndSaveApplicationStartedTime();
         metricsService.fetchAndSaveCacheGets();
@@ -78,7 +83,11 @@ public class MetricsScheduler {
         metricsService.fetchAndSaveSystemCpuCount();
         metricsService.fetchAndSaveSystemCpuUsage();
         metricsService.fetchAndSaveSystemLoadAverage1M();
+        logger.info("End Schedulling");
 
+        logger.info("Initi update isAlert");
+        metricsService.updateCalculatedFields();
+        logger.info("End update isAlert");
     }
 }
 

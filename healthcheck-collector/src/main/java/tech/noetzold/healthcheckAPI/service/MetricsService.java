@@ -44,24 +44,28 @@ public class MetricsService {
 
     @Transactional
     public void updateCalculatedFields() {
-        entityManager.createNativeQuery("CALL update_measurement_calculated_field()").executeUpdate();
+        entityManager.createNativeQuery("CALL update_is_alert_flag()").executeUpdate();
     }
 
-    private void calculateAndSetFlagForMeasurement(Measurement measurement) {
-        List<Measurement> existingMeasurements = measurementRepository.findByMetricResponse(measurement.getMetricResponse());
+    private boolean calculateAndSetFlagForMeasurement(Measurement measurement) {
+        String metricResponseName = measurement.getMetricResponse().getName();
+        List<MetricResponse> metricResponses = metricsRepository.findByName(metricResponseName);
 
-        if (!existingMeasurements.isEmpty()) {
-            double sum = existingMeasurements.stream().mapToDouble(Measurement::getValue).sum();
-            double mean = sum / existingMeasurements.size();
-            double variance = existingMeasurements.stream()
+        if (!metricResponses.isEmpty()) {
+            List<Measurement> allMeasurements = metricResponses.stream()
+                    .flatMap(mr -> mr.getMeasurements().stream())
+                    .toList();
+
+            double mean = allMeasurements.stream().mapToDouble(Measurement::getValue).average().orElse(Double.NaN);
+            double stdDev = Math.sqrt(allMeasurements.stream()
                     .mapToDouble(m -> Math.pow(m.getValue() - mean, 2))
-                    .sum() / existingMeasurements.size();
-            double stdDev = Math.sqrt(variance);
+                    .average().orElse(Double.NaN));
 
             boolean isHigher = measurement.getValue() > (mean + stdDev);
-            measurement.setAlert(isHigher);
+            logger.info("Is higher: {} - mean: {} - stdDev {}", isHigher, mean, stdDev);
+            return isHigher;
         } else {
-            measurement.setAlert(false);
+            return false;
         }
     }
 
@@ -94,7 +98,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -114,7 +118,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -134,7 +138,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -154,7 +158,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -174,7 +178,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -194,7 +198,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -214,7 +218,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -234,7 +238,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -254,7 +258,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -274,7 +278,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -294,7 +298,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -314,7 +318,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -334,7 +338,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -354,7 +358,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -374,7 +378,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -394,7 +398,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -414,7 +418,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -434,7 +438,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -454,7 +458,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -474,7 +478,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -494,7 +498,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -514,7 +518,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -534,7 +538,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -554,7 +558,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -574,7 +578,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -594,7 +598,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -614,7 +618,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -634,7 +638,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -654,7 +658,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -674,7 +678,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -694,7 +698,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -714,7 +718,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -734,7 +738,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -754,7 +758,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -774,7 +778,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -794,7 +798,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -814,7 +818,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -834,7 +838,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -854,7 +858,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -874,7 +878,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -894,7 +898,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -914,7 +918,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -934,7 +938,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -954,7 +958,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -974,7 +978,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -994,7 +998,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1014,7 +1018,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1034,7 +1038,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1054,7 +1058,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1074,7 +1078,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1094,7 +1098,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1114,7 +1118,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1134,7 +1138,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1154,7 +1158,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1174,7 +1178,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1194,7 +1198,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1214,7 +1218,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1234,7 +1238,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1254,7 +1258,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1274,7 +1278,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1294,7 +1298,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1314,7 +1318,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1334,7 +1338,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1354,7 +1358,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
@@ -1374,7 +1378,7 @@ public class MetricsService {
 
         if (savedResponse.getMeasurements() != null) {
             for (Measurement measurement : savedResponse.getMeasurements()) {
-                calculateAndSetFlagForMeasurement(measurement);
+
                 measurement.setMetricResponse(savedResponse);
                 measurementRepository.save(measurement);
             }
