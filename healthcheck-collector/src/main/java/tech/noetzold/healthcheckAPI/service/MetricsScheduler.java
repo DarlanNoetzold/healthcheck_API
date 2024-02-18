@@ -71,21 +71,18 @@ public class MetricsScheduler {
         metricsService.fetchAndSaveJvmThreadsPeak();
         metricsService.fetchAndSaveJvmThreadsStarted();
         metricsService.fetchAndSaveJvmThreadsStates();
-        metricsService.fetchAndSaveLettuceCommandCompletion();
-        metricsService.fetchAndSaveLettuceCommandFirstresponse();
         metricsService.fetchAndSaveLogbackEvents();
         metricsService.fetchAndSaveProcessCpuUsage();
         metricsService.fetchAndSaveProcessFilesMax();
         metricsService.fetchAndSaveProcessFilesOpen();
         metricsService.fetchAndSaveProcessStartTime();
         metricsService.fetchAndSaveProcessUptime();
-        metricsService.fetchAndSaveSpringDataRepositoryInvocations();
         metricsService.fetchAndSaveSystemCpuCount();
         metricsService.fetchAndSaveSystemCpuUsage();
         metricsService.fetchAndSaveSystemLoadAverage1M();
         logger.info("End Schedulling");
 
-        logger.info("Initi update isAlert");
+        logger.info("Init update isAlert");
         metricsService.updateCalculatedFields();
         logger.info("End update isAlert");
     }
