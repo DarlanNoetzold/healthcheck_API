@@ -21,11 +21,9 @@ def prever():
     if not name or not values:
         return jsonify({'erro': 'Nome da métrica e valores são necessários.'}), 400
 
-    # Preparar os dados de entrada para o modelo
     X, _ = prepare_data(np.array(values), n=len(values))
     X = X.reshape(1, -1)
 
-    # Selecionar e usar o modelo treinado para prever o próximo valor
     if name in modelos:
         modelo = modelos[name]
         previsao = modelo.predict(X)
