@@ -161,9 +161,9 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4792901.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4792901.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4792901.0,id,mapped,True
-jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4792901.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped,True
@@ -359,9 +359,9 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped,True
-jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,4784704.0,id,mapped,True
@@ -6818,9 +6818,9 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped,True
-jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6508148.0,id,mapped,True
@@ -6944,9 +6944,9 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped - 'non-volatile memory',True
-jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6119536.0,id,mapped - 'non-volatile memory',True
@@ -8030,9 +8030,9 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
@@ -8297,6 +8297,732 @@ jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in th
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483220.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,direct,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped,True
+jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6483225.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,direct,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped,True
 jvm.buffer.total.capacity,An estimate of the total capacity of the buffers in this pool,bytes,VALUE,6475028.0,id,mapped - 'non-volatile memory',True

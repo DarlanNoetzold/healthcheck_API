@@ -94,7 +94,7 @@ def process_metric(filename):
 
             args_list = [(metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp) for model_name, mp in models_params.items()]
 
-            with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+            with ProcessPoolExecutor(max_workers=5) as executor:
                 results = list(executor.map(model_training_evaluation, args_list))
                 for result in results:
                     print(result)
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
     filenames = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
 
-    with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+    with ProcessPoolExecutor(max_workers=5) as executor:
         future_to_filename = {executor.submit(process_metric, filename): filename for filename in filenames}
 
         for future in as_completed(future_to_filename):
