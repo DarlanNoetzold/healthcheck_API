@@ -9,7 +9,7 @@ app = Flask(__name__)
 modelos = {}
 for filename in os.listdir('trained_models'):
     if filename.endswith('.pkl'):
-        path = os.path.join('trained_models', filename)
+        path = os.path.join('cython_impl/trained_models', filename)
         modelos[filename.split('_')[0]] = joblib.load(path)
 
 @app.route('/predict', methods=['POST'])
