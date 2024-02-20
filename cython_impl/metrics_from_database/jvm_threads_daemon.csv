@@ -3314,3 +3314,6 @@ jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,
 jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,,,True
 jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,,,True
 jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,,,True
+jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,,,True
+jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,15.0,,,True
+jvm.threads.daemon,The current number of live daemon threads,threads,VALUE,16.0,,,True

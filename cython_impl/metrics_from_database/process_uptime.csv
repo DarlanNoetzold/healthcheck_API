@@ -1112,3 +1112,6 @@ process.uptime,The uptime of the Java virtual machine,seconds,VALUE,262846.808,,
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,263147.264,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,263449.131,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,263751.508,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,264049.987,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,264350.995,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,264649.071,,,False

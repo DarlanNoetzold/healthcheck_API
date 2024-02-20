@@ -69,5 +69,5 @@ def process_metrics_parallel():
 
 
 if __name__ == "__main__":
-    extract()  # Assegure-se de que essa função esteja definida corretamente ou remova se não for necessária
+    extract()
     process_metrics_parallel()
