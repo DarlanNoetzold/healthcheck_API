@@ -45,7 +45,7 @@ def train_and_evaluate(metric_name):
         'LogisticRegression': {'C': [0.1, 1, 10]}
     }
 
-    models_dir = 'trained_models_classification'
+    models_dir = 'trained_models_second_layer'
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
 
