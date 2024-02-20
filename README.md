@@ -2,6 +2,8 @@
  
 Estudos para criar uma API que prevê quedas e problemas de performance. Atualmente a API está capturando os dados de metricas para o dataset.
 
+https://miro.com/app/board/uXjVNq0eP1I=/?utm_source=showme&utm_campaign=cpa
+
 API Endpoint Setup:
 - Define endpoints for registering APIs to monitor
 - Define endpoints for retrieving performance predictions and historical data
