@@ -11,8 +11,8 @@ from skopt import BayesSearchCV
 from skopt.space import Integer, Real
 import os
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from data_preparation import prepare_data
-from extract_dataset_from_database import extract
+from data_management.data_preparation import prepare_data
+from data_management.extract_dataset_from_database import extract
 
 np.int = np.int64
 
@@ -47,7 +47,7 @@ def model_training_evaluation(args):
         print(f"Erro ao treinar {model_name} para {metric_name}: {e}")
 
 input_dir = "metrics_from_database"
-models_dir = "trained_models"
+models_dir = "trained_models_first_layer"
 if not os.path.exists(models_dir):
     os.makedirs(models_dir)
 
