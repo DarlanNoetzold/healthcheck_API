@@ -8,16 +8,21 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+import java.util.List;
+
 @Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Record {
+public class FutureRecord {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Status status;
-    private String property;
-    private String value;
+    private Status futureStatus;
+    private String propertyName;
+    private Double predictValue;
+    private List<Double> values;
+    private Date predictionDate;
 }
