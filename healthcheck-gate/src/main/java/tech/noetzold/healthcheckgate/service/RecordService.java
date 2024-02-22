@@ -6,9 +6,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tech.noetzold.healthcheckgate.model.Record;
+import tech.noetzold.healthcheckgate.clients.PredictClient;
+import tech.noetzold.healthcheckgate.model.FutureRecord;
+import tech.noetzold.healthcheckgate.model.Status;
+import tech.noetzold.healthcheckgate.model.dto.PredictionRequestAlertDTO;
+import tech.noetzold.healthcheckgate.model.dto.PredictionRequestValueDTO;
+import tech.noetzold.healthcheckgate.model.dto.PredictionResponseAlertDTO;
+import tech.noetzold.healthcheckgate.model.dto.PredictionResponseValueDTO;
 import tech.noetzold.healthcheckgate.repository.RecordRepository;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,47 +25,77 @@ public class RecordService {
     @Autowired
     RecordRepository recordRepository;
 
+    @Autowired
+    PredictClient predictClient;
+
     private static final Logger logger = LoggerFactory.getLogger(RecordService.class);
 
     @Transactional
-    public Record createRecord(Record record) {
-        logger.info("Create a record: {}", record.toString());
-        return recordRepository.save(record);
+    public FutureRecord createRecord(FutureRecord futureRecord) {
+        logger.info("Create a futureRecord: {}", futureRecord.toString());
+        return recordRepository.save(buildEntityFromRequests(futureRecord));
     }
 
-    public List<Record> getAllRecords() {
+    public List<FutureRecord> getAllRecords() {
         logger.info("Finding records");
         return recordRepository.findAll();
     }
 
-    public Optional<Record> getRecordById(Long id) {
+    public Optional<FutureRecord> getRecordById(Long id) {
         logger.info("Finding record by id: {}", id);
         return recordRepository.findById(id);
     }
 
     @Transactional
-    public Record updateRecord(Long id, Record recordDetails) throws Exception {
-        Record record = recordRepository.findById(id)
-                .orElseThrow(() -> new Exception("Record not found for this id :: " + id));
+    public FutureRecord updateRecord(Long id, FutureRecord futureRecordDetails) throws Exception {
+        FutureRecord futureRecord = recordRepository.findById(id)
+                .orElseThrow(() -> new Exception("FutureRecord not found for this id :: " + id));
 
-        logger.info("Update record: {}", recordDetails.toString());
+        logger.info("Update futureRecord: {}", futureRecordDetails.toString());
 
-        record.setProperty(recordDetails.getProperty());
-        record.setStatus(recordDetails.getStatus());
-        record.setValue(recordDetails.getValue());
+        futureRecord = buildEntityFromRequests(futureRecordDetails);
 
-        return recordRepository.save(record);
+        return recordRepository.save(futureRecord);
     }
 
     @Transactional
     public void deleteRecord(Long id) throws Exception {
-        Record record = recordRepository.findById(id)
-                .orElseThrow(() -> new Exception("Record not found for this id :: " + id));
+        FutureRecord futureRecord = recordRepository.findById(id)
+                .orElseThrow(() -> new Exception("FutureRecord not found for this id :: " + id));
 
-        logger.info("Delete record wit id: {}", id);
-        recordRepository.delete(record);
+        logger.info("Delete futureRecord wit id: {}", id);
+        recordRepository.delete(futureRecord);
     }
 
+    private FutureRecord buildEntityFromRequests(FutureRecord futureRecord) {
+        try {
+            PredictionResponseValueDTO predictionResponseValueDTO = predictClient.predictValue(
+                    new PredictionRequestValueDTO(futureRecord.getPropertyName(), futureRecord.getValues()));
+            if (predictionResponseValueDTO == null || predictionResponseValueDTO.getPredict() == null) {
+                throw new Exception("Falha ao receber previsão de valor da API Python.");
+            }
 
+            PredictionResponseAlertDTO predictionResponseAlertDTO = predictClient.predictAlert(
+                    new PredictionRequestAlertDTO(futureRecord.getPropertyName(), predictionResponseValueDTO.getPredict()));
+            if (predictionResponseAlertDTO == null) {
+                throw new Exception("Falha ao receber previsão de alerta da API Python.");
+            }
+
+            if (predictionResponseAlertDTO.isAlert()) {
+                futureRecord.setFutureStatus(Status.IS_ALERT);
+            } else {
+                futureRecord.setFutureStatus(Status.NOT_ALERT);
+            }
+
+            futureRecord.setPredictionDate(new Date());
+            futureRecord.setPredictValue(predictionResponseValueDTO.getPredict());
+
+        } catch (Exception e) {
+            System.err.println("Erro ao processar previsões: " + e.getMessage());
+            futureRecord.setFutureStatus(Status.ERROR);
+        }
+
+        return futureRecord;
+    }
 
 }
