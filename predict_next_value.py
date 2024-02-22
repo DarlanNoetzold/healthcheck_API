@@ -47,7 +47,7 @@ def predict_value():
     if name in models_first_layer:
         modelo = models_first_layer[name]
         previsao = modelo.predict(X)
-        return jsonify({'previsao': previsao[0].tolist()}), 200
+        return jsonify({'predict': previsao[0].tolist()}), 200
     else:
         return jsonify({'error': 'Modelo para a métrica especificada não foi encontrado.'}), 404
 
