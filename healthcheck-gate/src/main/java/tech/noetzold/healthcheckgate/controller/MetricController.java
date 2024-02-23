@@ -9,7 +9,7 @@ import tech.noetzold.healthcheckgate.repository.MetricRepository;
 import java.util.List;
 
 @RestController
-@RequestMapping("/metrics")
+@RequestMapping("/gate/metrics")
 public class MetricController {
 
     @Autowired
