@@ -9,7 +9,7 @@ import tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository;
 import java.util.List;
 
 @RestController
-@RequestMapping("/model-accuracies")
+@RequestMapping("/gate/model-accuracies")
 public class ModelAccuracyController {
 
     private final ModelAccuracyRepository modelAccuracyRepository;
