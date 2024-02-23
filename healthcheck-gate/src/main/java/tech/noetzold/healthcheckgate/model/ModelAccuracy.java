@@ -20,7 +20,7 @@ public class ModelAccuracy {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String modelName;
-    private String model;
+    private String accuracyName;
     private String metricName;
     private double accuracyValue;
     private Date trainingDate;
