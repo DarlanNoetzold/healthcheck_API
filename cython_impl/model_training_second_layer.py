@@ -8,7 +8,7 @@ import numpy as np
 import joblib
 import os
 from concurrent.futures import ProcessPoolExecutor
-from extract_dataset_from_database import extract
+from data_management.extract_dataset_from_database import extract
 
 def prepare_data_for_classification(df, n=10):
     X, y = [], []
@@ -40,9 +40,17 @@ def train_and_evaluate(metric_name):
     }
 
     params = {
-        'RandomForestClassifier': {'n_estimators': [50, 100, 150], 'max_depth': [5, 10, None]},
-        'GradientBoostingClassifier': {'n_estimators': [50, 100], 'learning_rate': [0.01, 0.1]},
-        'LogisticRegression': {'C': [0.1, 1, 10]}
+        'RandomForestClassifier': {
+            'n_estimators': [200, 300],
+            'max_depth': [None, 15, 20],
+        },
+        'GradientBoostingClassifier': {
+            'n_estimators': [200, 300],
+            'learning_rate': [0.1, 0.2],
+        },
+        'LogisticRegression': {
+            'C': [10, 100, 1000],
+        }
     }
 
     models_dir = 'trained_models_second_layer'
