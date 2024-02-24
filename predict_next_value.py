@@ -20,16 +20,16 @@ def prepare_data_for_prediction_alert(values, n):
 
 
 models_first_layer = {}
-for filename in os.listdir('cython_impl/trained_models'):
+for filename in os.listdir('cython_impl/trained_models_first_layer'):
     if filename.endswith('.pkl'):
-        path = os.path.join('cython_impl/trained_models', filename)
+        path = os.path.join('cython_impl/trained_models_first_layer', filename)
         models_first_layer[filename] = joblib.load(path)
 
 
 models_second_layer = {}
-for filename in os.listdir('cython_impl/trained_models'):
+for filename in os.listdir('cython_impl/trained_models_second_layer'):
     if filename.endswith('.pkl'):
-        path = os.path.join('cython_impl/trained_models', filename)
+        path = os.path.join('cython_impl/trained_models_second_layer', filename)
         models_second_layer[filename] = joblib.load(path)
 
 @app.route('/predict-value', methods=['POST'])
