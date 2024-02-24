@@ -50,7 +50,7 @@ def predict_value():
 def predict_alert():
     data = request.json
     metric_name = data.get('name')
-    value = data.get('values')
+    value = data.get('value')
     values = [value]
     X = prepare_data_for_prediction_alert(values, 10)
 
@@ -69,7 +69,7 @@ def predict_alert():
         return jsonify(predictions), 200
     else:
         return jsonify({'error': 'Nenhum modelo encontrado para a métrica especificada.'}), 404
-
+    
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
