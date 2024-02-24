@@ -55,29 +55,30 @@ models_params = {
     'RandomForestRegressor': {
         'model': RandomForestRegressor(random_state=42),
         'params': {
-            'n_estimators': Integer(5, 50),
-            'max_depth': Integer(1, 5),
-            'min_samples_split': Integer(2, 10),
-            'min_samples_leaf': Integer(1, 3)
+            'n_estimators': Integer(100, 200),
+            'max_depth': Integer(5, 10),
+            'min_samples_split': Integer(2, 5),
+            'min_samples_leaf': Integer(1, 4)
         }
     },
     'GradientBoostingRegressor': {
         'model': GradientBoostingRegressor(random_state=42),
         'params': {
-            'n_estimators': randint(5, 50),
-            'learning_rate': uniform(0.01, 0.1),
-            'max_depth': randint(1, 4)
+            'n_estimators': randint(100, 200),
+            'learning_rate': uniform(0.01, 0.05),
+            'max_depth': randint(3, 6)
         }
     },
     'SVR': {
         'model': SVR(),
         'params': {
-            'C': uniform(0.1, 50),
+            'C': uniform(1, 100),
             'gamma': ['scale', 'auto'],
-            'kernel': ['linear', 'poly', 'rbf', 'sigmoid']
+            'kernel': ['rbf']
         }
     }
 }
+
 
 def process_metric(filename):
     if filename.endswith(".csv"):
@@ -100,22 +101,27 @@ def process_metric(filename):
                     print(result)
 
 if __name__ == "__main__":
-    extract()
+    try:
+        extract()
 
-    input_dir = "metrics_from_database"
-    models_dir = "trained_models"
-    if not os.path.exists(models_dir):
-        os.makedirs(models_dir)
+        input_dir = "metrics_from_database"
+        models_dir = "trained_models"
+        if not os.path.exists(models_dir):
+            os.makedirs(models_dir)
 
-    filenames = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
+        filenames = [f for f in os.listdir(input_dir) if f.endswith(".csv")]
 
-    with ProcessPoolExecutor(max_workers=5) as executor:
-        future_to_filename = {executor.submit(process_metric, filename): filename for filename in filenames}
+        with ProcessPoolExecutor(max_workers=5) as executor:
+            future_to_filename = {executor.submit(process_metric, filename): filename for filename in filenames}
 
-        for future in as_completed(future_to_filename):
-            filename = future_to_filename[future]
-            try:
-                result = future.result()
-                print(f"Processamento concluído para: {filename}")
-            except Exception as exc:
-                print(f"Erro ao processar {filename}: {exc}")
+            for future in as_completed(future_to_filename):
+                filename = future_to_filename[future]
+                try:
+                    result = future.result()
+                    print(f"Processamento concluído para: {filename}")
+                except Exception as exc:
+                    print(f"Erro ao processar {filename}: {exc}")
+    except Exception as e:
+        print(f"Erro geral no script: {e}")
+    finally:
+        print("Script concluído.")
