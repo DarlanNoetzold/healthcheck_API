@@ -19,7 +19,7 @@ np.int = np.int64
 def model_training_evaluation(args):
     metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp = args
     try:
-        model_filename = os.path.join("trained_models", f"{metric_name}_{model_name}.pkl")
+        model_filename = os.path.join("trained_models_first_layer", f"{metric_name}_{model_name}.pkl")
 
         if os.path.exists(model_filename):
             print(f"Modelo {model_name} para {metric_name} já treinado. Pulando...")
@@ -105,7 +105,7 @@ if __name__ == "__main__":
         extract()
 
         input_dir = "metrics_from_database"
-        models_dir = "trained_models"
+        models_dir = "trained_models_first_layer"
         if not os.path.exists(models_dir):
             os.makedirs(models_dir)
 
