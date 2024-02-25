@@ -69,7 +69,7 @@ def predict_alert():
         return jsonify(predictions), 200
     else:
         return jsonify({'error': 'Nenhum modelo encontrado para a métrica especificada.'}), 404
-    
+
 
 if __name__ == '__main__':
     app.run(debug=False)
