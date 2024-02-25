@@ -1,3 +1,4 @@
+import datetime
 import joblib
 import pandas as pd
 import numpy as np
@@ -13,8 +14,24 @@ import os
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from data_management.data_preparation import prepare_data
 from data_management.extract_dataset_from_database import extract
+import requests
 
 np.int = np.int64
+API_URL = "http://localhost:8199/gate/model-accuracies"
+
+def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date):
+    data = {
+        "modelName": model_name,
+        "accuracyName": accuracy_name,
+        "metricName": metric_name,
+        "accuracyValue": accuracy_value,
+        "trainingDate": training_date
+    }
+    response = requests.post(API_URL, json=data)
+    if response.status_code == 200:
+        print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+    else:
+        print(f"Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
 
 def model_training_evaluation(args):
     metric_name, X_train_scaled, X_test_scaled, y_train, y_test, model_name, mp = args
@@ -43,6 +60,13 @@ def model_training_evaluation(args):
 
         print(f"{model_name} - {metric_name} - MSE: {mse}, MAE: {mae}, R2: {r2}, Explained Variance: {explained_variance}")
         joblib.dump(best_model, model_filename)
+
+        training_date = datetime.datetime.now().strftime('%Y-%m-%d')
+        send_metric(metric_name, model_name, "MSE",mse, training_date)
+        send_metric(metric_name, model_name, "MAE",mae, training_date)
+        send_metric(metric_name, model_name, "R2",r2, training_date)
+        send_metric(metric_name, model_name, "Explained Variance",explained_variance, training_date)
+
     except Exception as e:
         print(f"Erro ao treinar {model_name} para {metric_name}: {e}")
 
