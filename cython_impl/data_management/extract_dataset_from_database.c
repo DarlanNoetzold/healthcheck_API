@@ -4,7 +4,7 @@
 {
     "distutils": {
         "include_dirs": [
-            "C:\\Users\\Usu\u00e1rio\\Documents\\Projetos\\GitHub\\healthcheck_API\\venv\\lib\\site-packages\\numpy\\core\\include"
+            "C:\\Users\\Usu\u00e1rio\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\core\\include"
         ],
         "name": "extract_dataset_from_database",
         "sources": [
@@ -1828,6 +1828,13 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_FastCallDict(PyObject *func, PyObj
 /* PyObjectCallOneArg.proto */
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg);
 
+/* PyIntCompare.proto */
+static CYTHON_INLINE int __Pyx_PyInt_BoolEqObjC(PyObject *op1, PyObject *op2, long intval, long inplace);
+
+/* JoinPyUnicode.proto */
+static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_count, Py_ssize_t result_ulength,
+                                      Py_UCS4 max_char);
+
 /* Import.proto */
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
 
@@ -2079,8 +2086,9 @@ static PyObject *__pyx_builtin_print;
 /* #### Code section: string_decls ### */
 static const char __pyx_k_[] = ".";
 static const char __pyx_k__2[] = "_";
-static const char __pyx_k__4[] = "*";
-static const char __pyx_k__7[] = "?";
+static const char __pyx_k__4[] = ": ";
+static const char __pyx_k__5[] = "*";
+static const char __pyx_k__8[] = "?";
 static const char __pyx_k_df[] = "df";
 static const char __pyx_k_os[] = "os";
 static const char __pyx_k_pd[] = "pd";
@@ -2089,20 +2097,26 @@ static const char __pyx_k_5432[] = "5432";
 static const char __pyx_k_conn[] = "conn";
 static const char __pyx_k_host[] = "host";
 static const char __pyx_k_join[] = "join";
+static const char __pyx_k_json[] = "json";
 static const char __pyx_k_main[] = "__main__";
-static const char __pyx_k_name[] = "__name__";
+static const char __pyx_k_name[] = "name";
 static const char __pyx_k_path[] = "path";
 static const char __pyx_k_port[] = "port";
+static const char __pyx_k_post[] = "post";
 static const char __pyx_k_spec[] = "__spec__";
 static const char __pyx_k_test[] = "__test__";
+static const char __pyx_k_text[] = "text";
 static const char __pyx_k_user[] = "user";
 static const char __pyx_k_close[] = "close";
 static const char __pyx_k_index[] = "index";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_query[] = "query";
+static const char __pyx_k_Double[] = "Double";
+static const char __pyx_k_Mtrica[] = "M\303\251trica ";
 static const char __pyx_k_dbname[] = "dbname";
 static const char __pyx_k_exists[] = "exists";
 static const char __pyx_k_import[] = "__import__";
+static const char __pyx_k_name_2[] = "__name__";
 static const char __pyx_k_pandas[] = "pandas";
 static const char __pyx_k_params[] = "params";
 static const char __pyx_k_to_csv[] = "to_csv";
@@ -2114,11 +2128,16 @@ static const char __pyx_k_makedirs[] = "makedirs";
 static const char __pyx_k_password[] = "password";
 static const char __pyx_k_postgres[] = "postgres";
 static const char __pyx_k_psycopg2[] = "psycopg2";
+static const char __pyx_k_requests[] = "requests";
+static const char __pyx_k_response[] = "response";
 static const char __pyx_k_db_config[] = "db_config";
 static const char __pyx_k_disk_free[] = "disk.free";
+static const char __pyx_k_valueType[] = "valueType";
 static const char __pyx_k_output_dir[] = "output_dir";
 static const char __pyx_k_healthcheck[] = "healthcheck";
+static const char __pyx_k_metric_data[] = "metric_data";
 static const char __pyx_k_metric_name[] = "metric_name";
+static const char __pyx_k_status_code[] = "status_code";
 static const char __pyx_k_initializing[] = "_initializing";
 static const char __pyx_k_is_coroutine[] = "_is_coroutine";
 static const char __pyx_k_jvm_gc_pause[] = "jvm.gc.pause";
@@ -2130,6 +2149,7 @@ static const char __pyx_k_process_uptime[] = "process.uptime";
 static const char __pyx_k_read_sql_query[] = "read_sql_query";
 static const char __pyx_k_jvm_gc_overhead[] = "jvm.gc.overhead";
 static const char __pyx_k_jvm_memory_used[] = "jvm.memory.used";
+static const char __pyx_k_metric_endpoint[] = "metric_endpoint";
 static const char __pyx_k_jvm_buffer_count[] = "jvm.buffer.count";
 static const char __pyx_k_jvm_threads_live[] = "jvm.threads.live";
 static const char __pyx_k_jvm_threads_peak[] = "jvm.threads.peak";
@@ -2140,6 +2160,7 @@ static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_jvm_classes_loaded[] = "jvm.classes.loaded";
 static const char __pyx_k_jvm_threads_daemon[] = "jvm.threads.daemon";
 static const char __pyx_k_jvm_threads_states[] = "jvm.threads.states";
+static const char __pyx_k_enviada_com_sucesso[] = " enviada com sucesso.";
 static const char __pyx_k_jvm_threads_started[] = "jvm.threads.started";
 static const char __pyx_k_http_server_requests[] = "http.server.requests";
 static const char __pyx_k_jvm_compilation_time[] = "jvm.compilation.time";
@@ -2148,6 +2169,7 @@ static const char __pyx_k_metrics_from_database[] = "metrics_from_database";
 static const char __pyx_k_jvm_buffer_memory_used[] = "jvm.buffer.memory.used";
 static const char __pyx_k_jvm_gc_memory_promoted[] = "jvm.gc.memory.promoted";
 static const char __pyx_k_system_load_average_1m[] = "system.load.average.1m";
+static const char __pyx_k_Erro_ao_enviar_a_mtrica[] = "Erro ao enviar a m\303\251trica ";
 static const char __pyx_k_jvm_gc_memory_allocated[] = "jvm.gc.memory.allocated";
 static const char __pyx_k_jvm_buffer_total_capacity[] = "jvm.buffer.total.capacity";
 static const char __pyx_k_jvm_memory_usage_after_gc[] = "jvm.memory.usage.after.gc";
@@ -2156,6 +2178,7 @@ static const char __pyx_k_hikaricp_connections_acquire[] = "hikaricp.connections
 static const char __pyx_k_extract_dataset_from_database[] = "extract_dataset_from_database";
 static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
+static const char __pyx_k_http_localhost_8199_gate_metrics[] = "http://localhost:8199/gate/metrics";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 /* #### Code section: late_includes ### */
@@ -2191,10 +2214,14 @@ typedef struct {
   PyObject *__pyx_kp_s_192_168_18_75;
   PyObject *__pyx_kp_s_5432;
   PyObject *__pyx_kp_u_Arquivo_gerado;
+  PyObject *__pyx_n_s_Double;
+  PyObject *__pyx_kp_u_Erro_ao_enviar_a_mtrica;
+  PyObject *__pyx_kp_u_Mtrica;
   PyObject *__pyx_kp_s_SELECT_mr_name_AS_metric_name_m;
   PyObject *__pyx_n_s__2;
-  PyObject *__pyx_n_s__4;
-  PyObject *__pyx_n_s__7;
+  PyObject *__pyx_kp_u__4;
+  PyObject *__pyx_n_s__5;
+  PyObject *__pyx_n_s__8;
   PyObject *__pyx_n_s_asyncio_coroutines;
   PyObject *__pyx_n_s_cline_in_traceback;
   PyObject *__pyx_n_s_close;
@@ -2205,6 +2232,7 @@ typedef struct {
   PyObject *__pyx_n_s_dbname;
   PyObject *__pyx_n_s_df;
   PyObject *__pyx_kp_s_disk_free;
+  PyObject *__pyx_kp_u_enviada_com_sucesso;
   PyObject *__pyx_n_s_exists;
   PyObject *__pyx_n_s_extract;
   PyObject *__pyx_n_s_extract_dataset_from_database;
@@ -2213,6 +2241,7 @@ typedef struct {
   PyObject *__pyx_n_s_healthcheck;
   PyObject *__pyx_kp_s_hikaricp_connections_acquire;
   PyObject *__pyx_n_s_host;
+  PyObject *__pyx_kp_s_http_localhost_8199_gate_metrics;
   PyObject *__pyx_kp_s_http_server_requests;
   PyObject *__pyx_kp_s_http_server_requests_active;
   PyObject *__pyx_n_s_import;
@@ -2220,6 +2249,7 @@ typedef struct {
   PyObject *__pyx_n_s_initializing;
   PyObject *__pyx_n_s_is_coroutine;
   PyObject *__pyx_n_s_join;
+  PyObject *__pyx_n_s_json;
   PyObject *__pyx_kp_s_jvm_buffer_count;
   PyObject *__pyx_kp_s_jvm_buffer_memory_used;
   PyObject *__pyx_kp_s_jvm_buffer_total_capacity;
@@ -2240,10 +2270,13 @@ typedef struct {
   PyObject *__pyx_kp_s_logback_events;
   PyObject *__pyx_n_s_main;
   PyObject *__pyx_n_s_makedirs;
+  PyObject *__pyx_n_s_metric_data;
+  PyObject *__pyx_n_s_metric_endpoint;
   PyObject *__pyx_n_s_metric_name;
   PyObject *__pyx_n_s_metric_names;
   PyObject *__pyx_n_s_metrics_from_database;
   PyObject *__pyx_n_s_name;
+  PyObject *__pyx_n_s_name_2;
   PyObject *__pyx_n_s_os;
   PyObject *__pyx_n_s_output_dir;
   PyObject *__pyx_n_s_pandas;
@@ -2252,6 +2285,7 @@ typedef struct {
   PyObject *__pyx_n_s_path;
   PyObject *__pyx_n_s_pd;
   PyObject *__pyx_n_s_port;
+  PyObject *__pyx_n_s_post;
   PyObject *__pyx_n_s_postgres;
   PyObject *__pyx_n_s_print;
   PyObject *__pyx_kp_s_process_cpu_usage;
@@ -2260,15 +2294,21 @@ typedef struct {
   PyObject *__pyx_n_s_query;
   PyObject *__pyx_n_s_read_sql_query;
   PyObject *__pyx_n_s_replace;
+  PyObject *__pyx_n_s_requests;
+  PyObject *__pyx_n_s_response;
   PyObject *__pyx_n_s_spec;
+  PyObject *__pyx_n_s_status_code;
   PyObject *__pyx_kp_s_system_cpu_usage;
   PyObject *__pyx_kp_s_system_load_average_1m;
   PyObject *__pyx_n_s_test;
+  PyObject *__pyx_n_s_text;
   PyObject *__pyx_n_s_to_csv;
   PyObject *__pyx_n_s_user;
+  PyObject *__pyx_n_s_valueType;
+  PyObject *__pyx_int_200;
   PyObject *__pyx_tuple__3;
-  PyObject *__pyx_tuple__5;
-  PyObject *__pyx_codeobj__6;
+  PyObject *__pyx_tuple__6;
+  PyObject *__pyx_codeobj__7;
 } __pyx_mstate;
 
 #if CYTHON_USE_MODULE_STATE
@@ -2315,10 +2355,14 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_s_192_168_18_75);
   Py_CLEAR(clear_module_state->__pyx_kp_s_5432);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Arquivo_gerado);
+  Py_CLEAR(clear_module_state->__pyx_n_s_Double);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_Erro_ao_enviar_a_mtrica);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_Mtrica);
   Py_CLEAR(clear_module_state->__pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
   Py_CLEAR(clear_module_state->__pyx_n_s__2);
-  Py_CLEAR(clear_module_state->__pyx_n_s__4);
-  Py_CLEAR(clear_module_state->__pyx_n_s__7);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__4);
+  Py_CLEAR(clear_module_state->__pyx_n_s__5);
+  Py_CLEAR(clear_module_state->__pyx_n_s__8);
   Py_CLEAR(clear_module_state->__pyx_n_s_asyncio_coroutines);
   Py_CLEAR(clear_module_state->__pyx_n_s_cline_in_traceback);
   Py_CLEAR(clear_module_state->__pyx_n_s_close);
@@ -2329,6 +2373,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_dbname);
   Py_CLEAR(clear_module_state->__pyx_n_s_df);
   Py_CLEAR(clear_module_state->__pyx_kp_s_disk_free);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_enviada_com_sucesso);
   Py_CLEAR(clear_module_state->__pyx_n_s_exists);
   Py_CLEAR(clear_module_state->__pyx_n_s_extract);
   Py_CLEAR(clear_module_state->__pyx_n_s_extract_dataset_from_database);
@@ -2337,6 +2382,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_healthcheck);
   Py_CLEAR(clear_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_CLEAR(clear_module_state->__pyx_n_s_host);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_localhost_8199_gate_metrics);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests_active);
   Py_CLEAR(clear_module_state->__pyx_n_s_import);
@@ -2344,6 +2390,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_initializing);
   Py_CLEAR(clear_module_state->__pyx_n_s_is_coroutine);
   Py_CLEAR(clear_module_state->__pyx_n_s_join);
+  Py_CLEAR(clear_module_state->__pyx_n_s_json);
   Py_CLEAR(clear_module_state->__pyx_kp_s_jvm_buffer_count);
   Py_CLEAR(clear_module_state->__pyx_kp_s_jvm_buffer_memory_used);
   Py_CLEAR(clear_module_state->__pyx_kp_s_jvm_buffer_total_capacity);
@@ -2364,10 +2411,13 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_s_logback_events);
   Py_CLEAR(clear_module_state->__pyx_n_s_main);
   Py_CLEAR(clear_module_state->__pyx_n_s_makedirs);
+  Py_CLEAR(clear_module_state->__pyx_n_s_metric_data);
+  Py_CLEAR(clear_module_state->__pyx_n_s_metric_endpoint);
   Py_CLEAR(clear_module_state->__pyx_n_s_metric_name);
   Py_CLEAR(clear_module_state->__pyx_n_s_metric_names);
   Py_CLEAR(clear_module_state->__pyx_n_s_metrics_from_database);
   Py_CLEAR(clear_module_state->__pyx_n_s_name);
+  Py_CLEAR(clear_module_state->__pyx_n_s_name_2);
   Py_CLEAR(clear_module_state->__pyx_n_s_os);
   Py_CLEAR(clear_module_state->__pyx_n_s_output_dir);
   Py_CLEAR(clear_module_state->__pyx_n_s_pandas);
@@ -2376,6 +2426,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_path);
   Py_CLEAR(clear_module_state->__pyx_n_s_pd);
   Py_CLEAR(clear_module_state->__pyx_n_s_port);
+  Py_CLEAR(clear_module_state->__pyx_n_s_post);
   Py_CLEAR(clear_module_state->__pyx_n_s_postgres);
   Py_CLEAR(clear_module_state->__pyx_n_s_print);
   Py_CLEAR(clear_module_state->__pyx_kp_s_process_cpu_usage);
@@ -2384,15 +2435,21 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_query);
   Py_CLEAR(clear_module_state->__pyx_n_s_read_sql_query);
   Py_CLEAR(clear_module_state->__pyx_n_s_replace);
+  Py_CLEAR(clear_module_state->__pyx_n_s_requests);
+  Py_CLEAR(clear_module_state->__pyx_n_s_response);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
+  Py_CLEAR(clear_module_state->__pyx_n_s_status_code);
   Py_CLEAR(clear_module_state->__pyx_kp_s_system_cpu_usage);
   Py_CLEAR(clear_module_state->__pyx_kp_s_system_load_average_1m);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
+  Py_CLEAR(clear_module_state->__pyx_n_s_text);
   Py_CLEAR(clear_module_state->__pyx_n_s_to_csv);
   Py_CLEAR(clear_module_state->__pyx_n_s_user);
+  Py_CLEAR(clear_module_state->__pyx_n_s_valueType);
+  Py_CLEAR(clear_module_state->__pyx_int_200);
   Py_CLEAR(clear_module_state->__pyx_tuple__3);
-  Py_CLEAR(clear_module_state->__pyx_tuple__5);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__6);
+  Py_CLEAR(clear_module_state->__pyx_tuple__6);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__7);
   return 0;
 }
 #endif
@@ -2417,10 +2474,14 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_s_192_168_18_75);
   Py_VISIT(traverse_module_state->__pyx_kp_s_5432);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Arquivo_gerado);
+  Py_VISIT(traverse_module_state->__pyx_n_s_Double);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_Erro_ao_enviar_a_mtrica);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_Mtrica);
   Py_VISIT(traverse_module_state->__pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
   Py_VISIT(traverse_module_state->__pyx_n_s__2);
-  Py_VISIT(traverse_module_state->__pyx_n_s__4);
-  Py_VISIT(traverse_module_state->__pyx_n_s__7);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__4);
+  Py_VISIT(traverse_module_state->__pyx_n_s__5);
+  Py_VISIT(traverse_module_state->__pyx_n_s__8);
   Py_VISIT(traverse_module_state->__pyx_n_s_asyncio_coroutines);
   Py_VISIT(traverse_module_state->__pyx_n_s_cline_in_traceback);
   Py_VISIT(traverse_module_state->__pyx_n_s_close);
@@ -2431,6 +2492,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_dbname);
   Py_VISIT(traverse_module_state->__pyx_n_s_df);
   Py_VISIT(traverse_module_state->__pyx_kp_s_disk_free);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_enviada_com_sucesso);
   Py_VISIT(traverse_module_state->__pyx_n_s_exists);
   Py_VISIT(traverse_module_state->__pyx_n_s_extract);
   Py_VISIT(traverse_module_state->__pyx_n_s_extract_dataset_from_database);
@@ -2439,6 +2501,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_healthcheck);
   Py_VISIT(traverse_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_VISIT(traverse_module_state->__pyx_n_s_host);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_localhost_8199_gate_metrics);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests_active);
   Py_VISIT(traverse_module_state->__pyx_n_s_import);
@@ -2446,6 +2509,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_initializing);
   Py_VISIT(traverse_module_state->__pyx_n_s_is_coroutine);
   Py_VISIT(traverse_module_state->__pyx_n_s_join);
+  Py_VISIT(traverse_module_state->__pyx_n_s_json);
   Py_VISIT(traverse_module_state->__pyx_kp_s_jvm_buffer_count);
   Py_VISIT(traverse_module_state->__pyx_kp_s_jvm_buffer_memory_used);
   Py_VISIT(traverse_module_state->__pyx_kp_s_jvm_buffer_total_capacity);
@@ -2466,10 +2530,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_s_logback_events);
   Py_VISIT(traverse_module_state->__pyx_n_s_main);
   Py_VISIT(traverse_module_state->__pyx_n_s_makedirs);
+  Py_VISIT(traverse_module_state->__pyx_n_s_metric_data);
+  Py_VISIT(traverse_module_state->__pyx_n_s_metric_endpoint);
   Py_VISIT(traverse_module_state->__pyx_n_s_metric_name);
   Py_VISIT(traverse_module_state->__pyx_n_s_metric_names);
   Py_VISIT(traverse_module_state->__pyx_n_s_metrics_from_database);
   Py_VISIT(traverse_module_state->__pyx_n_s_name);
+  Py_VISIT(traverse_module_state->__pyx_n_s_name_2);
   Py_VISIT(traverse_module_state->__pyx_n_s_os);
   Py_VISIT(traverse_module_state->__pyx_n_s_output_dir);
   Py_VISIT(traverse_module_state->__pyx_n_s_pandas);
@@ -2478,6 +2545,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_path);
   Py_VISIT(traverse_module_state->__pyx_n_s_pd);
   Py_VISIT(traverse_module_state->__pyx_n_s_port);
+  Py_VISIT(traverse_module_state->__pyx_n_s_post);
   Py_VISIT(traverse_module_state->__pyx_n_s_postgres);
   Py_VISIT(traverse_module_state->__pyx_n_s_print);
   Py_VISIT(traverse_module_state->__pyx_kp_s_process_cpu_usage);
@@ -2486,15 +2554,21 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_query);
   Py_VISIT(traverse_module_state->__pyx_n_s_read_sql_query);
   Py_VISIT(traverse_module_state->__pyx_n_s_replace);
+  Py_VISIT(traverse_module_state->__pyx_n_s_requests);
+  Py_VISIT(traverse_module_state->__pyx_n_s_response);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
+  Py_VISIT(traverse_module_state->__pyx_n_s_status_code);
   Py_VISIT(traverse_module_state->__pyx_kp_s_system_cpu_usage);
   Py_VISIT(traverse_module_state->__pyx_kp_s_system_load_average_1m);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
+  Py_VISIT(traverse_module_state->__pyx_n_s_text);
   Py_VISIT(traverse_module_state->__pyx_n_s_to_csv);
   Py_VISIT(traverse_module_state->__pyx_n_s_user);
+  Py_VISIT(traverse_module_state->__pyx_n_s_valueType);
+  Py_VISIT(traverse_module_state->__pyx_int_200);
   Py_VISIT(traverse_module_state->__pyx_tuple__3);
-  Py_VISIT(traverse_module_state->__pyx_tuple__5);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__6);
+  Py_VISIT(traverse_module_state->__pyx_tuple__6);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__7);
   return 0;
 }
 #endif
@@ -2529,10 +2603,14 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_s_192_168_18_75 __pyx_mstate_global->__pyx_kp_s_192_168_18_75
 #define __pyx_kp_s_5432 __pyx_mstate_global->__pyx_kp_s_5432
 #define __pyx_kp_u_Arquivo_gerado __pyx_mstate_global->__pyx_kp_u_Arquivo_gerado
+#define __pyx_n_s_Double __pyx_mstate_global->__pyx_n_s_Double
+#define __pyx_kp_u_Erro_ao_enviar_a_mtrica __pyx_mstate_global->__pyx_kp_u_Erro_ao_enviar_a_mtrica
+#define __pyx_kp_u_Mtrica __pyx_mstate_global->__pyx_kp_u_Mtrica
 #define __pyx_kp_s_SELECT_mr_name_AS_metric_name_m __pyx_mstate_global->__pyx_kp_s_SELECT_mr_name_AS_metric_name_m
 #define __pyx_n_s__2 __pyx_mstate_global->__pyx_n_s__2
-#define __pyx_n_s__4 __pyx_mstate_global->__pyx_n_s__4
-#define __pyx_n_s__7 __pyx_mstate_global->__pyx_n_s__7
+#define __pyx_kp_u__4 __pyx_mstate_global->__pyx_kp_u__4
+#define __pyx_n_s__5 __pyx_mstate_global->__pyx_n_s__5
+#define __pyx_n_s__8 __pyx_mstate_global->__pyx_n_s__8
 #define __pyx_n_s_asyncio_coroutines __pyx_mstate_global->__pyx_n_s_asyncio_coroutines
 #define __pyx_n_s_cline_in_traceback __pyx_mstate_global->__pyx_n_s_cline_in_traceback
 #define __pyx_n_s_close __pyx_mstate_global->__pyx_n_s_close
@@ -2543,6 +2621,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_dbname __pyx_mstate_global->__pyx_n_s_dbname
 #define __pyx_n_s_df __pyx_mstate_global->__pyx_n_s_df
 #define __pyx_kp_s_disk_free __pyx_mstate_global->__pyx_kp_s_disk_free
+#define __pyx_kp_u_enviada_com_sucesso __pyx_mstate_global->__pyx_kp_u_enviada_com_sucesso
 #define __pyx_n_s_exists __pyx_mstate_global->__pyx_n_s_exists
 #define __pyx_n_s_extract __pyx_mstate_global->__pyx_n_s_extract
 #define __pyx_n_s_extract_dataset_from_database __pyx_mstate_global->__pyx_n_s_extract_dataset_from_database
@@ -2551,6 +2630,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_healthcheck __pyx_mstate_global->__pyx_n_s_healthcheck
 #define __pyx_kp_s_hikaricp_connections_acquire __pyx_mstate_global->__pyx_kp_s_hikaricp_connections_acquire
 #define __pyx_n_s_host __pyx_mstate_global->__pyx_n_s_host
+#define __pyx_kp_s_http_localhost_8199_gate_metrics __pyx_mstate_global->__pyx_kp_s_http_localhost_8199_gate_metrics
 #define __pyx_kp_s_http_server_requests __pyx_mstate_global->__pyx_kp_s_http_server_requests
 #define __pyx_kp_s_http_server_requests_active __pyx_mstate_global->__pyx_kp_s_http_server_requests_active
 #define __pyx_n_s_import __pyx_mstate_global->__pyx_n_s_import
@@ -2558,6 +2638,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_initializing __pyx_mstate_global->__pyx_n_s_initializing
 #define __pyx_n_s_is_coroutine __pyx_mstate_global->__pyx_n_s_is_coroutine
 #define __pyx_n_s_join __pyx_mstate_global->__pyx_n_s_join
+#define __pyx_n_s_json __pyx_mstate_global->__pyx_n_s_json
 #define __pyx_kp_s_jvm_buffer_count __pyx_mstate_global->__pyx_kp_s_jvm_buffer_count
 #define __pyx_kp_s_jvm_buffer_memory_used __pyx_mstate_global->__pyx_kp_s_jvm_buffer_memory_used
 #define __pyx_kp_s_jvm_buffer_total_capacity __pyx_mstate_global->__pyx_kp_s_jvm_buffer_total_capacity
@@ -2578,10 +2659,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_s_logback_events __pyx_mstate_global->__pyx_kp_s_logback_events
 #define __pyx_n_s_main __pyx_mstate_global->__pyx_n_s_main
 #define __pyx_n_s_makedirs __pyx_mstate_global->__pyx_n_s_makedirs
+#define __pyx_n_s_metric_data __pyx_mstate_global->__pyx_n_s_metric_data
+#define __pyx_n_s_metric_endpoint __pyx_mstate_global->__pyx_n_s_metric_endpoint
 #define __pyx_n_s_metric_name __pyx_mstate_global->__pyx_n_s_metric_name
 #define __pyx_n_s_metric_names __pyx_mstate_global->__pyx_n_s_metric_names
 #define __pyx_n_s_metrics_from_database __pyx_mstate_global->__pyx_n_s_metrics_from_database
 #define __pyx_n_s_name __pyx_mstate_global->__pyx_n_s_name
+#define __pyx_n_s_name_2 __pyx_mstate_global->__pyx_n_s_name_2
 #define __pyx_n_s_os __pyx_mstate_global->__pyx_n_s_os
 #define __pyx_n_s_output_dir __pyx_mstate_global->__pyx_n_s_output_dir
 #define __pyx_n_s_pandas __pyx_mstate_global->__pyx_n_s_pandas
@@ -2590,6 +2674,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_path __pyx_mstate_global->__pyx_n_s_path
 #define __pyx_n_s_pd __pyx_mstate_global->__pyx_n_s_pd
 #define __pyx_n_s_port __pyx_mstate_global->__pyx_n_s_port
+#define __pyx_n_s_post __pyx_mstate_global->__pyx_n_s_post
 #define __pyx_n_s_postgres __pyx_mstate_global->__pyx_n_s_postgres
 #define __pyx_n_s_print __pyx_mstate_global->__pyx_n_s_print
 #define __pyx_kp_s_process_cpu_usage __pyx_mstate_global->__pyx_kp_s_process_cpu_usage
@@ -2598,19 +2683,25 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_query __pyx_mstate_global->__pyx_n_s_query
 #define __pyx_n_s_read_sql_query __pyx_mstate_global->__pyx_n_s_read_sql_query
 #define __pyx_n_s_replace __pyx_mstate_global->__pyx_n_s_replace
+#define __pyx_n_s_requests __pyx_mstate_global->__pyx_n_s_requests
+#define __pyx_n_s_response __pyx_mstate_global->__pyx_n_s_response
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
+#define __pyx_n_s_status_code __pyx_mstate_global->__pyx_n_s_status_code
 #define __pyx_kp_s_system_cpu_usage __pyx_mstate_global->__pyx_kp_s_system_cpu_usage
 #define __pyx_kp_s_system_load_average_1m __pyx_mstate_global->__pyx_kp_s_system_load_average_1m
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
+#define __pyx_n_s_text __pyx_mstate_global->__pyx_n_s_text
 #define __pyx_n_s_to_csv __pyx_mstate_global->__pyx_n_s_to_csv
 #define __pyx_n_s_user __pyx_mstate_global->__pyx_n_s_user
+#define __pyx_n_s_valueType __pyx_mstate_global->__pyx_n_s_valueType
+#define __pyx_int_200 __pyx_mstate_global->__pyx_int_200
 #define __pyx_tuple__3 __pyx_mstate_global->__pyx_tuple__3
-#define __pyx_tuple__5 __pyx_mstate_global->__pyx_tuple__5
-#define __pyx_codeobj__6 __pyx_mstate_global->__pyx_codeobj__6
+#define __pyx_tuple__6 __pyx_mstate_global->__pyx_tuple__6
+#define __pyx_codeobj__7 __pyx_mstate_global->__pyx_codeobj__7
 /* #### Code section: module_code ### */
 
-/* "extract_dataset_from_database.pyx":5
- * import os
+/* "extract_dataset_from_database.pyx":6
+ * import requests
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
@@ -2638,10 +2729,13 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   PyObject *__pyx_v_metric_names = NULL;
   PyObject *__pyx_v_output_dir = NULL;
   PyObject *__pyx_v_conn = NULL;
+  PyObject *__pyx_v_metric_endpoint = NULL;
   PyObject *__pyx_v_metric_name = NULL;
   PyObject *__pyx_v_query = NULL;
   PyObject *__pyx_v_df = NULL;
   PyObject *__pyx_v_filename = NULL;
+  PyObject *__pyx_v_metric_data = NULL;
+  PyObject *__pyx_v_response = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2653,120 +2747,122 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   Py_ssize_t __pyx_t_7;
   PyObject *__pyx_t_8 = NULL;
   PyObject *__pyx_t_9 = NULL;
+  Py_ssize_t __pyx_t_10;
+  Py_UCS4 __pyx_t_11;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("extract", 1);
 
-  /* "extract_dataset_from_database.pyx":7
+  /* "extract_dataset_from_database.pyx":8
  * def extract():
  *     db_config = {
  *         'host': '192.168.18.75',             # <<<<<<<<<<<<<<
  *         'port': '5432',
  *         'user': 'postgres',
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_host, __pyx_kp_s_192_168_18_75) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_port, __pyx_kp_s_5432) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_user, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_password, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dbname, __pyx_n_s_healthcheck) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_host, __pyx_kp_s_192_168_18_75) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_port, __pyx_kp_s_5432) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_user, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_password, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dbname, __pyx_n_s_healthcheck) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __pyx_v_db_config = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "extract_dataset_from_database.pyx":14
+  /* "extract_dataset_from_database.pyx":15
  *     }
  * 
  *     metric_names = [             # <<<<<<<<<<<<<<
- *     "disk.free", "hikaricp.connections.acquire",
- *     "http.server.requests", "http.server.requests.active",
+ *         "disk.free", "hikaricp.connections.acquire",
+ *         "http.server.requests", "http.server.requests.active",
  */
-  __pyx_t_1 = PyList_New(26); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(26); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_disk_free);
   __Pyx_GIVEREF(__pyx_kp_s_disk_free);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_kp_s_disk_free)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_kp_s_disk_free)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_hikaricp_connections_acquire);
   __Pyx_GIVEREF(__pyx_kp_s_hikaricp_connections_acquire);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 1, __pyx_kp_s_hikaricp_connections_acquire)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 1, __pyx_kp_s_hikaricp_connections_acquire)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_http_server_requests);
   __Pyx_GIVEREF(__pyx_kp_s_http_server_requests);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 2, __pyx_kp_s_http_server_requests)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 2, __pyx_kp_s_http_server_requests)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_http_server_requests_active);
   __Pyx_GIVEREF(__pyx_kp_s_http_server_requests_active);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 3, __pyx_kp_s_http_server_requests_active)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 3, __pyx_kp_s_http_server_requests_active)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_buffer_count);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_buffer_count);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 4, __pyx_kp_s_jvm_buffer_count)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 4, __pyx_kp_s_jvm_buffer_count)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_buffer_memory_used);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_buffer_memory_used);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 5, __pyx_kp_s_jvm_buffer_memory_used)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 5, __pyx_kp_s_jvm_buffer_memory_used)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_buffer_total_capacity);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_buffer_total_capacity);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 6, __pyx_kp_s_jvm_buffer_total_capacity)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 6, __pyx_kp_s_jvm_buffer_total_capacity)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_classes_loaded);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_classes_loaded);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 7, __pyx_kp_s_jvm_classes_loaded)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 7, __pyx_kp_s_jvm_classes_loaded)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_compilation_time);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_compilation_time);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 8, __pyx_kp_s_jvm_compilation_time)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 8, __pyx_kp_s_jvm_compilation_time)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_gc_memory_allocated);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_gc_memory_allocated);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 9, __pyx_kp_s_jvm_gc_memory_allocated)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 9, __pyx_kp_s_jvm_gc_memory_allocated)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_gc_memory_promoted);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_gc_memory_promoted);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 10, __pyx_kp_s_jvm_gc_memory_promoted)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 10, __pyx_kp_s_jvm_gc_memory_promoted)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_gc_overhead);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_gc_overhead);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 11, __pyx_kp_s_jvm_gc_overhead)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 11, __pyx_kp_s_jvm_gc_overhead)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_gc_pause);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_gc_pause);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 12, __pyx_kp_s_jvm_gc_pause)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 12, __pyx_kp_s_jvm_gc_pause)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_memory_committed);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_memory_committed);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 13, __pyx_kp_s_jvm_memory_committed)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 13, __pyx_kp_s_jvm_memory_committed)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_memory_usage_after_gc);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_memory_usage_after_gc);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 14, __pyx_kp_s_jvm_memory_usage_after_gc)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 14, __pyx_kp_s_jvm_memory_usage_after_gc)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_memory_used);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_memory_used);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 15, __pyx_kp_s_jvm_memory_used)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 15, __pyx_kp_s_jvm_memory_used)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_threads_daemon);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_threads_daemon);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 16, __pyx_kp_s_jvm_threads_daemon)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 16, __pyx_kp_s_jvm_threads_daemon)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_threads_live);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_threads_live);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 17, __pyx_kp_s_jvm_threads_live)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 17, __pyx_kp_s_jvm_threads_live)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_threads_peak);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_threads_peak);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 18, __pyx_kp_s_jvm_threads_peak)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 18, __pyx_kp_s_jvm_threads_peak)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_threads_started);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_threads_started);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 19, __pyx_kp_s_jvm_threads_started)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 19, __pyx_kp_s_jvm_threads_started)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_jvm_threads_states);
   __Pyx_GIVEREF(__pyx_kp_s_jvm_threads_states);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 20, __pyx_kp_s_jvm_threads_states)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 20, __pyx_kp_s_jvm_threads_states)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_logback_events);
   __Pyx_GIVEREF(__pyx_kp_s_logback_events);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 21, __pyx_kp_s_logback_events)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 21, __pyx_kp_s_logback_events)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_process_cpu_usage);
   __Pyx_GIVEREF(__pyx_kp_s_process_cpu_usage);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 22, __pyx_kp_s_process_cpu_usage)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 22, __pyx_kp_s_process_cpu_usage)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_process_uptime);
   __Pyx_GIVEREF(__pyx_kp_s_process_uptime);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 23, __pyx_kp_s_process_uptime)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 23, __pyx_kp_s_process_uptime)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_system_cpu_usage);
   __Pyx_GIVEREF(__pyx_kp_s_system_cpu_usage);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 24, __pyx_kp_s_system_cpu_usage)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 24, __pyx_kp_s_system_cpu_usage)) __PYX_ERR(0, 15, __pyx_L1_error);
   __Pyx_INCREF(__pyx_kp_s_system_load_average_1m);
   __Pyx_GIVEREF(__pyx_kp_s_system_load_average_1m);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 25, __pyx_kp_s_system_load_average_1m)) __PYX_ERR(0, 14, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 25, __pyx_kp_s_system_load_average_1m)) __PYX_ERR(0, 15, __pyx_L1_error);
   __pyx_v_metric_names = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "extract_dataset_from_database.pyx":25
- *     "process.uptime", "system.cpu.usage", "system.load.average.1m"
+  /* "extract_dataset_from_database.pyx":26
+ *         "process.uptime", "system.cpu.usage", "system.load.average.1m"
  *     ]
  *     output_dir = "metrics_from_database"             # <<<<<<<<<<<<<<
  * 
@@ -2775,19 +2871,19 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   __Pyx_INCREF(__pyx_n_s_metrics_from_database);
   __pyx_v_output_dir = __pyx_n_s_metrics_from_database;
 
-  /* "extract_dataset_from_database.pyx":27
+  /* "extract_dataset_from_database.pyx":28
  *     output_dir = "metrics_from_database"
  * 
  *     if not os.path.exists(output_dir):             # <<<<<<<<<<<<<<
  *         os.makedirs(output_dir)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_exists); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_exists); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -2808,25 +2904,25 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_v_output_dir};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 27, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_6 = (!__pyx_t_5);
   if (__pyx_t_6) {
 
-    /* "extract_dataset_from_database.pyx":28
+    /* "extract_dataset_from_database.pyx":29
  * 
  *     if not os.path.exists(output_dir):
  *         os.makedirs(output_dir)             # <<<<<<<<<<<<<<
  * 
  *     conn = psycopg2.connect(**db_config)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_makedirs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 28, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_makedirs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 29, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -2847,13 +2943,13 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_v_output_dir};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":27
+    /* "extract_dataset_from_database.pyx":28
  *     output_dir = "metrics_from_database"
  * 
  *     if not os.path.exists(output_dir):             # <<<<<<<<<<<<<<
@@ -2862,33 +2958,43 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  */
   }
 
-  /* "extract_dataset_from_database.pyx":30
+  /* "extract_dataset_from_database.pyx":31
  *         os.makedirs(output_dir)
  * 
  *     conn = psycopg2.connect(**db_config)             # <<<<<<<<<<<<<<
  * 
- *     for metric_name in metric_names:
+ *     metric_endpoint = "http://localhost:8199/gate/metrics"
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_psycopg2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_psycopg2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_connect); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_connect); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyDict_Copy(__pyx_v_db_config); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_1 = PyDict_Copy(__pyx_v_db_config); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_conn = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "extract_dataset_from_database.pyx":32
+  /* "extract_dataset_from_database.pyx":33
  *     conn = psycopg2.connect(**db_config)
  * 
+ *     metric_endpoint = "http://localhost:8199/gate/metrics"             # <<<<<<<<<<<<<<
+ * 
+ *     for metric_name in metric_names:
+ */
+  __Pyx_INCREF(__pyx_kp_s_http_localhost_8199_gate_metrics);
+  __pyx_v_metric_endpoint = __pyx_kp_s_http_localhost_8199_gate_metrics;
+
+  /* "extract_dataset_from_database.pyx":35
+ *     metric_endpoint = "http://localhost:8199/gate/metrics"
+ * 
  *     for metric_name in metric_names:             # <<<<<<<<<<<<<<
+ *         # Realiza a consulta e salva os resultados
  *         query = """
- *         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
  */
   __pyx_t_2 = __pyx_v_metric_names; __Pyx_INCREF(__pyx_t_2);
   __pyx_t_7 = 0;
@@ -2896,22 +3002,22 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     {
       Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
       #if !CYTHON_ASSUME_SAFE_MACROS
-      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 32, __pyx_L1_error)
+      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 35, __pyx_L1_error)
       #endif
       if (__pyx_t_7 >= __pyx_temp) break;
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_7); __Pyx_INCREF(__pyx_t_1); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 32, __pyx_L1_error)
+    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_7); __Pyx_INCREF(__pyx_t_1); __pyx_t_7++; if (unlikely((0 < 0))) __PYX_ERR(0, 35, __pyx_L1_error)
     #else
-    __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_2, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 35, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     #endif
     __Pyx_XDECREF_SET(__pyx_v_metric_name, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":33
- * 
+    /* "extract_dataset_from_database.pyx":37
  *     for metric_name in metric_names:
+ *         # Realiza a consulta e salva os resultados
  *         query = """             # <<<<<<<<<<<<<<
  *         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
  *         m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert
@@ -2919,36 +3025,36 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __Pyx_INCREF(__pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
     __Pyx_XDECREF_SET(__pyx_v_query, __pyx_kp_s_SELECT_mr_name_AS_metric_name_m);
 
-    /* "extract_dataset_from_database.pyx":44
+    /* "extract_dataset_from_database.pyx":47
+ *         ORDER BY mr.name, m.id, t.id, tv.tag_id;
  *         """
- * 
  *         df = pd.read_sql_query(query, conn, params=[metric_name])             # <<<<<<<<<<<<<<
- * 
  *         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")
+ *         df.to_csv(filename, index=False)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_pd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_pd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_read_sql_query); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_read_sql_query); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_v_query);
     __Pyx_GIVEREF(__pyx_v_query);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_query)) __PYX_ERR(0, 44, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_query)) __PYX_ERR(0, 47, __pyx_L1_error);
     __Pyx_INCREF(__pyx_v_conn);
     __Pyx_GIVEREF(__pyx_v_conn);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_conn)) __PYX_ERR(0, 44, __pyx_L1_error);
-    __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 44, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_conn)) __PYX_ERR(0, 47, __pyx_L1_error);
+    __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_9 = PyList_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_9 = PyList_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_INCREF(__pyx_v_metric_name);
     __Pyx_GIVEREF(__pyx_v_metric_name);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 0, __pyx_v_metric_name)) __PYX_ERR(0, 44, __pyx_L1_error);
-    if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_params, __pyx_t_9) < 0) __PYX_ERR(0, 44, __pyx_L1_error)
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 0, __pyx_v_metric_name)) __PYX_ERR(0, 47, __pyx_L1_error);
+    if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_params, __pyx_t_9) < 0) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -2956,30 +3062,30 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __Pyx_XDECREF_SET(__pyx_v_df, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "extract_dataset_from_database.pyx":46
+    /* "extract_dataset_from_database.pyx":48
+ *         """
  *         df = pd.read_sql_query(query, conn, params=[metric_name])
- * 
  *         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")             # <<<<<<<<<<<<<<
  *         df.to_csv(filename, index=False)
  *         print(f"Arquivo gerado: {filename}")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_path); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_path); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_join); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_join); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_metric_name, __pyx_n_s_replace); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_metric_name, __pyx_n_s_replace); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyUnicode_ConcatInPlace(__pyx_t_1, __pyx_kp_u_csv); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_ConcatInPlace(__pyx_t_1, __pyx_kp_u_csv); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -3001,97 +3107,245 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __pyx_t_9 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 46, __pyx_L1_error)
+      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 48, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
     __Pyx_XDECREF_SET(__pyx_v_filename, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "extract_dataset_from_database.pyx":47
- * 
+    /* "extract_dataset_from_database.pyx":49
+ *         df = pd.read_sql_query(query, conn, params=[metric_name])
  *         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")
  *         df.to_csv(filename, index=False)             # <<<<<<<<<<<<<<
  *         print(f"Arquivo gerado: {filename}")
  * 
  */
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_df, __pyx_n_s_to_csv); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 47, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_df, __pyx_n_s_to_csv); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 47, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_INCREF(__pyx_v_filename);
     __Pyx_GIVEREF(__pyx_v_filename);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_v_filename)) __PYX_ERR(0, 47, __pyx_L1_error);
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_v_filename)) __PYX_ERR(0, 49, __pyx_L1_error);
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_index, Py_False) < 0) __PYX_ERR(0, 47, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_index, Py_False) < 0) __PYX_ERR(0, 49, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":48
+    /* "extract_dataset_from_database.pyx":50
  *         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")
  *         df.to_csv(filename, index=False)
  *         print(f"Arquivo gerado: {filename}")             # <<<<<<<<<<<<<<
  * 
- *     conn.close()
+ *         # Envia uma requisio POST para criar a mtrica
  */
-    __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_filename, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_filename, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Arquivo_gerado, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Arquivo_gerado, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":32
- *     conn = psycopg2.connect(**db_config)
+    /* "extract_dataset_from_database.pyx":54
+ *         # Envia uma requisio POST para criar a mtrica
+ *         metric_data = {
+ *             "name": metric_name,             # <<<<<<<<<<<<<<
+ *             "valueType": "Double"  # Assumindo que todos os valores so do tipo Double
+ *         }
+ */
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_name, __pyx_v_metric_name) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_valueType, __pyx_n_s_Double) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
+    __Pyx_XDECREF_SET(__pyx_v_metric_data, ((PyObject*)__pyx_t_1));
+    __pyx_t_1 = 0;
+
+    /* "extract_dataset_from_database.pyx":57
+ *             "valueType": "Double"  # Assumindo que todos os valores so do tipo Double
+ *         }
+ *         response = requests.post(metric_endpoint, json=metric_data)             # <<<<<<<<<<<<<<
+ *         if response.status_code == 200:
+ *             print(f"Mtrica {metric_name} enviada com sucesso.")
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_post); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_INCREF(__pyx_v_metric_endpoint);
+    __Pyx_GIVEREF(__pyx_v_metric_endpoint);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_metric_endpoint)) __PYX_ERR(0, 57, __pyx_L1_error);
+    __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_json, __pyx_v_metric_data) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_9);
+    __pyx_t_9 = 0;
+
+    /* "extract_dataset_from_database.pyx":58
+ *         }
+ *         response = requests.post(metric_endpoint, json=metric_data)
+ *         if response.status_code == 200:             # <<<<<<<<<<<<<<
+ *             print(f"Mtrica {metric_name} enviada com sucesso.")
+ *         else:
+ */
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 58, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_9);
+    __pyx_t_6 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_9, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 58, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    if (__pyx_t_6) {
+
+      /* "extract_dataset_from_database.pyx":59
+ *         response = requests.post(metric_endpoint, json=metric_data)
+ *         if response.status_code == 200:
+ *             print(f"Mtrica {metric_name} enviada com sucesso.")             # <<<<<<<<<<<<<<
+ *         else:
+ *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")
+ */
+      __pyx_t_9 = PyTuple_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __pyx_t_10 = 0;
+      __pyx_t_11 = 127;
+      __Pyx_INCREF(__pyx_kp_u_Mtrica);
+      __pyx_t_11 = (255 > __pyx_t_11) ? 255 : __pyx_t_11;
+      __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_kp_u_Mtrica);
+      __Pyx_GIVEREF(__pyx_kp_u_Mtrica);
+      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_kp_u_Mtrica);
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) : __pyx_t_11;
+      __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8);
+      __Pyx_GIVEREF(__pyx_t_8);
+      PyTuple_SET_ITEM(__pyx_t_9, 1, __pyx_t_8);
+      __pyx_t_8 = 0;
+      __Pyx_INCREF(__pyx_kp_u_enviada_com_sucesso);
+      __pyx_t_10 += 21;
+      __Pyx_GIVEREF(__pyx_kp_u_enviada_com_sucesso);
+      PyTuple_SET_ITEM(__pyx_t_9, 2, __pyx_kp_u_enviada_com_sucesso);
+      __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+
+      /* "extract_dataset_from_database.pyx":58
+ *         }
+ *         response = requests.post(metric_endpoint, json=metric_data)
+ *         if response.status_code == 200:             # <<<<<<<<<<<<<<
+ *             print(f"Mtrica {metric_name} enviada com sucesso.")
+ *         else:
+ */
+      goto __pyx_L6;
+    }
+
+    /* "extract_dataset_from_database.pyx":61
+ *             print(f"Mtrica {metric_name} enviada com sucesso.")
+ *         else:
+ *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")             # <<<<<<<<<<<<<<
+ * 
+ *     conn.close()
+ */
+    /*else*/ {
+      __pyx_t_9 = PyTuple_New(4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __pyx_t_10 = 0;
+      __pyx_t_11 = 127;
+      __Pyx_INCREF(__pyx_kp_u_Erro_ao_enviar_a_mtrica);
+      __pyx_t_11 = (255 > __pyx_t_11) ? 255 : __pyx_t_11;
+      __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_kp_u_Erro_ao_enviar_a_mtrica);
+      __Pyx_GIVEREF(__pyx_kp_u_Erro_ao_enviar_a_mtrica);
+      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_kp_u_Erro_ao_enviar_a_mtrica);
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) : __pyx_t_11;
+      __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8);
+      __Pyx_GIVEREF(__pyx_t_8);
+      PyTuple_SET_ITEM(__pyx_t_9, 1, __pyx_t_8);
+      __pyx_t_8 = 0;
+      __Pyx_INCREF(__pyx_kp_u__4);
+      __pyx_t_10 += 2;
+      __Pyx_GIVEREF(__pyx_kp_u__4);
+      PyTuple_SET_ITEM(__pyx_t_9, 2, __pyx_kp_u__4);
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_text); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_1) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_1) : __pyx_t_11;
+      __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_1);
+      __Pyx_GIVEREF(__pyx_t_1);
+      PyTuple_SET_ITEM(__pyx_t_9, 3, __pyx_t_1);
+      __pyx_t_1 = 0;
+      __pyx_t_1 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    }
+    __pyx_L6:;
+
+    /* "extract_dataset_from_database.pyx":35
+ *     metric_endpoint = "http://localhost:8199/gate/metrics"
  * 
  *     for metric_name in metric_names:             # <<<<<<<<<<<<<<
+ *         # Realiza a consulta e salva os resultados
  *         query = """
- *         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
  */
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "extract_dataset_from_database.pyx":50
- *         print(f"Arquivo gerado: {filename}")
+  /* "extract_dataset_from_database.pyx":63
+ *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")
  * 
  *     conn.close()             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_conn, __pyx_n_s_close); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = NULL;
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_conn, __pyx_n_s_close); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __pyx_t_1 = NULL;
   __pyx_t_4 = 0;
   #if CYTHON_UNPACK_METHODS
-  if (likely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_3)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_3);
+  if (likely(PyMethod_Check(__pyx_t_9))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_9);
+    if (likely(__pyx_t_1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
+      __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
+      __Pyx_DECREF_SET(__pyx_t_9, function);
       __pyx_t_4 = 1;
     }
   }
   #endif
   {
-    PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
-    __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
-    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 50, __pyx_L1_error)
+    PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
+    __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
+    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "extract_dataset_from_database.pyx":5
- * import os
+  /* "extract_dataset_from_database.pyx":6
+ * import requests
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
@@ -3114,10 +3368,13 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   __Pyx_XDECREF(__pyx_v_metric_names);
   __Pyx_XDECREF(__pyx_v_output_dir);
   __Pyx_XDECREF(__pyx_v_conn);
+  __Pyx_XDECREF(__pyx_v_metric_endpoint);
   __Pyx_XDECREF(__pyx_v_metric_name);
   __Pyx_XDECREF(__pyx_v_query);
   __Pyx_XDECREF(__pyx_v_df);
   __Pyx_XDECREF(__pyx_v_filename);
+  __Pyx_XDECREF(__pyx_v_metric_data);
+  __Pyx_XDECREF(__pyx_v_response);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
@@ -3143,10 +3400,14 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_s_192_168_18_75, __pyx_k_192_168_18_75, sizeof(__pyx_k_192_168_18_75), 0, 0, 1, 0},
     {&__pyx_kp_s_5432, __pyx_k_5432, sizeof(__pyx_k_5432), 0, 0, 1, 0},
     {&__pyx_kp_u_Arquivo_gerado, __pyx_k_Arquivo_gerado, sizeof(__pyx_k_Arquivo_gerado), 0, 1, 0, 0},
+    {&__pyx_n_s_Double, __pyx_k_Double, sizeof(__pyx_k_Double), 0, 0, 1, 1},
+    {&__pyx_kp_u_Erro_ao_enviar_a_mtrica, __pyx_k_Erro_ao_enviar_a_mtrica, sizeof(__pyx_k_Erro_ao_enviar_a_mtrica), 0, 1, 0, 0},
+    {&__pyx_kp_u_Mtrica, __pyx_k_Mtrica, sizeof(__pyx_k_Mtrica), 0, 1, 0, 0},
     {&__pyx_kp_s_SELECT_mr_name_AS_metric_name_m, __pyx_k_SELECT_mr_name_AS_metric_name_m, sizeof(__pyx_k_SELECT_mr_name_AS_metric_name_m), 0, 0, 1, 0},
     {&__pyx_n_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 1},
-    {&__pyx_n_s__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 0, 1, 1},
-    {&__pyx_n_s__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 0, 1, 1},
+    {&__pyx_kp_u__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 1, 0, 0},
+    {&__pyx_n_s__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 0, 1, 1},
+    {&__pyx_n_s__8, __pyx_k__8, sizeof(__pyx_k__8), 0, 0, 1, 1},
     {&__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
     {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
     {&__pyx_n_s_close, __pyx_k_close, sizeof(__pyx_k_close), 0, 0, 1, 1},
@@ -3157,6 +3418,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_dbname, __pyx_k_dbname, sizeof(__pyx_k_dbname), 0, 0, 1, 1},
     {&__pyx_n_s_df, __pyx_k_df, sizeof(__pyx_k_df), 0, 0, 1, 1},
     {&__pyx_kp_s_disk_free, __pyx_k_disk_free, sizeof(__pyx_k_disk_free), 0, 0, 1, 0},
+    {&__pyx_kp_u_enviada_com_sucesso, __pyx_k_enviada_com_sucesso, sizeof(__pyx_k_enviada_com_sucesso), 0, 1, 0, 0},
     {&__pyx_n_s_exists, __pyx_k_exists, sizeof(__pyx_k_exists), 0, 0, 1, 1},
     {&__pyx_n_s_extract, __pyx_k_extract, sizeof(__pyx_k_extract), 0, 0, 1, 1},
     {&__pyx_n_s_extract_dataset_from_database, __pyx_k_extract_dataset_from_database, sizeof(__pyx_k_extract_dataset_from_database), 0, 0, 1, 1},
@@ -3165,6 +3427,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_healthcheck, __pyx_k_healthcheck, sizeof(__pyx_k_healthcheck), 0, 0, 1, 1},
     {&__pyx_kp_s_hikaricp_connections_acquire, __pyx_k_hikaricp_connections_acquire, sizeof(__pyx_k_hikaricp_connections_acquire), 0, 0, 1, 0},
     {&__pyx_n_s_host, __pyx_k_host, sizeof(__pyx_k_host), 0, 0, 1, 1},
+    {&__pyx_kp_s_http_localhost_8199_gate_metrics, __pyx_k_http_localhost_8199_gate_metrics, sizeof(__pyx_k_http_localhost_8199_gate_metrics), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests, __pyx_k_http_server_requests, sizeof(__pyx_k_http_server_requests), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests_active, __pyx_k_http_server_requests_active, sizeof(__pyx_k_http_server_requests_active), 0, 0, 1, 0},
     {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -3172,6 +3435,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_initializing, __pyx_k_initializing, sizeof(__pyx_k_initializing), 0, 0, 1, 1},
     {&__pyx_n_s_is_coroutine, __pyx_k_is_coroutine, sizeof(__pyx_k_is_coroutine), 0, 0, 1, 1},
     {&__pyx_n_s_join, __pyx_k_join, sizeof(__pyx_k_join), 0, 0, 1, 1},
+    {&__pyx_n_s_json, __pyx_k_json, sizeof(__pyx_k_json), 0, 0, 1, 1},
     {&__pyx_kp_s_jvm_buffer_count, __pyx_k_jvm_buffer_count, sizeof(__pyx_k_jvm_buffer_count), 0, 0, 1, 0},
     {&__pyx_kp_s_jvm_buffer_memory_used, __pyx_k_jvm_buffer_memory_used, sizeof(__pyx_k_jvm_buffer_memory_used), 0, 0, 1, 0},
     {&__pyx_kp_s_jvm_buffer_total_capacity, __pyx_k_jvm_buffer_total_capacity, sizeof(__pyx_k_jvm_buffer_total_capacity), 0, 0, 1, 0},
@@ -3192,10 +3456,13 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_s_logback_events, __pyx_k_logback_events, sizeof(__pyx_k_logback_events), 0, 0, 1, 0},
     {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
     {&__pyx_n_s_makedirs, __pyx_k_makedirs, sizeof(__pyx_k_makedirs), 0, 0, 1, 1},
+    {&__pyx_n_s_metric_data, __pyx_k_metric_data, sizeof(__pyx_k_metric_data), 0, 0, 1, 1},
+    {&__pyx_n_s_metric_endpoint, __pyx_k_metric_endpoint, sizeof(__pyx_k_metric_endpoint), 0, 0, 1, 1},
     {&__pyx_n_s_metric_name, __pyx_k_metric_name, sizeof(__pyx_k_metric_name), 0, 0, 1, 1},
     {&__pyx_n_s_metric_names, __pyx_k_metric_names, sizeof(__pyx_k_metric_names), 0, 0, 1, 1},
     {&__pyx_n_s_metrics_from_database, __pyx_k_metrics_from_database, sizeof(__pyx_k_metrics_from_database), 0, 0, 1, 1},
     {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
+    {&__pyx_n_s_name_2, __pyx_k_name_2, sizeof(__pyx_k_name_2), 0, 0, 1, 1},
     {&__pyx_n_s_os, __pyx_k_os, sizeof(__pyx_k_os), 0, 0, 1, 1},
     {&__pyx_n_s_output_dir, __pyx_k_output_dir, sizeof(__pyx_k_output_dir), 0, 0, 1, 1},
     {&__pyx_n_s_pandas, __pyx_k_pandas, sizeof(__pyx_k_pandas), 0, 0, 1, 1},
@@ -3204,6 +3471,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_path, __pyx_k_path, sizeof(__pyx_k_path), 0, 0, 1, 1},
     {&__pyx_n_s_pd, __pyx_k_pd, sizeof(__pyx_k_pd), 0, 0, 1, 1},
     {&__pyx_n_s_port, __pyx_k_port, sizeof(__pyx_k_port), 0, 0, 1, 1},
+    {&__pyx_n_s_post, __pyx_k_post, sizeof(__pyx_k_post), 0, 0, 1, 1},
     {&__pyx_n_s_postgres, __pyx_k_postgres, sizeof(__pyx_k_postgres), 0, 0, 1, 1},
     {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
     {&__pyx_kp_s_process_cpu_usage, __pyx_k_process_cpu_usage, sizeof(__pyx_k_process_cpu_usage), 0, 0, 1, 0},
@@ -3212,19 +3480,24 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_query, __pyx_k_query, sizeof(__pyx_k_query), 0, 0, 1, 1},
     {&__pyx_n_s_read_sql_query, __pyx_k_read_sql_query, sizeof(__pyx_k_read_sql_query), 0, 0, 1, 1},
     {&__pyx_n_s_replace, __pyx_k_replace, sizeof(__pyx_k_replace), 0, 0, 1, 1},
+    {&__pyx_n_s_requests, __pyx_k_requests, sizeof(__pyx_k_requests), 0, 0, 1, 1},
+    {&__pyx_n_s_response, __pyx_k_response, sizeof(__pyx_k_response), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
+    {&__pyx_n_s_status_code, __pyx_k_status_code, sizeof(__pyx_k_status_code), 0, 0, 1, 1},
     {&__pyx_kp_s_system_cpu_usage, __pyx_k_system_cpu_usage, sizeof(__pyx_k_system_cpu_usage), 0, 0, 1, 0},
     {&__pyx_kp_s_system_load_average_1m, __pyx_k_system_load_average_1m, sizeof(__pyx_k_system_load_average_1m), 0, 0, 1, 0},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
+    {&__pyx_n_s_text, __pyx_k_text, sizeof(__pyx_k_text), 0, 0, 1, 1},
     {&__pyx_n_s_to_csv, __pyx_k_to_csv, sizeof(__pyx_k_to_csv), 0, 0, 1, 1},
     {&__pyx_n_s_user, __pyx_k_user, sizeof(__pyx_k_user), 0, 0, 1, 1},
+    {&__pyx_n_s_valueType, __pyx_k_valueType, sizeof(__pyx_k_valueType), 0, 0, 1, 1},
     {0, 0, 0, 0, 0, 0, 0}
   };
   return __Pyx_InitStrings(__pyx_string_tab);
 }
 /* #### Code section: cached_builtins ### */
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 50, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -3235,28 +3508,28 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "extract_dataset_from_database.pyx":46
+  /* "extract_dataset_from_database.pyx":48
+ *         """
  *         df = pd.read_sql_query(query, conn, params=[metric_name])
- * 
  *         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")             # <<<<<<<<<<<<<<
  *         df.to_csv(filename, index=False)
  *         print(f"Arquivo gerado: {filename}")
  */
-  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_kp_s_, __pyx_n_s__2); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 46, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_kp_s_, __pyx_n_s__2); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 48, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "extract_dataset_from_database.pyx":5
- * import os
+  /* "extract_dataset_from_database.pyx":6
+ * import requests
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
  *         'host': '192.168.18.75',
  */
-  __pyx_tuple__5 = PyTuple_Pack(8, __pyx_n_s_db_config, __pyx_n_s_metric_names, __pyx_n_s_output_dir, __pyx_n_s_conn, __pyx_n_s_metric_name, __pyx_n_s_query, __pyx_n_s_df, __pyx_n_s_filename); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 5, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_extract_dataset_from_database_py, __pyx_n_s_extract, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_tuple__6 = PyTuple_Pack(11, __pyx_n_s_db_config, __pyx_n_s_metric_names, __pyx_n_s_output_dir, __pyx_n_s_conn, __pyx_n_s_metric_endpoint, __pyx_n_s_metric_name, __pyx_n_s_query, __pyx_n_s_df, __pyx_n_s_filename, __pyx_n_s_metric_data, __pyx_n_s_response); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_extract_dataset_from_database_py, __pyx_n_s_extract, 6, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -3267,6 +3540,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
 static CYTHON_SMALL_CODE int __Pyx_InitConstants(void) {
   if (__Pyx_CreateStringTabAndInitStrings() < 0) __PYX_ERR(0, 1, __pyx_L1_error);
+  __pyx_int_200 = PyInt_FromLong(200); if (unlikely(!__pyx_int_200)) __PYX_ERR(0, 1, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -3593,7 +3867,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
   if (__pyx_module_is_main_extract_dataset_from_database) {
-    if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
@@ -3634,7 +3908,7 @@ if (!__Pyx_RefNanny) {
  * import pandas as pd
  * import psycopg2             # <<<<<<<<<<<<<<
  * import os
- * 
+ * import requests
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_psycopg2, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3645,24 +3919,36 @@ if (!__Pyx_RefNanny) {
  * import pandas as pd
  * import psycopg2
  * import os             # <<<<<<<<<<<<<<
+ * import requests
  * 
- * def extract():
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_os, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_os, __pyx_t_2) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "extract_dataset_from_database.pyx":5
+  /* "extract_dataset_from_database.pyx":4
+ * import psycopg2
  * import os
+ * import requests             # <<<<<<<<<<<<<<
+ * 
+ * def extract():
+ */
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_requests, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_requests, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "extract_dataset_from_database.pyx":6
+ * import requests
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
  *         'host': '192.168.18.75',
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_29extract_dataset_from_database_1extract, 0, __pyx_n_s_extract, NULL, __pyx_n_s_extract_dataset_from_database, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 5, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_29extract_dataset_from_database_1extract, 0, __pyx_n_s_extract, NULL, __pyx_n_s_extract_dataset_from_database, __pyx_d, ((PyObject *)__pyx_codeobj__7)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_extract, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_extract, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "extract_dataset_from_database.pyx":1
@@ -4517,6 +4803,147 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObjec
     return __Pyx_PyObject_FastCall(func, args+1, 1 | __Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET);
 }
 
+/* PyIntCompare */
+static CYTHON_INLINE int __Pyx_PyInt_BoolEqObjC(PyObject *op1, PyObject *op2, long intval, long inplace) {
+    CYTHON_MAYBE_UNUSED_VAR(intval);
+    CYTHON_UNUSED_VAR(inplace);
+    if (op1 == op2) {
+        return 1;
+    }
+    #if PY_MAJOR_VERSION < 3
+    if (likely(PyInt_CheckExact(op1))) {
+        const long b = intval;
+        long a = PyInt_AS_LONG(op1);
+        return (a == b);
+    }
+    #endif
+    #if CYTHON_USE_PYLONG_INTERNALS
+    if (likely(PyLong_CheckExact(op1))) {
+        int unequal;
+        unsigned long uintval;
+        Py_ssize_t size = __Pyx_PyLong_DigitCount(op1);
+        const digit* digits = __Pyx_PyLong_Digits(op1);
+        if (intval == 0) {
+            return (__Pyx_PyLong_IsZero(op1) == 1);
+        } else if (intval < 0) {
+            if (__Pyx_PyLong_IsNonNeg(op1))
+                return 0;
+            intval = -intval;
+        } else {
+            if (__Pyx_PyLong_IsNeg(op1))
+                return 0;
+        }
+        uintval = (unsigned long) intval;
+#if PyLong_SHIFT * 4 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 4)) {
+            unequal = (size != 5) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[3] != ((uintval >> (3 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[4] != ((uintval >> (4 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 3 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 3)) {
+            unequal = (size != 4) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[3] != ((uintval >> (3 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 2 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 2)) {
+            unequal = (size != 3) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 1 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 1)) {
+            unequal = (size != 2) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+            unequal = (size != 1) || (((unsigned long) digits[0]) != (uintval & (unsigned long) PyLong_MASK));
+        return (unequal == 0);
+    }
+    #endif
+    if (PyFloat_CheckExact(op1)) {
+        const long b = intval;
+#if CYTHON_COMPILING_IN_LIMITED_API
+        double a = __pyx_PyFloat_AsDouble(op1);
+#else
+        double a = PyFloat_AS_DOUBLE(op1);
+#endif
+        return ((double)a == (double)b);
+    }
+    return __Pyx_PyObject_IsTrueAndDecref(
+        PyObject_RichCompare(op1, op2, Py_EQ));
+}
+
+/* JoinPyUnicode */
+static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_count, Py_ssize_t result_ulength,
+                                      Py_UCS4 max_char) {
+#if CYTHON_USE_UNICODE_INTERNALS && CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+    PyObject *result_uval;
+    int result_ukind, kind_shift;
+    Py_ssize_t i, char_pos;
+    void *result_udata;
+    CYTHON_MAYBE_UNUSED_VAR(max_char);
+#if CYTHON_PEP393_ENABLED
+    result_uval = PyUnicode_New(result_ulength, max_char);
+    if (unlikely(!result_uval)) return NULL;
+    result_ukind = (max_char <= 255) ? PyUnicode_1BYTE_KIND : (max_char <= 65535) ? PyUnicode_2BYTE_KIND : PyUnicode_4BYTE_KIND;
+    kind_shift = (result_ukind == PyUnicode_4BYTE_KIND) ? 2 : result_ukind - 1;
+    result_udata = PyUnicode_DATA(result_uval);
+#else
+    result_uval = PyUnicode_FromUnicode(NULL, result_ulength);
+    if (unlikely(!result_uval)) return NULL;
+    result_ukind = sizeof(Py_UNICODE);
+    kind_shift = (result_ukind == 4) ? 2 : result_ukind - 1;
+    result_udata = PyUnicode_AS_UNICODE(result_uval);
+#endif
+    assert(kind_shift == 2 || kind_shift == 1 || kind_shift == 0);
+    char_pos = 0;
+    for (i=0; i < value_count; i++) {
+        int ukind;
+        Py_ssize_t ulength;
+        void *udata;
+        PyObject *uval = PyTuple_GET_ITEM(value_tuple, i);
+        if (unlikely(__Pyx_PyUnicode_READY(uval)))
+            goto bad;
+        ulength = __Pyx_PyUnicode_GET_LENGTH(uval);
+        if (unlikely(!ulength))
+            continue;
+        if (unlikely((PY_SSIZE_T_MAX >> kind_shift) - ulength < char_pos))
+            goto overflow;
+        ukind = __Pyx_PyUnicode_KIND(uval);
+        udata = __Pyx_PyUnicode_DATA(uval);
+        if (!CYTHON_PEP393_ENABLED || ukind == result_ukind) {
+            memcpy((char *)result_udata + (char_pos << kind_shift), udata, (size_t) (ulength << kind_shift));
+        } else {
+            #if PY_VERSION_HEX >= 0x030d0000
+            if (unlikely(PyUnicode_CopyCharacters(result_uval, char_pos, uval, 0, ulength) < 0)) goto bad;
+            #elif CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030300F0 || defined(_PyUnicode_FastCopyCharacters)
+            _PyUnicode_FastCopyCharacters(result_uval, char_pos, uval, 0, ulength);
+            #else
+            Py_ssize_t j;
+            for (j=0; j < ulength; j++) {
+                Py_UCS4 uchar = __Pyx_PyUnicode_READ(ukind, udata, j);
+                __Pyx_PyUnicode_WRITE(result_ukind, result_udata, char_pos+j, uchar);
+            }
+            #endif
+        }
+        char_pos += ulength;
+    }
+    return result_uval;
+overflow:
+    PyErr_SetString(PyExc_OverflowError, "join() result is too long for a Python string");
+bad:
+    Py_DECREF(result_uval);
+    return NULL;
+#else
+    CYTHON_UNUSED_VAR(max_char);
+    CYTHON_UNUSED_VAR(result_ulength);
+    CYTHON_UNUSED_VAR(value_count);
+    return PyUnicode_Join(__pyx_empty_unicode, value_tuple);
+#endif
+}
+
 /* Import */
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
     PyObject *module = 0;
@@ -4653,7 +5080,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 #endif
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
 #if PY_MAJOR_VERSION < 3
-    PyObject *module, *from_list, *star = __pyx_n_s__4;
+    PyObject *module, *from_list, *star = __pyx_n_s__5;
     CYTHON_UNUSED_VAR(parts_tuple);
     from_list = PyList_New(1);
     if (unlikely(!from_list))
@@ -6276,11 +6703,11 @@ static __Pyx_TypeName
 __Pyx_PyType_GetName(PyTypeObject* tp)
 {
     PyObject *name = __Pyx_PyObject_GetAttrStr((PyObject *)tp,
-                                               __pyx_n_s_name);
+                                               __pyx_n_s_name_2);
     if (unlikely(name == NULL) || unlikely(!PyUnicode_Check(name))) {
         PyErr_Clear();
         Py_XDECREF(name);
-        name = __Pyx_NewRef(__pyx_n_s__7);
+        name = __Pyx_NewRef(__pyx_n_s__8);
     }
     return name;
 }
