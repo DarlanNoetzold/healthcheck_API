@@ -71,28 +71,47 @@ public class RecordService {
         try {
             PredictionResponseValueDTO predictionResponseValueDTO = predictClient.predictValue(
                     new PredictionRequestValueDTO(futureRecord.getPropertyName(), futureRecord.getValues()));
-            if (predictionResponseValueDTO == null || predictionResponseValueDTO.getPredict() == null) {
+            if (predictionResponseValueDTO == null
+                    || predictionResponseValueDTO.getResultPredictSVR() == null
+                    || predictionResponseValueDTO.getResultPredictRandomForestRegressor() == null
+                    || predictionResponseValueDTO.getResultPredictGradientBoostingRegressor() == null) {
                 throw new Exception("Falha ao receber previsão de valor da API Python.");
             }
 
             PredictionResponseAlertDTO predictionResponseAlertDTO = predictClient.predictAlert(
-                    new PredictionRequestAlertDTO(futureRecord.getPropertyName(), predictionResponseValueDTO.getPredict()));
+                    new PredictionRequestAlertDTO(futureRecord.getPropertyName(), predictionResponseValueDTO.getResultPredictRandomForestRegressor()));
             if (predictionResponseAlertDTO == null) {
                 throw new Exception("Falha ao receber previsão de alerta da API Python.");
             }
 
-            if (predictionResponseAlertDTO.isAlert()) {
-                futureRecord.setFutureStatus(Status.IS_ALERT);
+            if (predictionResponseAlertDTO.isAlertLogisticRegression()) {
+                futureRecord.setFutureStatusLogisticRegression(Status.IS_ALERT);
             } else {
-                futureRecord.setFutureStatus(Status.NOT_ALERT);
+                futureRecord.setFutureStatusLogisticRegression(Status.NOT_ALERT);
+            }
+
+            if (predictionResponseAlertDTO.isAlertRandomForestClassifier()) {
+                futureRecord.setFutureStatusRandomForestClassifier(Status.IS_ALERT);
+            } else {
+                futureRecord.setFutureStatusRandomForestClassifier(Status.NOT_ALERT);
+            }
+
+            if (predictionResponseAlertDTO.isAlertGradientBoostingClassifier()) {
+                futureRecord.setFutureStatusGradientBoostingClassifier(Status.IS_ALERT);
+            } else {
+                futureRecord.setFutureStatusGradientBoostingClassifier(Status.NOT_ALERT);
             }
 
             futureRecord.setPredictionDate(new Date());
-            futureRecord.setPredictValue(predictionResponseValueDTO.getPredict());
+            futureRecord.setPredictValueSVR(predictionResponseValueDTO.getResultPredictSVR());
+            futureRecord.setPredictValueGradientBoostingRegressor(predictionResponseValueDTO.getResultPredictGradientBoostingRegressor());
+            futureRecord.setPredictValueRandomForestRegressor(predictionResponseValueDTO.getResultPredictRandomForestRegressor());
 
         } catch (Exception e) {
             System.err.println("Erro ao processar previsões: " + e.getMessage());
-            futureRecord.setFutureStatus(Status.ERROR);
+            futureRecord.setFutureStatusGradientBoostingClassifier(Status.ERROR);
+            futureRecord.setFutureStatusLogisticRegression(Status.ERROR);
+            futureRecord.setFutureStatusRandomForestClassifier(Status.ERROR);
         }
 
         return futureRecord;
