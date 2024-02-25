@@ -10,6 +10,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class PredictionResponseAlertDTO {
 
-    @JsonProperty("is_alert")
-    boolean isAlert;
+    @JsonProperty("GradientBoostingClassifier")
+    boolean isAlertGradientBoostingClassifier;
+
+    @JsonProperty("LogisticRegression")
+    boolean isAlertLogisticRegression;
+
+    @JsonProperty("RandomForestClassifier")
+    boolean isAlertRandomForestClassifier;
 }
