@@ -1,6 +1,7 @@
 import pandas as pd
 import psycopg2
 import os
+import requests
 
 def extract():
     db_config = {
@@ -12,15 +13,15 @@ def extract():
     }
 
     metric_names = [
-    "disk.free", "hikaricp.connections.acquire",
-    "http.server.requests", "http.server.requests.active",
-    "jvm.buffer.count", "jvm.buffer.memory.used", "jvm.buffer.total.capacity",
-    "jvm.classes.loaded", "jvm.compilation.time", "jvm.gc.memory.allocated",
-    "jvm.gc.memory.promoted", "jvm.gc.overhead", "jvm.gc.pause",
-    "jvm.memory.committed", "jvm.memory.usage.after.gc",
-    "jvm.memory.used", "jvm.threads.daemon", "jvm.threads.live", "jvm.threads.peak",
-    "jvm.threads.started", "jvm.threads.states", "logback.events", "process.cpu.usage",
-    "process.uptime", "system.cpu.usage", "system.load.average.1m"
+        "disk.free", "hikaricp.connections.acquire",
+        "http.server.requests", "http.server.requests.active",
+        "jvm.buffer.count", "jvm.buffer.memory.used", "jvm.buffer.total.capacity",
+        "jvm.classes.loaded", "jvm.compilation.time", "jvm.gc.memory.allocated",
+        "jvm.gc.memory.promoted", "jvm.gc.overhead", "jvm.gc.pause",
+        "jvm.memory.committed", "jvm.memory.usage.after.gc",
+        "jvm.memory.used", "jvm.threads.daemon", "jvm.threads.live", "jvm.threads.peak",
+        "jvm.threads.started", "jvm.threads.states", "logback.events", "process.cpu.usage",
+        "process.uptime", "system.cpu.usage", "system.load.average.1m"
     ]
     output_dir = "metrics_from_database"
 
@@ -29,7 +30,10 @@ def extract():
 
     conn = psycopg2.connect(**db_config)
 
+    metric_endpoint = "http://localhost:8199/gate/metrics"
+
     for metric_name in metric_names:
+        # Realiza a consulta e salva os resultados
         query = """
         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
         m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert
@@ -40,11 +44,20 @@ def extract():
         WHERE mr.name = %s
         ORDER BY mr.name, m.id, t.id, tv.tag_id;
         """
-        
         df = pd.read_sql_query(query, conn, params=[metric_name])
-        
         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")
         df.to_csv(filename, index=False)
         print(f"Arquivo gerado: {filename}")
+
+        # Envia uma requisição POST para criar a métrica
+        metric_data = {
+            "name": metric_name,
+            "valueType": "Double"  # Assumindo que todos os valores são do tipo Double
+        }
+        response = requests.post(metric_endpoint, json=metric_data)
+        if response.status_code == 200:
+            print(f"Métrica {metric_name} enviada com sucesso.")
+        else:
+            print(f"Erro ao enviar a métrica {metric_name}: {response.text}")
 
     conn.close()
