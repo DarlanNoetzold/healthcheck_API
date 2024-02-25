@@ -20,9 +20,13 @@ public class FutureRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Status futureStatus;
+    private Status futureStatusGradientBoostingClassifier;
+    private Status futureStatusLogisticRegression;
+    private Status futureStatusRandomForestClassifier;
     private String propertyName;
-    private Double predictValue;
+    private Double predictValueGradientBoostingRegressor;
+    private Double predictValueRandomForestRegressor;
+    private Double predictValueSVR;
     private List<Double> values;
     private Date predictionDate;
 }
