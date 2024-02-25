@@ -9,6 +9,24 @@ import joblib
 import os
 from concurrent.futures import ProcessPoolExecutor
 from data_management.extract_dataset_from_database import extract
+import requests
+import datetime
+
+API_URL = "http://localhost:8080/gate/model-accuracies"
+
+def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date):
+    data = {
+        "modelName": model_name,
+        "accuracyName": accuracy_name,
+        "metricName": metric_name,
+        "accuracyValue": accuracy_value,
+        "trainingDate": training_date
+    }
+    response = requests.post(API_URL, json=data)
+    if response.status_code == 200:
+        print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+    else:
+        print(f"Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
 
 def prepare_data_for_classification(df, n=10):
     X, y = [], []
@@ -63,9 +81,13 @@ def train_and_evaluate(metric_name):
         predictions = clf.predict(X_test_scaled)
         accuracy = accuracy_score(y_test, predictions)
         print(f"Model: {name}, Metric: {metric_name}, Accuracy: {accuracy}")
+
         model_path = os.path.join(models_dir, f'{metric_name}_{name}.pkl')
         joblib.dump(clf.best_estimator_, model_path)
         print(f"Model saved: {model_path}")
+
+        training_date = datetime.datetime.now().strftime('%Y-%m-%d')
+        send_metric(metric_name, name, "Accuracy", accuracy, training_date)
 
 
 def process_metrics_parallel():
