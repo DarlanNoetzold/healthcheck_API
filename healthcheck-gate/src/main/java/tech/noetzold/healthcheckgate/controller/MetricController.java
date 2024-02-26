@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/gate/metrics")
+@CrossOrigin(origins = "*")
 public class MetricController {
 
     @Autowired
