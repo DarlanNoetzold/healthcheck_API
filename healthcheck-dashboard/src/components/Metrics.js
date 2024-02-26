@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ApiService } from './ApiService';
+import { ApiService } from '../api/ApiService';
 
 function Metrics() {
   const [metrics, setMetrics] = useState([]);
