@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/gate/model-accuracies")
+@CrossOrigin(origins = "*")
 public class ModelAccuracyController {
 
     private final ModelAccuracyRepository modelAccuracyRepository;
