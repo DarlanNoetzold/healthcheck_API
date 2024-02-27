@@ -25,21 +25,18 @@ function ModelAccuracies() {
 
   const handleDelete = (id) => {
     ApiService.deleteModelAccuracy(id).then(() => {
-      fetchModelAccuracies(); // Atualizado para refletir mudanças.
+      fetchModelAccuracies();
     });
   };
 
   const handleOk = () => {
     setIsModalOpen(false);
-    // Call API to update or create
     if (currentAccuracy) {
       ApiService.updateModelAccuracy(currentAccuracy.id, currentAccuracy).then(() => {
         setCurrentAccuracy(null);
-        fetchModelAccuracies(); // Correção para chamar a função corretamente.
+        fetchModelAccuracies();
       });
-    } else {
-      // Add new record logic if needed
-    }
+    } 
   };
 
   const handleCancel = () => {
@@ -103,7 +100,6 @@ function ModelAccuracies() {
           <Form.Item label="Model Name">
             <Input name="modelName" value={currentAccuracy?.modelName} onChange={handleChange} />
           </Form.Item>
-          {/* Add other fields similarly with appropriate 'name' and 'value' */}
         </Form>
       </Modal>
     </div>
