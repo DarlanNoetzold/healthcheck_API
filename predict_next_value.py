@@ -72,7 +72,7 @@ def predict_alert():
 
 @app.route('/ping', methods=['GET'])
 def ping():
-    return 200
+    return "ok", 200
 
 
 if __name__ == '__main__':
