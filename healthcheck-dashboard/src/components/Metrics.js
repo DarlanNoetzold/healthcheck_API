@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Table } from 'antd';
 import { ApiService } from '../api/ApiService';
 
 function Metrics() {
@@ -8,16 +9,21 @@ function Metrics() {
     ApiService.fetchMetrics().then((response) => setMetrics(response.data));
   }, []);
 
-  return (
-    <div>
-      <h2>Metrics</h2>
-      <ul>
-        {metrics.map((metric) => (
-          <li key={metric.id}>{metric.name}: {metric.valueType}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  const columns = [
+    {
+      title: 'Metric Name',
+      dataIndex: 'name',
+      key: 'name',
+    },
+    {
+      title: 'Value Type',
+      dataIndex: 'valueType',
+      key: 'valueType',
+      align: 'right',
+    },
+  ];
+
+  return <Table columns={columns} dataSource={metrics} rowKey="id" />;
 }
 
 export default Metrics;
