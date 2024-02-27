@@ -70,6 +70,10 @@ def predict_alert():
     else:
         return jsonify({'error': 'Nenhum modelo encontrado para a métrica especificada.'}), 404
 
+@app.route('/ping', methods=['GET'])
+def predict_alert():
+    return 200
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
