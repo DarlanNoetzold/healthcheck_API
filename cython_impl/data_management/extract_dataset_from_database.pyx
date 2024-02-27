@@ -49,7 +49,6 @@ def extract():
         df.to_csv(filename, index=False)
         print(f"Arquivo gerado: {filename}")
 
-        # Envia uma requisição POST para criar a métrica
         metric_data = {
             "name": metric_name,
             "valueType": "Double"  # Assumindo que todos os valores são do tipo Double
