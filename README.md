@@ -17,3 +17,9 @@ O sistema é composto por vários componentes principais:
 - **HealthCheck-gate**: Uma API Spring que atua como intermediária, tratando dados, salvando registros e acurácias no banco e comunicando-se com a API de previsão.
 
 - **HealthCheck Dashboard**: Uma aplicação frontend em React que exibe as métricas, os resultados das previsões e permite a interação do usuário para a previsão de dados.
+
+
+Processo de instação será detalhado futuramente, usando docker para facilitar a instalação ou com uma instalação manual.
+
+---
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
