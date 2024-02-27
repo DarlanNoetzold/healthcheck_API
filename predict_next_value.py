@@ -71,7 +71,7 @@ def predict_alert():
         return jsonify({'error': 'Nenhum modelo encontrado para a métrica especificada.'}), 404
 
 @app.route('/ping', methods=['GET'])
-def predict_alert():
+def ping():
     return 200
 
 
