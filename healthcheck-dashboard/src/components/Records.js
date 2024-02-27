@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ApiService } from '../api/ApiService';
+import { List, Input, Button, Form, Modal } from 'antd';
+import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 
 function Records() {
   const [records, setRecords] = useState([]);
-  const [currentRecord, setCurrentRecord] = useState({ id: null, propertyName: '', predictValue: 0, values: [] });
-  const [isEditing, setIsEditing] = useState(false);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [currentRecord, setCurrentRecord] = useState({ propertyName: '', predictValue: 0 });
 
   useEffect(() => {
     fetchRecords();
@@ -14,65 +16,63 @@ function Records() {
     ApiService.fetchRecords().then((response) => setRecords(response.data));
   };
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setCurrentRecord({ ...currentRecord, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (isEditing) {
+  const handleSubmit = () => {
+    if (currentRecord.id) {
       ApiService.updateRecord(currentRecord.id, currentRecord).then(() => {
-        setIsEditing(false);
         fetchRecords();
+        setIsModalVisible(false);
       });
     } else {
-      ApiService.createRecord(currentRecord).then(fetchRecords);
+      ApiService.createRecord(currentRecord).then(() => {
+        fetchRecords();
+        setIsModalVisible(false);
+      });
     }
-    setCurrentRecord({ id: null, propertyName: '', predictValue: 0, values: [] });
+    setCurrentRecord({ propertyName: '', predictValue: 0 });
   };
 
-  const editRecord = (record) => {
-    setIsEditing(true);
-    setCurrentRecord({ ...record });
+  const showModal = (record = { propertyName: '', predictValue: 0 }) => {
+    setCurrentRecord(record);
+    setIsModalVisible(true);
   };
 
-  const deleteRecord = (id) => {
+  const handleDelete = (id) => {
     ApiService.deleteRecord(id).then(fetchRecords);
   };
 
   return (
     <div>
       <h2>Records</h2>
-      <form onSubmit={handleSubmit}>
-        <label>Property Name</label>
-        <input
-          type="text"
-          name="propertyName"
-          value={currentRecord.propertyName}
-          onChange={handleInputChange}
-        />
-        <label>Predict Value</label>
-        <input
-          type="number"
-          name="predictValue"
-          value={currentRecord.predictValue}
-          onChange={handleInputChange}
-        />
-        <button type="submit">{isEditing ? 'Update' : 'Add'}</button>
-        {isEditing && (
-          <button onClick={() => setIsEditing(false)}>Cancel Edit</button>
+      <Button type="primary" onClick={() => showModal()}>
+        Add New Record
+      </Button>
+      <List
+        itemLayout="horizontal"
+        dataSource={records}
+        renderItem={record => (
+          <List.Item
+            actions={[
+              <EditOutlined key="edit" onClick={() => showModal(record)} />,
+              <DeleteOutlined key="delete" onClick={() => handleDelete(record.id)} />,
+            ]}
+          >
+            <List.Item.Meta
+              title={record.propertyName}
+              description={`Predict Value: ${record.predictValue}`}
+            />
+          </List.Item>
         )}
-      </form>
-      <ul>
-        {records.map((record) => (
-          <li key={record.id}>
-            {record.propertyName}: {record.predictValue}
-            <button onClick={() => editRecord(record)}>Edit</button>
-            <button onClick={() => deleteRecord(record.id)}>Delete</button>
-          </li>
-        ))}
-      </ul>
+      />
+      <Modal title={currentRecord.id ? 'Edit Record' : 'Add Record'} visible={isModalVisible} onOk={handleSubmit} onCancel={() => setIsModalVisible(false)}>
+        <Form layout="vertical">
+          <Form.Item label="Property Name">
+            <Input value={currentRecord.propertyName} onChange={(e) => setCurrentRecord({ ...currentRecord, propertyName: e.target.value })} />
+          </Form.Item>
+          <Form.Item label="Predict Value">
+            <Input type="number" value={currentRecord.predictValue} onChange={(e) => setCurrentRecord({ ...currentRecord, predictValue: e.target.value })} />
+          </Form.Item>
+        </Form>
+      </Modal>
     </div>
   );
 }
