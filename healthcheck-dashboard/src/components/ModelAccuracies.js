@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Table, Button, Modal, Form, Input } from 'antd';
+import moment from 'moment';
 import { ApiService } from '../api/ApiService';
 
 function ModelAccuracies() {
   const [modelAccuracies, setModelAccuracies] = useState([]);
-
-  useEffect(() => {
-    fetchModelAccuracies();
-  }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentAccuracy, setCurrentAccuracy] = useState(null);
 
   const fetchModelAccuracies = () => {
     ApiService.fetchModelAccuracies().then((response) => {
@@ -14,31 +14,98 @@ function ModelAccuracies() {
     });
   };
 
+  useEffect(() => {
+    fetchModelAccuracies();
+  }, []);
+
+  const handleEdit = (record) => {
+    setCurrentAccuracy(record);
+    setIsModalOpen(true);
+  };
+
+  const handleDelete = (id) => {
+    ApiService.deleteModelAccuracy(id).then(() => {
+      fetchModelAccuracies(); // Atualizado para refletir mudanças.
+    });
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+    // Call API to update or create
+    if (currentAccuracy) {
+      ApiService.updateModelAccuracy(currentAccuracy.id, currentAccuracy).then(() => {
+        setCurrentAccuracy(null);
+        fetchModelAccuracies(); // Correção para chamar a função corretamente.
+      });
+    } else {
+      // Add new record logic if needed
+    }
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+    setCurrentAccuracy(null);
+  };
+
+  const columns = [
+    {
+      title: 'Model Name',
+      dataIndex: 'modelName',
+      key: 'modelName',
+    },
+    {
+      title: 'Accuracy Name',
+      dataIndex: 'accuracyName',
+      key: 'accuracyName',
+    },
+    {
+      title: 'Metric Name',
+      dataIndex: 'metricName',
+      key: 'metricName',
+    },
+    {
+      title: 'Accuracy Value',
+      dataIndex: 'accuracyValue',
+      key: 'accuracyValue',
+      render: (text) => `${parseFloat(text).toFixed(2)}%`,
+    },
+    {
+      title: 'Training Date',
+      dataIndex: 'trainingDate',
+      key: 'trainingDate',
+      render: (text) => moment(text).format('YYYY-MM-DD'),
+    },
+    {
+      title: 'Action',
+      key: 'action',
+      render: (_, record) => (
+        <>
+          <Button onClick={() => handleEdit(record)}>Edit</Button>
+          <Button onClick={() => handleDelete(record.id)} danger>Delete</Button>
+        </>
+      ),
+    },
+  ];
+
+  const handleChange = (e) => {
+    setCurrentAccuracy({ ...currentAccuracy, [e.target.name]: e.target.value });
+  };
+
   return (
     <div>
       <h2>Model Accuracies</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Model Name</th>
-            <th>Accuracy Name</th>
-            <th>Metric Name</th>
-            <th>Accuracy Value</th>
-            <th>Training Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          {modelAccuracies.map((accuracy) => (
-            <tr key={accuracy.id}>
-              <td>{accuracy.modelName}</td>
-              <td>{accuracy.accuracyName}</td>
-              <td>{accuracy.metricName}</td>
-              <td>{accuracy.accuracyValue.toFixed(2)}</td>
-              <td>{new Date(accuracy.trainingDate).toLocaleDateString()}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <Button type="primary" onClick={() => { setIsModalOpen(true); setCurrentAccuracy(null); }}>
+        Add New Accuracy
+      </Button>
+      <Table columns={columns} dataSource={modelAccuracies} rowKey="id" />
+      <Modal title={currentAccuracy ? "Edit Model Accuracy" : "Add Model Accuracy"} open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+        <Form>
+          <Form.Item label="Model Name">
+            <Input name="modelName" value={currentAccuracy?.modelName} onChange={handleChange} />
+          </Form.Item>
+          {/* Add other fields similarly with appropriate 'name' and 'value' */}
+        </Form>
+      </Modal>
     </div>
   );
 }
