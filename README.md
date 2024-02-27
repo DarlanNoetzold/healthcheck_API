@@ -1,34 +1,25 @@
-# healthcheck_API
- 
-Estudos para criar uma API que prevê quedas e problemas de performance. Atualmente a API está capturando os dados de metricas para o dataset.
+# HealthCheck Analytics Platform
 
-https://miro.com/app/board/uXjVNq0eP1I=/?utm_source=showme&utm_campaign=cpa
+## Visão Geral
 
-API Endpoint Setup:
-- Define endpoints for registering APIs to monitor
-- Define endpoints for retrieving performance predictions and historical data
+A HealthCheck Analytics Platform é uma solução abrangente para monitoramento e análise de métricas de saúde de APIs. Este projeto utiliza uma arquitetura de microserviços para coletar, analisar e prever métricas de saúde, permitindo a identificação precoce de problemas e a otimização do desempenho.
 
-Data Collection:
-- Implement a scheduler to send periodic requests to the registered APIs
-- Collect metrics like response time, status code, etc.
+O sistema é composto por vários componentes principais:
 
-Database Storage:
-- Design a database schema to store API metrics
-- Insert collected data into the database
+- **API de HealthCheck Collector**: Extrai métricas de outra API a cada 15 minutos, armazenando os resultados em um banco de dados PostgreSQL. Uma procedure é então executada para atualizar uma flag `is_alert`, analisando se o registro está fora do padrão esperado.
 
-Data Analysis and Prediction:
-- Implement a data analysis algorithm or use a machine learning model
-- Train the model with historical data
-- Predict future performance issues based on this analysis
+- **Scripts de Processamento de Dados**: Inclui `extract_dataset_from_database`, otimizado com Cython para melhorar a performance, e `data_preparation` usando Cnumpy e Cython para preparação de dados.
 
-Notification System:
-- Implement a system to send alerts based on predictions
-- Define criteria for alerts (e.g., likelihood of downtime)
+- **Tuning de Hiperparâmetros e Treinamento de Modelos**: Utiliza GridSearchCV ou RandomizedSearchCV para explorar combinações de parâmetros, treinando modelos de regressão e classificação para cada métrica coletada.
 
-Security and Authentication:
-- Implement authentication for API usage
-- Ensure all data transmission is secured
+- **API de Previsão (`predict_next_value`)**: Permite a previsão do valor das métricas e da flag `is_alert` para os próximos 15 minutos com base nos dados fornecidos.
 
-User Interface (Optional):
-- Design a UI for registering and monitoring APIs
-- Show historical data and predictions
+- **HealthCheck-gate**: Uma API Spring que atua como intermediária, tratando dados, salvando registros e acurácias no banco e comunicando-se com a API de previsão.
+
+- **HealthCheck Dashboard**: Uma aplicação frontend em React que exibe as métricas, os resultados das previsões e permite a interação do usuário para a previsão de dados.
+
+
+Processo de instação será detalhado futuramente, usando docker para facilitar a instalação ou com uma instalação manual.
+
+---
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
