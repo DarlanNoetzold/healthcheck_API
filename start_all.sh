@@ -33,7 +33,7 @@ git pull
 
 cd "$base_dir/healthcheck-collector"
 mvn clean install
-java -jar target/healthcheck-collector-0.0.1-SNAPSHOT.jar &
+java -jar target/healthcheck-API-0.0.1-SNAPSHOT.jar &
 
 cd "$base_dir/healthcheck-gate"
 mvn clean install
