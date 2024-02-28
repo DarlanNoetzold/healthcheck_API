@@ -8,4 +8,5 @@ import java.util.Optional;
 public interface ModelAccuracyRepository extends JpaRepository<ModelAccuracy, Long> {
     Optional<ModelAccuracy> findByModelNameAndMetricName(String modelName, String metricName);
 
+    Optional<ModelAccuracy> findByModelNameAndMetricNameAndaccuracyName(String modelName, String metricName, String accuracyName);
 }

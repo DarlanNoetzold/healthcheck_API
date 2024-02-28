@@ -17,8 +17,8 @@ public class ModelAccuracyService {
 
     @Transactional
     public ModelAccuracy upsertModelAccuracy(ModelAccuracy newModelAccuracy) {
-        Optional<ModelAccuracy> existingModelAccuracy = modelAccuracyRepository.findByModelNameAndMetricName(
-                newModelAccuracy.getModelName(), newModelAccuracy.getMetricName());
+        Optional<ModelAccuracy> existingModelAccuracy = modelAccuracyRepository.findByModelNameAndMetricNameAndaccuracyName(
+                newModelAccuracy.getModelName(), newModelAccuracy.getMetricName(), newModelAccuracy.getAccuracyName());
 
         if (existingModelAccuracy.isPresent()) {
             ModelAccuracy updatedModelAccuracy = existingModelAccuracy.get();

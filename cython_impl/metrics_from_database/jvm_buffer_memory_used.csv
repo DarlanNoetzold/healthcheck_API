@@ -1,6 +1,6 @@
 metric_name,description,base_unit,statistic,measurement_value,tag,tag_value,is_alert
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
@@ -68,9 +68,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
@@ -416,9 +416,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4784705.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
@@ -437,8 +437,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
@@ -3947,11 +3947,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
@@ -4469,12 +4469,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
@@ -4598,12 +4598,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
@@ -6395,8 +6395,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
@@ -6470,12 +6470,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173920.0,id,mapped,False
@@ -6626,12 +6626,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4601079.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4601079.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4601079.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,4626080.0,id,mapped,False
@@ -7631,11 +7631,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
@@ -7800,9 +7800,6 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
@@ -7919,8 +7916,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
@@ -7982,9 +7982,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
@@ -8021,11 +8021,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,173916.0,id,mapped - 'non-volatile memory',False
@@ -8150,12 +8150,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8174,23 +8174,20 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8222,8 +8219,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8267,8 +8264,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8297,12 +8297,12 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8336,6 +8336,21 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8348,39 +8363,6 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
@@ -8414,57 +8396,6 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8483,8 +8414,32 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8492,6 +8447,15 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8540,60 +8504,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8648,39 +8561,15 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8697,11 +8586,35 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8717,9 +8630,6 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8738,47 +8648,14 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8804,83 +8681,29 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8912,20 +8735,17 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8933,9 +8753,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -8945,17 +8765,17 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -8975,9 +8795,189 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483221.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -9029,26 +9029,11 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -9068,6 +9053,21 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -9083,9 +9083,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
@@ -9095,8 +9095,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -9146,8 +9146,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6483226.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6475029.0,id,mapped - 'non-volatile memory',False
@@ -9257,9 +9257,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
@@ -9302,8 +9302,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7921106.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7921106.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7921106.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7921106.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
@@ -9395,8 +9395,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
@@ -9701,8 +9701,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
@@ -9716,8 +9716,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,7912909.0,id,direct,False
@@ -10160,8 +10160,8 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8417735.0,id,mapped,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8417735.0,id,direct,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8417735.0,id,mapped - 'non-volatile memory',True
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,direct,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,mapped,True
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,direct,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,mapped,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8409538.0,id,direct,True
@@ -11888,9 +11888,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,direct,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped - 'non-volatile memory',True
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,direct,True
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped - 'non-volatile memory',True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,direct,True
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,8519675.0,id,mapped - 'non-volatile memory',True
@@ -16202,9 +16202,9 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped,False
-jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6386387.0,id,mapped,False
@@ -16490,6 +16490,102 @@ jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine i
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135904.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135904.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135904.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6127738.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6127738.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6127738.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,direct,False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped - 'non-volatile memory',False
+jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6119541.0,id,mapped,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,direct,False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped - 'non-volatile memory',False
 jvm.buffer.memory.used,An estimate of the memory that the Java virtual machine is using for this buffer pool,bytes,VALUE,6135905.0,id,mapped,False
