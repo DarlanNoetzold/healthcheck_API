@@ -30,7 +30,7 @@ def extract():
 
     conn = psycopg2.connect(**db_config)
 
-    metric_endpoint = "http://localhost:8199/gate/metrics"
+    metric_endpoint = "http://192.168.18.75:8199/gate/metrics"
 
     for metric_name in metric_names:
         # Realiza a consulta e salva os resultados
@@ -51,7 +51,7 @@ def extract():
 
         metric_data = {
             "name": metric_name,
-            "valueType": "Double"  # Assumindo que todos os valores são do tipo Double
+            "valueType": "Double"
         }
         response = requests.post(metric_endpoint, json=metric_data)
         if response.status_code == 200:
