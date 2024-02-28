@@ -2178,7 +2178,7 @@ static const char __pyx_k_hikaricp_connections_acquire[] = "hikaricp.connections
 static const char __pyx_k_extract_dataset_from_database[] = "extract_dataset_from_database";
 static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
-static const char __pyx_k_http_localhost_8199_gate_metrics[] = "http://localhost:8199/gate/metrics";
+static const char __pyx_k_http_192_168_18_75_8199_gate_met[] = "http://192.168.18.75:8199/gate/metrics";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 /* #### Code section: late_includes ### */
@@ -2241,7 +2241,7 @@ typedef struct {
   PyObject *__pyx_n_s_healthcheck;
   PyObject *__pyx_kp_s_hikaricp_connections_acquire;
   PyObject *__pyx_n_s_host;
-  PyObject *__pyx_kp_s_http_localhost_8199_gate_metrics;
+  PyObject *__pyx_kp_s_http_192_168_18_75_8199_gate_met;
   PyObject *__pyx_kp_s_http_server_requests;
   PyObject *__pyx_kp_s_http_server_requests_active;
   PyObject *__pyx_n_s_import;
@@ -2382,7 +2382,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_healthcheck);
   Py_CLEAR(clear_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_CLEAR(clear_module_state->__pyx_n_s_host);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_http_localhost_8199_gate_metrics);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_75_8199_gate_met);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests_active);
   Py_CLEAR(clear_module_state->__pyx_n_s_import);
@@ -2501,7 +2501,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_healthcheck);
   Py_VISIT(traverse_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_VISIT(traverse_module_state->__pyx_n_s_host);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_http_localhost_8199_gate_metrics);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_75_8199_gate_met);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests_active);
   Py_VISIT(traverse_module_state->__pyx_n_s_import);
@@ -2630,7 +2630,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_healthcheck __pyx_mstate_global->__pyx_n_s_healthcheck
 #define __pyx_kp_s_hikaricp_connections_acquire __pyx_mstate_global->__pyx_kp_s_hikaricp_connections_acquire
 #define __pyx_n_s_host __pyx_mstate_global->__pyx_n_s_host
-#define __pyx_kp_s_http_localhost_8199_gate_metrics __pyx_mstate_global->__pyx_kp_s_http_localhost_8199_gate_metrics
+#define __pyx_kp_s_http_192_168_18_75_8199_gate_met __pyx_mstate_global->__pyx_kp_s_http_192_168_18_75_8199_gate_met
 #define __pyx_kp_s_http_server_requests __pyx_mstate_global->__pyx_kp_s_http_server_requests
 #define __pyx_kp_s_http_server_requests_active __pyx_mstate_global->__pyx_kp_s_http_server_requests_active
 #define __pyx_n_s_import __pyx_mstate_global->__pyx_n_s_import
@@ -2963,7 +2963,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  * 
  *     conn = psycopg2.connect(**db_config)             # <<<<<<<<<<<<<<
  * 
- *     metric_endpoint = "http://localhost:8199/gate/metrics"
+ *     metric_endpoint = "http://192.168.18.75:8199/gate/metrics"
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_psycopg2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -2982,15 +2982,15 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   /* "extract_dataset_from_database.pyx":33
  *     conn = psycopg2.connect(**db_config)
  * 
- *     metric_endpoint = "http://localhost:8199/gate/metrics"             # <<<<<<<<<<<<<<
+ *     metric_endpoint = "http://192.168.18.75:8199/gate/metrics"             # <<<<<<<<<<<<<<
  * 
  *     for metric_name in metric_names:
  */
-  __Pyx_INCREF(__pyx_kp_s_http_localhost_8199_gate_metrics);
-  __pyx_v_metric_endpoint = __pyx_kp_s_http_localhost_8199_gate_metrics;
+  __Pyx_INCREF(__pyx_kp_s_http_192_168_18_75_8199_gate_met);
+  __pyx_v_metric_endpoint = __pyx_kp_s_http_192_168_18_75_8199_gate_met;
 
   /* "extract_dataset_from_database.pyx":35
- *     metric_endpoint = "http://localhost:8199/gate/metrics"
+ *     metric_endpoint = "http://192.168.18.75:8199/gate/metrics"
  * 
  *     for metric_name in metric_names:             # <<<<<<<<<<<<<<
  *         # Realiza a consulta e salva os resultados
@@ -3143,7 +3143,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *         df.to_csv(filename, index=False)
  *         print(f"Arquivo gerado: {filename}")             # <<<<<<<<<<<<<<
  * 
- *         # Envia uma requisio POST para criar a mtrica
+ *         metric_data = {
  */
     __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_filename, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -3155,41 +3155,41 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":54
- *         # Envia uma requisio POST para criar a mtrica
+    /* "extract_dataset_from_database.pyx":53
+ * 
  *         metric_data = {
  *             "name": metric_name,             # <<<<<<<<<<<<<<
- *             "valueType": "Double"  # Assumindo que todos os valores so do tipo Double
+ *             "valueType": "Double"
  *         }
  */
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 53, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_name, __pyx_v_metric_name) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_valueType, __pyx_n_s_Double) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_name, __pyx_v_metric_name) < 0) __PYX_ERR(0, 53, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_valueType, __pyx_n_s_Double) < 0) __PYX_ERR(0, 53, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_metric_data, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "extract_dataset_from_database.pyx":57
- *             "valueType": "Double"  # Assumindo que todos os valores so do tipo Double
+    /* "extract_dataset_from_database.pyx":56
+ *             "valueType": "Double"
  *         }
  *         response = requests.post(metric_endpoint, json=metric_data)             # <<<<<<<<<<<<<<
  *         if response.status_code == 200:
  *             print(f"Mtrica {metric_name} enviada com sucesso.")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_post); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_post); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_v_metric_endpoint);
     __Pyx_GIVEREF(__pyx_v_metric_endpoint);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_metric_endpoint)) __PYX_ERR(0, 57, __pyx_L1_error);
-    __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 57, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_metric_endpoint)) __PYX_ERR(0, 56, __pyx_L1_error);
+    __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_json, __pyx_v_metric_data) < 0) __PYX_ERR(0, 57, __pyx_L1_error)
-    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 57, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_json, __pyx_v_metric_data) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3197,27 +3197,27 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "extract_dataset_from_database.pyx":58
+    /* "extract_dataset_from_database.pyx":57
  *         }
  *         response = requests.post(metric_endpoint, json=metric_data)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(f"Mtrica {metric_name} enviada com sucesso.")
  *         else:
  */
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 58, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 57, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_6 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_9, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 58, __pyx_L1_error)
+    __pyx_t_6 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_9, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 57, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     if (__pyx_t_6) {
 
-      /* "extract_dataset_from_database.pyx":59
+      /* "extract_dataset_from_database.pyx":58
  *         response = requests.post(metric_endpoint, json=metric_data)
  *         if response.status_code == 200:
  *             print(f"Mtrica {metric_name} enviada com sucesso.")             # <<<<<<<<<<<<<<
  *         else:
  *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")
  */
-      __pyx_t_9 = PyTuple_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __pyx_t_9 = PyTuple_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_10 = 0;
       __pyx_t_11 = 127;
@@ -3226,7 +3226,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_kp_u_Mtrica);
       __Pyx_GIVEREF(__pyx_kp_u_Mtrica);
       PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_kp_u_Mtrica);
-      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) : __pyx_t_11;
       __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8);
@@ -3237,15 +3237,15 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __pyx_t_10 += 21;
       __Pyx_GIVEREF(__pyx_kp_u_enviada_com_sucesso);
       PyTuple_SET_ITEM(__pyx_t_9, 2, __pyx_kp_u_enviada_com_sucesso);
-      __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* "extract_dataset_from_database.pyx":58
+      /* "extract_dataset_from_database.pyx":57
  *         }
  *         response = requests.post(metric_endpoint, json=metric_data)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
@@ -3255,7 +3255,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       goto __pyx_L6;
     }
 
-    /* "extract_dataset_from_database.pyx":61
+    /* "extract_dataset_from_database.pyx":60
  *             print(f"Mtrica {metric_name} enviada com sucesso.")
  *         else:
  *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")             # <<<<<<<<<<<<<<
@@ -3263,7 +3263,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *     conn.close()
  */
     /*else*/ {
-      __pyx_t_9 = PyTuple_New(4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_9 = PyTuple_New(4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_10 = 0;
       __pyx_t_11 = 127;
@@ -3272,7 +3272,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_kp_u_Erro_ao_enviar_a_mtrica);
       __Pyx_GIVEREF(__pyx_kp_u_Erro_ao_enviar_a_mtrica);
       PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_kp_u_Erro_ao_enviar_a_mtrica);
-      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_metric_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) : __pyx_t_11;
       __pyx_t_10 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8);
@@ -3283,9 +3283,9 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __pyx_t_10 += 2;
       __Pyx_GIVEREF(__pyx_kp_u__4);
       PyTuple_SET_ITEM(__pyx_t_9, 2, __pyx_kp_u__4);
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_text); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_text); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_t_11 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_1) > __pyx_t_11) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_1) : __pyx_t_11;
@@ -3293,10 +3293,10 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
       __Pyx_GIVEREF(__pyx_t_1);
       PyTuple_SET_ITEM(__pyx_t_9, 3, __pyx_t_1);
       __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
@@ -3304,7 +3304,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __pyx_L6:;
 
     /* "extract_dataset_from_database.pyx":35
- *     metric_endpoint = "http://localhost:8199/gate/metrics"
+ *     metric_endpoint = "http://192.168.18.75:8199/gate/metrics"
  * 
  *     for metric_name in metric_names:             # <<<<<<<<<<<<<<
  *         # Realiza a consulta e salva os resultados
@@ -3313,12 +3313,12 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "extract_dataset_from_database.pyx":63
+  /* "extract_dataset_from_database.pyx":62
  *             print(f"Erro ao enviar a mtrica {metric_name}: {response.text}")
  * 
  *     conn.close()             # <<<<<<<<<<<<<<
  */
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_conn, __pyx_n_s_close); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_conn, __pyx_n_s_close); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   __pyx_t_1 = NULL;
   __pyx_t_4 = 0;
@@ -3338,7 +3338,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -3427,7 +3427,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_healthcheck, __pyx_k_healthcheck, sizeof(__pyx_k_healthcheck), 0, 0, 1, 1},
     {&__pyx_kp_s_hikaricp_connections_acquire, __pyx_k_hikaricp_connections_acquire, sizeof(__pyx_k_hikaricp_connections_acquire), 0, 0, 1, 0},
     {&__pyx_n_s_host, __pyx_k_host, sizeof(__pyx_k_host), 0, 0, 1, 1},
-    {&__pyx_kp_s_http_localhost_8199_gate_metrics, __pyx_k_http_localhost_8199_gate_metrics, sizeof(__pyx_k_http_localhost_8199_gate_metrics), 0, 0, 1, 0},
+    {&__pyx_kp_s_http_192_168_18_75_8199_gate_met, __pyx_k_http_192_168_18_75_8199_gate_met, sizeof(__pyx_k_http_192_168_18_75_8199_gate_met), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests, __pyx_k_http_server_requests, sizeof(__pyx_k_http_server_requests), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests_active, __pyx_k_http_server_requests_active, sizeof(__pyx_k_http_server_requests_active), 0, 0, 1, 0},
     {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},

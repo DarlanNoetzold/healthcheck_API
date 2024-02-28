@@ -12,7 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "model_accuracy", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"modelName", "metricName"})
+        @UniqueConstraint(columnNames = {"modelName", "metricName", "accuracyName"})
 })
 public class ModelAccuracy {
 
