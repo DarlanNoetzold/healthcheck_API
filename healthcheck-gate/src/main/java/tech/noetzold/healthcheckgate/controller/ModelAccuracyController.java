@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tech.noetzold.healthcheckgate.model.ModelAccuracy;
 import tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository;
+import tech.noetzold.healthcheckgate.service.ModelAccuracyService;
 
 import java.util.List;
 
@@ -13,12 +14,12 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 public class ModelAccuracyController {
 
-    private final ModelAccuracyRepository modelAccuracyRepository;
+    @Autowired
+    private ModelAccuracyRepository modelAccuracyRepository;
 
     @Autowired
-    public ModelAccuracyController(ModelAccuracyRepository modelAccuracyRepository) {
-        this.modelAccuracyRepository = modelAccuracyRepository;
-    }
+    private ModelAccuracyService modelAccuracyService;
+
 
     @GetMapping
     public List<ModelAccuracy> getAllModelAccuracies() {
@@ -27,7 +28,7 @@ public class ModelAccuracyController {
 
     @PostMapping
     public ModelAccuracy createModelAccuracy(@RequestBody ModelAccuracy modelAccuracy) {
-        return modelAccuracyRepository.save(modelAccuracy);
+        return modelAccuracyService.upsertModelAccuracy(modelAccuracy);
     }
 
     @GetMapping("/{id}")
