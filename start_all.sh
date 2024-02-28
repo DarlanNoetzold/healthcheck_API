@@ -26,4 +26,7 @@ nohup python3 /home/darlan/projetos/healthcheck_API/predict_next_value.py &
 
 # Inicia o servidor de desenvolvimento React
 cd /home/darlan/projetos/healthcheck_API/healthcheck-dashboard/
-npm start
+npm start &
+
+# Executa o JMeter em background
+nohup /home/darlan/projetos/apache-jmeter-5.5/bin/jmeter.sh -n -t /home/darlan/projetos/apache-jmeter-5.5/bin/testeApi.jmx &
