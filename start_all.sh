@@ -1,32 +1,53 @@
 #!/bin/bash
 
-# Inicia os serviços Docker
+declare -A ports_apps=(
+    [8193]="healthcheck-collector"
+    [8194]="daily-API"
+    [8199]="healthcheck-gate"
+    [5000]="predict_next_value"
+    [3001]="healthcheck-dashboard"
+)
+
+kill_process_by_port() {
+    port=$1
+    pid=$(lsof -ti:$port)
+    if [ ! -z "$pid" ]; then
+        echo "Encerrando processo na porta $port..."
+        kill -9 $pid
+    fi
+}
+
+for port in "${!ports_apps[@]}"; do
+    kill_process_by_port $port
+done
+
+sleep 5
+
 docker start fa9167a4bbb4  # Redis
-docker start 18b78a64099b # PostgreSQL
+docker start 18b78a64099b  # PostgreSQL
 
-# Atualiza o repositório e inicia o healthcheck-collector
-cd /home/darlan/projetos/healthcheck_API/
+base_dir="/home/darlan/projetos/healthcheck_API"
+
+cd $base_dir
 git pull
-cd /home/darlan/projetos/healthcheck_API/healthcheck-collector/
+
+cd "$base_dir/healthcheck-collector"
 mvn clean install
-nohup java -jar /home/darlan/projetos/healthcheck_API/healthcheck-collector/target/healthcheck-API-0.0.1-SNAPSHOT.jar &
+java -jar target/healthcheck-collector-0.0.1-SNAPSHOT.jar &
 
-# Inicia o healthcheck-gate
-cd /home/darlan/projetos/healthcheck_API/healthcheck-gate/
+cd "$base_dir/healthcheck-gate"
 mvn clean install
-nohup java -jar /home/darlan/projetos/healthcheck_API/healthcheck-gate/target/healthcheck-gate-0.0.1-SNAPSHOT.jar &
+java -jar target/healthcheck-gate-0.0.1-SNAPSHOT.jar &
 
-# Inicia o daily-API
-cd /home/darlan/projetos/daily-API/
+cd "$base_dir/../daily-API"
 mvn clean install
-nohup java -jar /home/darlan/projetos/daily-API/target/daily-API-0.0.1-SNAPSHOT.jar &
+java -jar target/daily-API-0.0.1-SNAPSHOT.jar &
 
-# Inicia o script predict_next_value.py
-nohup python3 /home/darlan/projetos/healthcheck_API/predict_next_value.py &
+python3 "$base_dir/predict_next_value.py" &
 
-# Inicia o servidor de desenvolvimento React
-cd /home/darlan/projetos/healthcheck_API/healthcheck-dashboard/
+cd "$base_dir/healthcheck-dashboard"
 npm start &
 
-# Executa o JMeter em background
-nohup /home/darlan/projetos/apache-jmeter-5.5/bin/jmeter.sh -n -t /home/darlan/projetos/apache-jmeter-5.5/bin/testeApi.jmx &
+jmeter_path="/home/darlan/projetos/apache-jmeter-5.5/bin/jmeter.sh"
+test_plan="/home/darlan/projetos/apache-jmeter-5.5/bin/testeApi.jmx"
+$jmeter_path -n -t $test_plan
