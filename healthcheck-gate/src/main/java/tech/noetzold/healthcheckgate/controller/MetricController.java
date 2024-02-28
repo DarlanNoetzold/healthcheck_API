@@ -7,6 +7,7 @@ import tech.noetzold.healthcheckgate.model.Metric;
 import tech.noetzold.healthcheckgate.repository.MetricRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/gate/metrics")
@@ -23,7 +24,9 @@ public class MetricController {
 
     @PostMapping
     public Metric createMetric(@RequestBody Metric metric) {
-        return metricRepository.save(metric);
+        Optional<Metric> existingMetric = metricRepository.findByName(metric.getName());
+
+        return existingMetric.orElseGet(() -> metricRepository.save(metric));
     }
 
     @GetMapping("/{id}")
