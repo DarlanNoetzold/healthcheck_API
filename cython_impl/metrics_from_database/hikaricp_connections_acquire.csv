@@ -10193,7 +10193,7 @@ hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.054162221,poo
 hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,49086737.0,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,5787.791973888,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.064141915,pool,HikariPool-1,False
-hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,49150823.0,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,49150823.0,pool,HikariPool-1,True
 hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,5791.547951733,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.054078825,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,49214684.0,pool,HikariPool-1,True
@@ -16928,3 +16928,12 @@ hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.05261847,pool
 hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,206247.0,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,26.273344375,pool,HikariPool-1,False
 hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.06195324,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,296085.0,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,32.123549315,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.049607848,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,390425.0,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,39.100566803,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.047636969,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,COUNT,24479.0,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,TOTAL_TIME,10.096621944,pool,HikariPool-1,False
+hikaricp.connections.acquire,Connection acquire time,seconds,MAX,0.103544732,pool,HikariPool-1,False

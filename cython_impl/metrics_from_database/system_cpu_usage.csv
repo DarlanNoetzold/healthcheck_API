@@ -3419,3 +3419,6 @@ system.cpu.usage,"The ""recent cpu usage"" of the system the application is runn
 system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,0.9980842911877394,,,False
 system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,0.9972964595674336,,,False
 system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,0.9959283657188255,,,False
+system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,0.9973303914303038,,,False
+system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,0.9953824715321125,,,False
+system.cpu.usage,"The ""recent cpu usage"" of the system the application is running in",,VALUE,1.0,,,False

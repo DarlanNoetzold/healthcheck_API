@@ -9115,3 +9115,6 @@ Unconditional classes:
     50416559500 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     26000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
+2024-02-28 22:07:44,971 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-28 22:07:44,974 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-02-28 22:07:44,976 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
