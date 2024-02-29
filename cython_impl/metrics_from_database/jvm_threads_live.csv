@@ -5736,3 +5736,8 @@ jvm.threads.live,The current number of live threads including both daemon and no
 jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
 jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
 jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
+jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,55.0,,,False
+jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
+jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
+jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False
+jvm.threads.live,The current number of live threads including both daemon and non-daemon threads,threads,VALUE,54.0,,,False

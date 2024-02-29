@@ -2,6 +2,8 @@ package tech.noetzold.healthcheckgate.service;
 
 
 import jakarta.transaction.Transactional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tech.noetzold.healthcheckgate.model.ModelAccuracy;
@@ -15,10 +17,15 @@ public class ModelAccuracyService {
     @Autowired
     private ModelAccuracyRepository modelAccuracyRepository;
 
+    private static final Logger logger = LoggerFactory.getLogger(ModelAccuracyService.class);
+
     @Transactional
     public ModelAccuracy upsertModelAccuracy(ModelAccuracy newModelAccuracy) {
         Optional<ModelAccuracy> existingModelAccuracy = modelAccuracyRepository.findByModelNameAndMetricNameAndAccuracyName(
                 newModelAccuracy.getModelName(), newModelAccuracy.getMetricName(), newModelAccuracy.getAccuracyName());
+
+        logger.info("Returned model: {}", existingModelAccuracy.toString());
+        logger.info("Add model: {}", newModelAccuracy.toString());
 
         if (existingModelAccuracy.isPresent()) {
             ModelAccuracy updatedModelAccuracy = existingModelAccuracy.get();

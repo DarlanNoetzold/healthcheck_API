@@ -2400,8 +2400,8 @@ process.uptime,The uptime of the Java virtual machine,seconds,VALUE,649246.466,,
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,649545.901,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,649847.063,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,650148.925,,,False
-process.uptime,The uptime of the Java virtual machine,seconds,VALUE,650446.818,,,False
-process.uptime,The uptime of the Java virtual machine,seconds,VALUE,650746.809,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,650446.818,,,True
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,650746.809,,,True
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,651048.565,,,True
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,651346.277,,,True
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,651646.875,,,True
@@ -3534,3 +3534,8 @@ process.uptime,The uptime of the Java virtual machine,seconds,VALUE,32666.552,,,
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,32969.816,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,33267.132,,,False
 process.uptime,The uptime of the Java virtual machine,seconds,VALUE,33567.012,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,33869.927,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,34166.684,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,34466.883,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,34768.058,,,False
+process.uptime,The uptime of the Java virtual machine,seconds,VALUE,35067.108,,,False
