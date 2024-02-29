@@ -5755,3 +5755,9 @@ jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) h
 jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,21858720132208.0,,,False
 jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,22063899192016.0,,,False
 jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,22265225783424.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,22463482144184.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,22664951341824.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,22825047925048.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,23018629734696.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,66213380056.0,,,False
+jvm.gc.memory.allocated,Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next,bytes,COUNT,261049286536.0,,,False

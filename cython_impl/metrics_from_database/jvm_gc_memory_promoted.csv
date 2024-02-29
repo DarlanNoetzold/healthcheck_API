@@ -5755,3 +5755,9 @@ jvm.gc.memory.promoted,Count of positive increases in the size of the old genera
 jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1043896832.0,,,False
 jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1053936640.0,,,False
 jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1064253440.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1074838528.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1089034752.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1098949120.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,1107047936.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,16076288.0,,,False
+jvm.gc.memory.promoted,Count of positive increases in the size of the old generation memory pool before GC to after GC,bytes,COUNT,24238592.0,,,False

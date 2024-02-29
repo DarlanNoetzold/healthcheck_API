@@ -11483,3 +11483,15 @@ jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the
 jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.24801273461078974,pool,long-lived,False
 jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.2504988426653672,area,heap,False
 jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.2504988426653672,pool,long-lived,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.25302252970950706,area,heap,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.25302252970950706,pool,long-lived,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.2564540072466046,area,heap,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.2564540072466046,pool,long-lived,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.25881448358117454,area,heap,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.25881448358117454,pool,long-lived,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.26075262610821176,area,heap,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.26075262610821176,pool,long-lived,True
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.019051810865191147,area,heap,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.019051810865191147,pool,long-lived,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.021006286743900905,area,heap,False
+jvm.memory.usage.after.gc,"The percentage of long-lived heap pool used after the last GC event, in the range [0..1]",percent,VALUE,0.021006286743900905,pool,long-lived,False

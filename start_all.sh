@@ -29,6 +29,7 @@ docker start 18b78a64099b  # PostgreSQL
 base_dir="/home/darlan/projetos/healthcheck_API"
 
 cd $base_dir
+git reset --hard
 git pull
 
 cd "$base_dir/healthcheck-collector"
