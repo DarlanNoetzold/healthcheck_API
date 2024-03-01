@@ -12,7 +12,7 @@ from data_management.extract_dataset_from_database import extract
 import requests
 import datetime
 
-API_URL = "http://localhost:8080/gate/model-accuracies"
+API_URL = "http://192.168.18.75:8199/gate/model-accuracies"
 
 def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date):
     data = {
