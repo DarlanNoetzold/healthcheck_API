@@ -18,8 +18,15 @@ O sistema é composto por vários componentes principais:
 
 - **HealthCheck Dashboard**: Uma aplicação frontend em React que exibe as métricas, os resultados das previsões e permite a interação do usuário para a previsão de dados.
 
+## Implantação
 
 Processo de instação será detalhado futuramente, usando docker para facilitar a instalação ou com uma instalação manual, usando o arquivo [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/start_all.sh).
+
+## Fluxograma:
+
+![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/4fdb6526-c59d-406a-9213-1559190ce13c)
+
+
 
 ---
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
