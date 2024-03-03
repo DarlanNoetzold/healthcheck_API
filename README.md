@@ -26,7 +26,7 @@ Processo de instação será detalhado futuramente, usando docker para facilitar
 
 ![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/4fdb6526-c59d-406a-9213-1559190ce13c)
 
-
+Documentação do Postman [aqui](https://documenter.getpostman.com/view/16000387/2sA2xb7veq).
 
 ---
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
