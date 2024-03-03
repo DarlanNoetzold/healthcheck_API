@@ -1,7 +1,5 @@
 #!/bin/bash
 
-chmod +x start_all.sh
-
 declare -A ports_apps=(
     [8193]="healthcheck-collector"
     [8194]="daily-API"
@@ -33,6 +31,7 @@ base_dir="/home/darlan/projetos/healthcheck_API"
 cd $base_dir
 git reset --hard
 git pull
+chmod +x start_all.sh
 
 cd "$base_dir/healthcheck-collector"
 mvn clean install
@@ -50,6 +49,7 @@ python3 "$base_dir/predict_next_value.py" &
 
 cd "$base_dir/healthcheck-dashboard"
 npm start &
+
 
 jmeter_path="/home/darlan/projetos/apache-jmeter-5.5/bin/jmeter.sh"
 test_plan="/home/darlan/projetos/apache-jmeter-5.5/bin/testeApi.jmx"
