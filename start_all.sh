@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x start_all.sh
+
 declare -A ports_apps=(
     [8193]="healthcheck-collector"
     [8194]="daily-API"
