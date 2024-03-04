@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8199/healthcheck/v1/gate';
-const PREDICT_API_BASE_URL = 'http://localhost:5000/healthcheck/v1';
+const API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/gate';
+const PREDICT_API_BASE_URL = 'http://177.22.91.106:5000/healthcheck/v1';
 
 async function getAuthenticationToken() {
   try {
-    const response = await axios.post('http://localhost:8199/healthcheck/v1/auth/authenticate', {
+    const response = await axios.post('http://177.22.91.106:8199/healthcheck/v1/auth/authenticate', {
       email: "admindarlan@mail.com",
       password: "password"
     }, {
