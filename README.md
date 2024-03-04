@@ -24,7 +24,7 @@ Processo de instação será detalhado futuramente, usando docker para facilitar
 
 ## Fluxograma:
 
-![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/4fdb6526-c59d-406a-9213-1559190ce13c)
+![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/f32aa5bc-a1a2-411f-862a-bd3e9086aa52)
 
 Documentação do Postman [aqui](https://documenter.getpostman.com/view/16000387/2sA2xb7veq).
 
