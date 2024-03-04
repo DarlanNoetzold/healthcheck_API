@@ -1,30 +1,79 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://177.22.91.106:8199/gate';
-const PREDICT_API_BASE_URL = 'http://177.22.91.106:5000';
+const API_BASE_URL = 'http://localhost:8199/healthcheck/v1/gate';
+const PREDICT_API_BASE_URL = 'http://localhost:5000/healthcheck/v1';
+
+async function getAuthenticationToken() {
+  try {
+    const response = await axios.post('http://localhost:8199/healthcheck/v1/auth/authenticate', {
+      email: "admindarlan@mail.com",
+      password: "password"
+    }, {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    console.log(response.data.access_token)
+    return response.data.access_token;
+  } catch (error) {
+    console.error("Erro ao obter token de autenticação:", error);
+    return null;
+  }
+}
+
+async function getAuthHeader() {
+  const token = await getAuthenticationToken();
+  if (!token) throw new Error("Não foi possível obter o token de autenticação");
+  return {
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  };
+}
 
 export const ApiService = {
-  // Registros
-  fetchRecords: () => axios.get(`${API_BASE_URL}/records`),
-  createRecord: (record) => axios.post(`${API_BASE_URL}/records`, record),
-  updateRecord: (id, record) => axios.put(`${API_BASE_URL}/records/${id}`, record),
-  deleteRecord: (id) => axios.delete(`${API_BASE_URL}/records/${id}`),
+  fetchRecords: async () => {
+    return axios.get(`${API_BASE_URL}/records`, await getAuthHeader());
+  },
+  createRecord: async (record) => {
+    return axios.post(`${API_BASE_URL}/records`, record, await getAuthHeader());
+  },
+  updateRecord: async (id, record) => {
+    return axios.put(`${API_BASE_URL}/records/${id}`, record, await getAuthHeader());
+  },
+  deleteRecord: async (id) => {
+    return axios.delete(`${API_BASE_URL}/records/${id}`, await getAuthHeader());
+  },
 
-  // Métricas
-  fetchMetrics: () => axios.get(`${API_BASE_URL}/metrics`),
-  createMetric: (metric) => axios.post(`${API_BASE_URL}/metrics`, metric),
-  updateMetric: (id, metric) => axios.put(`${API_BASE_URL}/metrics/${id}`, metric),
-  deleteMetric: (id) => axios.delete(`${API_BASE_URL}/metrics/${id}`),
+  fetchMetrics: async () => {
+    return axios.get(`${API_BASE_URL}/metrics`, await getAuthHeader());
+  },
+  createMetric: async (metric) => {
+    return axios.post(`${API_BASE_URL}/metrics`, metric, await getAuthHeader());
+  },
+  updateMetric: async (id, metric) => {
+    return axios.put(`${API_BASE_URL}/metrics/${id}`, metric, await getAuthHeader());
+  },
+  deleteMetric: async (id) => {
+    return axios.delete(`${API_BASE_URL}/metrics/${id}`, await getAuthHeader());
+  },
 
-  // Precisão dos Modelos
-  fetchModelAccuracies: () => axios.get(`${API_BASE_URL}/model-accuracies`),
-  createModelAccuracy: (modelAccuracy) => axios.post(`${API_BASE_URL}/model-accuracies`, modelAccuracy),
-  updateModelAccuracy: (id, modelAccuracy) => axios.put(`${API_BASE_URL}/model-accuracies/${id}`, modelAccuracy),
-  deleteModelAccuracy: (id) => axios.delete(`${API_BASE_URL}/model-accuracies/${id}`),
+  fetchModelAccuracies: async () => {
+    return axios.get(`${API_BASE_URL}/model-accuracies`, await getAuthHeader());
+  },
+  createModelAccuracy: async (modelAccuracy) => {
+    return axios.post(`${API_BASE_URL}/model-accuracies`, modelAccuracy, await getAuthHeader());
+  },
+  updateModelAccuracy: async (id, modelAccuracy) => {
+    return axios.put(`${API_BASE_URL}/model-accuracies/${id}`, modelAccuracy, await getAuthHeader());
+  },
+  deleteModelAccuracy: async (id) => {
+    return axios.delete(`${API_BASE_URL}/model-accuracies/${id}`, await getAuthHeader());
+  },
 
-  // Previsão de Valores
-  predictValue: (data) => axios.post(`${PREDICT_API_BASE_URL}/predict-value`, data),
+  predictValue: async (data) => {
+    return axios.post(`${PREDICT_API_BASE_URL}/predict-value`, data, await getAuthHeader());
+  },
 
-  // Previsão de Alerta
-  predictAlert: (data) => axios.post(`${PREDICT_API_BASE_URL}/predict-alert`, data),
+  predictAlert: async (data) => {
+    return axios.post(`${PREDICT_API_BASE_URL}/predict-alert`, data, await getAuthHeader());
+  },
 };
