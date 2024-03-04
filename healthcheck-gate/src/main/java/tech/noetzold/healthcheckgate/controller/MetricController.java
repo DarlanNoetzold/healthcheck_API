@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/gate/metrics")
+@RequestMapping("/healthcheck/v1/gate/metrics")
 @CrossOrigin(origins = "*")
 public class MetricController {
 
