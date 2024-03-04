@@ -13,7 +13,6 @@ function App() {
         <div className="logo" />
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
           <Menu.Item key="1">Dashboard</Menu.Item>
-          {/* Add additional menu items as needed */}
         </Menu>
       </Header>
       <Content style={{ padding: '0 50px' }}>
@@ -23,7 +22,7 @@ function App() {
           <ModelAccuracies />
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+      <Footer style={{ textAlign: 'center' }}></Footer>
     </Layout>
   );
 }
