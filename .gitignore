@@ -1,5 +1,9 @@
 /trained_models
 /cpython_impl/trained_models
-/healthcheck_API/healthcheck-gate/logs/**
-/healthcheck_API/healthcheck-gate/logs/*
-/healthcheck_API/healthcheck-gate/logs
+/healthcheck-gate/logs/**
+/healthcheck-gate/logs/*
+/healthcheck-gate/logs
+
+/healthcheck-collector/logs/**
+/healthcheck-collector/logs/*
+/healthcheck-collector/logs
