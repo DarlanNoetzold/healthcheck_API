@@ -10,7 +10,7 @@ import tech.noetzold.healthcheckgate.service.ModelAccuracyService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/gate/model-accuracies")
+@RequestMapping("/healthcheck/v1/gate/model-accuracies")
 @CrossOrigin(origins = "*")
 public class ModelAccuracyController {
 
