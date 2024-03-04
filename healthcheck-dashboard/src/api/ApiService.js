@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://192.168.18.75:8199/gate';
-const PREDICT_API_BASE_URL = 'http://192.168.18.75:5000';
+const API_BASE_URL = 'http://177.22.91.106:8199/gate';
+const PREDICT_API_BASE_URL = 'http://177.22.91.106:5000';
 
 export const ApiService = {
   // Registros
