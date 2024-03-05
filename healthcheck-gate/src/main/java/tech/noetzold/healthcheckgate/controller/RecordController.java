@@ -1,9 +1,12 @@
 package tech.noetzold.healthcheckgate.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import tech.noetzold.healthcheckgate.message.config.RabbitmqQueues;
 import tech.noetzold.healthcheckgate.model.FutureRecord;
+import tech.noetzold.healthcheckgate.service.RabbitmqService;
 import tech.noetzold.healthcheckgate.service.RecordService;
 
 import java.util.List;
@@ -16,9 +19,13 @@ public class RecordController {
     @Autowired
     RecordService recordService;
 
+    @Autowired
+    private RabbitmqService rabbitmqService;
+
     @PostMapping("/records")
-    public FutureRecord createRecord(@RequestBody FutureRecord futureRecord) {
-        return recordService.createRecord(futureRecord);
+    public ResponseEntity<FutureRecord> createRecord(@RequestBody FutureRecord futureRecord) {
+        rabbitmqService.sendMessage(RabbitmqQueues.RECORD_QUEUE, futureRecord);
+        return new ResponseEntity<FutureRecord>(futureRecord, HttpStatus.CREATED);
     }
 
     @GetMapping("/records")
