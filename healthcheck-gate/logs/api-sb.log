@@ -599,3 +599,125 @@ Correct the classpath of your application so that it contains compatible version
 2024-03-05 11:51:39,876 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-05 11:51:39,878 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2024-03-05 11:51:39,880 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-03-05 12:55:57,025 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] Starting HealthcheckGateApplication using Java 17.0.7 with PID 12388 (C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-gate\target\classes started by Darlan in C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-gate)
+2024-03-05 12:55:57,026 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:55:57,812 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-05 12:55:57,814 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-05 12:55:57,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 132 ms. Found 5 JPA repository interfaces.
+2024-03-05 12:55:57,966 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-05 12:55:57,967 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-05 12:55:57,978 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.MetricRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:55:57,979 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:55:57,979 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.RecordRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:55:57,979 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.security.repository.TokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:55:57,980 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.security.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:55:57,980 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-03-05 12:55:58,180 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=9d845243-6a4d-3675-83e6-272d1c40667b
+2024-03-05 12:55:58,644 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8199 (http)
+2024-03-05 12:55:58,655 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8199"]
+2024-03-05 12:55:58,657 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-03-05 12:55:58,657 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-05 12:55:58,726 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-03-05 12:55:58,726 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1660 ms
+2024-03-05 12:55:59,051 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-05 12:55:59,100 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-03-05 12:55:59,132 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-05 12:55:59,351 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-05 12:55:59,382 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-05 12:55:59,526 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ef089ce
+2024-03-05 12:55:59,528 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-05 12:56:00,471 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-05 12:56:00,564 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-05 12:56:00,874 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-05 12:56:01,419 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-05 12:56:01,715 INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2024-03-05 12:56:01,761 INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory [main] Created new connection: rabbitConnectionFactory#347b27f3:0/SimpleConnection@33ea43a [delegate=amqp://guest@127.0.0.1:5672/, localPort=50675]
+2024-03-05 12:56:02,362 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4af2f2ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b916473, org.springframework.security.web.context.SecurityContextHolderFilter@6caffb24, org.springframework.security.web.header.HeaderWriterFilter@7d432f4e, org.springframework.web.filter.CorsFilter@464a1895, org.springframework.security.web.authentication.logout.LogoutFilter@7e9589b2, tech.noetzold.healthcheckgate.security.configuration.JwtAuthenticationFilter@6472dd0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@396d630, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5593dd2b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b0f5c72, org.springframework.security.web.session.SessionManagementFilter@1503ef2, org.springframework.security.web.access.ExceptionTranslationFilter@1fa81c78, org.springframework.security.web.access.intercept.AuthorizationFilter@5d0e1f13]
+2024-03-05 12:56:03,830 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-03-05 12:56:03,886 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8199"]
+2024-03-05 12:56:03,906 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8199 (http) with context path ''
+2024-03-05 12:56:05,023 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-03-05 12:56:05,027 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [main] Container initialized for queues: [RECORD]
+2024-03-05 12:56:05,037 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] Started HealthcheckGateApplication in 9.422 seconds (process running for 9.939)
+2024-03-05 12:56:05,040 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] SimpleConsumer [queue=RECORD, index=0, consumerTag=amq.ctag-SCkydpBdvEWr-kL6lYe5SQ identity=5857e541] started
+2024-03-05 12:56:28,123 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8199-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05 12:56:28,123 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-03-05 12:56:28,124 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-2] Completed initialization in 1 ms
+2024-03-05 12:56:28,188 INFO tech.noetzold.healthcheckgate.security.controller.AuthenticationController [http-nio-8199-exec-2] Doing Login.
+2024-03-05 12:56:47,653 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8199-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:335)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-05 12:57:06,678 INFO tech.noetzold.healthcheckgate.security.controller.AuthenticationController [http-nio-8199-exec-4] Doing Login.
+2024-03-05 12:57:23,630 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8199-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:335)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-05 12:58:02,722 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] Successfully waited for consumers to finish.
+2024-03-05 12:58:06,218 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] Starting HealthcheckGateApplication using Java 17.0.7 with PID 5428 (C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-gate\target\classes started by Darlan in C:\Users\Usuário\Documents\Projetos\GitHub\healthcheck_API\healthcheck-gate)
+2024-03-05 12:58:06,220 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:58:07,106 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-05 12:58:07,108 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-05 12:58:07,251 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 137 ms. Found 5 JPA repository interfaces.
+2024-03-05 12:58:07,271 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-05 12:58:07,272 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-05 12:58:07,286 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.MetricRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:58:07,287 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:58:07,287 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.repository.RecordRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:58:07,287 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.security.repository.TokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:58:07,287 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface tech.noetzold.healthcheckgate.security.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-03-05 12:58:07,287 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-03-05 12:58:07,498 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=9d845243-6a4d-3675-83e6-272d1c40667b
+2024-03-05 12:58:07,978 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8199 (http)
+2024-03-05 12:58:07,989 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8199"]
+2024-03-05 12:58:07,990 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-03-05 12:58:07,991 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-05 12:58:08,063 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-03-05 12:58:08,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1796 ms
+2024-03-05 12:58:08,405 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-05 12:58:08,449 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-03-05 12:58:08,488 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-05 12:58:08,714 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-05 12:58:08,742 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-05 12:58:08,873 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3340ce58
+2024-03-05 12:58:08,875 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-05 12:58:09,827 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-05 12:58:09,934 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-05 12:58:10,278 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-05 12:58:10,860 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-05 12:58:11,208 INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2024-03-05 12:58:11,251 INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory [main] Created new connection: rabbitConnectionFactory#7f930614:0/SimpleConnection@594c830f [delegate=amqp://guest@127.0.0.1:5672/, localPort=50918]
+2024-03-05 12:58:11,828 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b916473, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@464a1895, org.springframework.security.web.context.SecurityContextHolderFilter@6c88ffed, org.springframework.security.web.header.HeaderWriterFilter@4d59eda9, org.springframework.web.filter.CorsFilter@4b0f5c72, org.springframework.security.web.authentication.logout.LogoutFilter@6764a6d4, tech.noetzold.healthcheckgate.security.configuration.JwtAuthenticationFilter@6a2c62ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5593dd2b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46f66a66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1635b03f, org.springframework.security.web.session.SessionManagementFilter@39d8d89, org.springframework.security.web.access.ExceptionTranslationFilter@20b52576, org.springframework.security.web.access.intercept.AuthorizationFilter@47e9542a]
+2024-03-05 12:58:13,260 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-03-05 12:58:13,312 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8199"]
+2024-03-05 12:58:13,330 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8199 (http) with context path ''
+2024-03-05 12:58:14,467 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2024-03-05 12:58:14,472 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [main] Container initialized for queues: [RECORD]
+2024-03-05 12:58:14,484 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] SimpleConsumer [queue=RECORD, index=0, consumerTag=amq.ctag-mg6abY81_2N_qzxUocV6ig identity=6f37dec3] started
+2024-03-05 12:58:14,485 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] Started HealthcheckGateApplication in 9.698 seconds (process running for 10.241)
+2024-03-05 12:58:48,553 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8199-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05 12:58:48,553 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-05 12:58:48,554 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-1] Completed initialization in 1 ms
+2024-03-05 12:58:48,623 INFO tech.noetzold.healthcheckgate.security.controller.AuthenticationController [http-nio-8199-exec-1] Doing Login.
