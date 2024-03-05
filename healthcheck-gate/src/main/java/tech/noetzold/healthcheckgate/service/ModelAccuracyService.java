@@ -5,6 +5,7 @@ import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import tech.noetzold.healthcheckgate.model.ModelAccuracy;
 import tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository;
@@ -12,6 +13,7 @@ import tech.noetzold.healthcheckgate.repository.ModelAccuracyRepository;
 import java.util.Optional;
 
 @Service
+@Cacheable("accuracy")
 public class ModelAccuracyService {
 
     @Autowired
