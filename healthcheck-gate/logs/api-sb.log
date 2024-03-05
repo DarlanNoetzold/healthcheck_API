@@ -595,3 +595,7 @@ Correct the classpath of your application so that it contains compatible version
 2024-03-05 11:51:02,184 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [main] Container initialized for queues: [RECORD]
 2024-03-05 11:51:02,193 INFO tech.noetzold.healthcheckgate.HealthcheckGateApplication [main] Started HealthcheckGateApplication in 10.599 seconds (process running for 11.43)
 2024-03-05 11:51:02,194 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] SimpleConsumer [queue=RECORD, index=0, consumerTag=amq.ctag-XTC6vXYbtFgRMM5LFn14ZA identity=69a59a95] started
+2024-03-05 11:51:39,850 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] Successfully waited for consumers to finish.
+2024-03-05 11:51:39,876 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-05 11:51:39,878 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-05 11:51:39,880 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
