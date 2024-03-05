@@ -25,6 +25,7 @@ sleep 5
 
 docker start fa9167a4bbb4  # Redis
 docker start 18b78a64099b  # PostgreSQL
+docker start 59abf8bdb67f  # RabbitMQ
 
 base_dir="/home/darlan/projetos/healthcheck_API"
 
