@@ -7594,3 +7594,7 @@ jvm.compilation.time,The approximate accumulated elapsed time spent in compilati
 jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715357.0,compiler,HotSpot 64-Bit Tiered Compilers,True
 jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,True
 jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,True
+jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,True
+jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,True
+jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,True
+jvm.compilation.time,The approximate accumulated elapsed time spent in compilation,ms,COUNT,715365.0,compiler,HotSpot 64-Bit Tiered Compilers,

@@ -5377,3 +5377,7 @@ process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process
 process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6249449535948418,,,False
 process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6373084375550467,,,False
 process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6258267429026663,,,False
+process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6040516887619654,,,False
+process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6233155257381869,,,False
+process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6369004123936469,,,False
+process.cpu.usage,"The ""recent cpu usage"" for the Java Virtual Machine process",,VALUE,0.6267016878091624,,,

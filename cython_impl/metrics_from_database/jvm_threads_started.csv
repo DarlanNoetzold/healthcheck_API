@@ -7579,3 +7579,7 @@ jvm.threads.started,The total number of application threads started in the JVM,t
 jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7742.0,,,False
 jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7783.0,,,False
 jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7815.0,,,False
+jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7844.0,,,False
+jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7874.0,,,False
+jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7902.0,,,False
+jvm.threads.started,The total number of application threads started in the JVM,threads,COUNT,7934.0,,,

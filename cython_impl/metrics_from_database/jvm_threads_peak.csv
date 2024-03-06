@@ -7579,3 +7579,7 @@ jvm.threads.peak,The peak live thread count since the Java virtual machine start
 jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
 jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
 jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
+jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
+jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
+jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,True
+jvm.threads.peak,The peak live thread count since the Java virtual machine started or peak was reset,threads,VALUE,64.0,,,

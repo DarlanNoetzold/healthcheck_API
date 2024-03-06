@@ -35,8 +35,7 @@ def get_auth_token():
         print("Falha ao autenticar")
         return None
 
-def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date):
-    token = get_auth_token()
+def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date, token):
     if token:
         headers = {"Authorization": f"Bearer {token}"}
         data = {
@@ -84,10 +83,11 @@ def model_training_evaluation(args):
         joblib.dump(best_model, model_filename)
 
         training_date = datetime.datetime.now().strftime('%Y-%m-%d')
-        send_metric(metric_name, model_name, "MSE",mse, training_date)
-        send_metric(metric_name, model_name, "MAE",mae, training_date)
-        send_metric(metric_name, model_name, "R2",r2, training_date)
-        send_metric(metric_name, model_name, "Explained Variance",explained_variance, training_date)
+        token = get_auth_token()
+        send_metric(metric_name, model_name, "MSE",mse, training_date,token)
+        send_metric(metric_name, model_name, "MAE",mae, training_date,token)
+        send_metric(metric_name, model_name, "R2",r2, training_date,token)
+        send_metric(metric_name, model_name, "Explained Variance",explained_variance, training_date,token)
 
     except Exception as e:
         print(f"Erro ao treinar {model_name} para {metric_name}: {e}")

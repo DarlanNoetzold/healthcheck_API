@@ -7594,3 +7594,7 @@ jvm.classes.loaded,The number of classes that are currently loaded in the Java v
 jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
 jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
 jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
+jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
+jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
+jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,False
+jvm.classes.loaded,The number of classes that are currently loaded in the Java virtual machine,classes,VALUE,21153.0,,,
