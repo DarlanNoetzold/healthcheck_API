@@ -721,3 +721,5 @@ java.net.ConnectException: Connection refused: no further information
 2024-03-05 12:58:48,553 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-1] Initializing Servlet 'dispatcherServlet'
 2024-03-05 12:58:48,554 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8199-exec-1] Completed initialization in 1 ms
 2024-03-05 12:58:48,623 INFO tech.noetzold.healthcheckgate.security.controller.AuthenticationController [http-nio-8199-exec-1] Doing Login.
+2024-03-05 13:38:23,106 INFO org.springframework.amqp.rabbit.listener.DirectMessageListenerContainer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] Successfully waited for consumers to finish.
+2024-03-05 13:38:23,240 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
