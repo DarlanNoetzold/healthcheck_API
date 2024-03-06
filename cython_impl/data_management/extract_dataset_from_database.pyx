@@ -2,6 +2,7 @@ import pandas as pd
 import psycopg2
 import os
 import requests
+import time
 
 def extract():
     db_config = {
@@ -30,20 +31,21 @@ def extract():
 
     conn = psycopg2.connect(**db_config)
 
-    # Login para obter token
-    login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
-    auth_data = {
-        "email": "admindarlan@mail.com",
-        "password": "password"
-    }
-    login_response = requests.post(login_url, json=auth_data)
-    token = login_response.json()['access_token']
-
-    metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"
-    headers = {"Authorization": f"Bearer {token}"}
+    def get_auth_token():
+        login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+        auth_data = {
+            "email": "admindarlan@mail.com",
+            "password": "password"
+        }
+        for attempt in range(5):
+            response = requests.post(login_url, json=auth_data)
+            if response.status_code == 200:
+                return response.json()['access_token']
+            else:
+                time.sleep(2)  # wait for 2 seconds before retrying
+        return None
 
     for metric_name in metric_names:
-        # Realiza a consulta e salva os resultados
         query = """
         SELECT mr.name AS metric_name, mr.description, mr.base_unit,
         m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert
@@ -57,17 +59,23 @@ def extract():
         df = pd.read_sql_query(query, conn, params=[metric_name])
         filename = os.path.join(output_dir, f"{metric_name.replace('.', '_')}.csv")
         df.to_csv(filename, index=False)
-        print(f"Arquivo gerado: {filename}")
+        print(f"Generated file: {filename}")
 
-        # Envia métrica usando o token de autenticação
-        metric_data = {
-            "name": metric_name,
-            "valueType": "Double"
-        }
-        response = requests.post(metric_endpoint, json=metric_data, headers=headers)
-        if response.status_code == 200:
-            print(f"Métrica {metric_name} enviada com sucesso.")
-        else:
-            print(f"Erro ao enviar a métrica {metric_name}: {response.status_code}")
+        metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"
+
+        for attempt in range(5):
+            token = get_auth_token()
+            if not token:
+                print("Failed to get authentication token. Skipping metric upload.")
+                break
+            headers = {"Authorization": f"Bearer {token}"}
+            metric_data = {"name": metric_name, "valueType": "Double"}
+            response = requests.post(metric_endpoint, json=metric_data, headers=headers)
+            if response.status_code == 200:
+                print(f"Metric {metric_name} sent successfully.")
+                break
+            else:
+                print(f"Error sending metric {metric_name} on attempt {attempt + 1}: {response.text}")
+                time.sleep(2)
 
     conn.close()
