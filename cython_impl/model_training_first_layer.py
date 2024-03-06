@@ -15,6 +15,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from data_management.data_preparation import prepare_data
 from data_management.extract_dataset_from_database import extract
 import requests
+import time
+
 
 np.int = np.int64
 
@@ -36,22 +38,39 @@ def get_auth_token():
         return None
 
 def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date, token):
-    if token:
-        headers = {"Authorization": f"Bearer {token}"}
-        data = {
-            "modelName": model_name,
-            "accuracyName": accuracy_name,
-            "metricName": metric_name,
-            "accuracyValue": accuracy_value,
-            "trainingDate": training_date
-        }
-        response = requests.post(METRICS_URL, json=data, headers=headers)
-        if response.status_code == 200:
-            print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+    max_attempts = 5
+    attempt = 0
+    success = False
+
+    while attempt < max_attempts and not success:
+        if token:
+            headers = {"Authorization": f"Bearer {token}"}
+            data = {
+                "modelName": model_name,
+                "accuracyName": accuracy_name,
+                "metricName": metric_name,
+                "accuracyValue": accuracy_value,
+                "trainingDate": training_date
+            }
+            try:
+                response = requests.post(METRICS_URL, json=data, headers=headers)
+                if response.status_code == 200:
+                    print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+                    success = True
+                else:
+                    print(f"Tentativa {attempt + 1}: Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
+            except requests.exceptions.RequestException as e:
+                print(f"Tentativa {attempt + 1}: Erro de conexão ao enviar {accuracy_name} para {model_name} - {metric_name}: {e}")
         else:
-            print(f"Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
-    else:
-        print("Não foi possível obter o token de autenticação.")
+            print("Não foi possível obter o token de autenticação.")
+            break
+
+        attempt += 1
+        if not success and attempt < max_attempts:
+            time.sleep(1)
+
+    if not success:
+        print(f"Falha ao enviar {accuracy_name} após {max_attempts} tentativas.")
 
 
 def model_training_evaluation(args):
