@@ -12,21 +12,42 @@ from data_management.extract_dataset_from_database import extract
 import requests
 import datetime
 
-API_URL = "http://192.168.18.75:8199/gate/model-accuracies"
+API_BASE_URL = "http://192.168.18.75:8199/healthcheck/v1"
+LOGIN_URL = f"{API_BASE_URL}/auth/authenticate"
+METRICS_URL = f"{API_BASE_URL}/gate/model-accuracies"
+
+auth_data = {
+    "email": "admindarlan@mail.com",
+    "password": "password"
+}
+
+def get_auth_token():
+    response = requests.post(LOGIN_URL, json=auth_data)
+    if response.status_code == 200:
+        return response.json()['access_token']
+    else:
+        print("Falha ao autenticar")
+        return None
 
 def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training_date):
-    data = {
-        "modelName": model_name,
-        "accuracyName": accuracy_name,
-        "metricName": metric_name,
-        "accuracyValue": accuracy_value,
-        "trainingDate": training_date
-    }
-    response = requests.post(API_URL, json=data)
-    if response.status_code == 200:
-        print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+    token = get_auth_token()
+    if token:
+        headers = {"Authorization": f"Bearer {token}"}
+        data = {
+            "modelName": model_name,
+            "accuracyName": accuracy_name,
+            "metricName": metric_name,
+            "accuracyValue": accuracy_value,
+            "trainingDate": training_date
+        }
+        response = requests.post(METRICS_URL, json=data, headers=headers)
+        if response.status_code == 200:
+            print(f"{accuracy_name} enviado com sucesso para {model_name} - {metric_name}")
+        else:
+            print(f"Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
     else:
-        print(f"Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
+        print("Não foi possível obter o token de autenticação.")
+
 
 def prepare_data_for_classification(df, n=10):
     X, y = [], []
