@@ -3,6 +3,7 @@ package tech.noetzold.healthcheckgate.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import tech.noetzold.healthcheckgate.message.config.RabbitmqQueues;
 import tech.noetzold.healthcheckgate.model.FutureRecord;
@@ -14,6 +15,7 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/healthcheck/v1/gate")
+@PreAuthorize("hasAnyRole('ADMIN', 'MANAGER', 'USER')")
 public class RecordController {
 
     @Autowired
