@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
@@ -14,7 +15,7 @@ import java.util.Date;
 @Table(name = "model_accuracy", uniqueConstraints = {
         @UniqueConstraint(columnNames = {"modelName", "metricName", "accuracyName"})
 })
-public class ModelAccuracy {
+public class ModelAccuracy implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
