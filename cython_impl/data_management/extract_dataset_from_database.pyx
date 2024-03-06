@@ -30,7 +30,17 @@ def extract():
 
     conn = psycopg2.connect(**db_config)
 
-    metric_endpoint = "http://192.168.18.75:8199/gate/metrics"
+    # Login para obter token
+    login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+    auth_data = {
+        "email": "admindarlan@mail.com",
+        "password": "password"
+    }
+    login_response = requests.post(login_url, json=auth_data)
+    token = login_response.json()['access_token']
+
+    metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"
+    headers = {"Authorization": f"Bearer {token}"}
 
     for metric_name in metric_names:
         # Realiza a consulta e salva os resultados
@@ -49,14 +59,15 @@ def extract():
         df.to_csv(filename, index=False)
         print(f"Arquivo gerado: {filename}")
 
+        # Envia métrica usando o token de autenticação
         metric_data = {
             "name": metric_name,
             "valueType": "Double"
         }
-        response = requests.post(metric_endpoint, json=metric_data)
+        response = requests.post(metric_endpoint, json=metric_data, headers=headers)
         if response.status_code == 200:
             print(f"Métrica {metric_name} enviada com sucesso.")
         else:
-            print(f"Erro ao enviar a métrica {metric_name}: {response.text}")
+            print(f"Erro ao enviar a métrica {metric_name}: {response.status_code}")
 
     conn.close()
