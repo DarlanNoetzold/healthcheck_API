@@ -30,7 +30,7 @@ public class RecordService {
     private static final Logger logger = LoggerFactory.getLogger(RecordService.class);
 
     @Transactional
-    public FutureRecord createRecord(FutureRecord futureRecord) {
+    public FutureRecord  createRecord(FutureRecord futureRecord) {
         logger.info("Create a futureRecord: {}", futureRecord.toString());
         return recordRepository.save(buildEntityFromRequests(futureRecord));
     }
