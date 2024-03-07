@@ -52,7 +52,7 @@ public class AuthenticationService {
     }
 
     @Transactional
-    public AuthenticationResponse authenticate(AuthenticationRequest request) {
+    public synchronized AuthenticationResponse authenticate(AuthenticationRequest request) {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
                         request.getEmail(),
