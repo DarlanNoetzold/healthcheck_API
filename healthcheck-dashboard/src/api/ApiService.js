@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // Initialize Axios instance with base URL
-const API_BASE_URL = 'http://localhost:8199/healthcheck/v1/gate';
-const AUTH_API_BASE_URL = 'http://localhost:8199/healthcheck/v1/auth';
+const API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/gate';
+const AUTH_API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/auth';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
