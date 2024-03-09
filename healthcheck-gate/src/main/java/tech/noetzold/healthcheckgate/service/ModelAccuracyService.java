@@ -27,7 +27,7 @@ public class ModelAccuracyService {
                 newModelAccuracy.getModelName(), newModelAccuracy.getMetricName(), newModelAccuracy.getAccuracyName());
 
         logger.info("Returned model: {}", existingModelAccuracy.toString());
-        logger.info("Add model: {}", newModelAccuracy.toString());
+        logger.info("Add model: {}", newModelAccuracy);
 
         if (existingModelAccuracy.isPresent()) {
             ModelAccuracy updatedModelAccuracy = existingModelAccuracy.get();
