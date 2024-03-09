@@ -49,6 +49,7 @@ java -jar target/daily-API-0.0.1-SNAPSHOT.jar &
 python3 "$base_dir/predict_next_value.py" &
 
 cd "$base_dir/healthcheck-dashboard"
+npm install
 npm start &
 
 
