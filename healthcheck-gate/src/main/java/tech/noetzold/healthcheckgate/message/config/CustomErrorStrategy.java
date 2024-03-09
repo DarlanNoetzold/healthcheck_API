@@ -44,8 +44,7 @@ public class CustomErrorStrategy implements FatalExceptionStrategy {
 
     @Override
     public boolean isFatal(Throwable t) {
-        if (t instanceof ListenerExecutionFailedException) {
-            ListenerExecutionFailedException executionFailedException = (ListenerExecutionFailedException) t;
+        if (t instanceof ListenerExecutionFailedException executionFailedException) {
             Message failedMessage = executionFailedException.getFailedMessage();
             String queueName = failedMessage.getMessageProperties().getConsumerQueue();
             logger.error("Error to consume a message", t);
