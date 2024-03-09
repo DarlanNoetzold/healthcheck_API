@@ -28,7 +28,7 @@ public class FutureRecordConsumer {
         FutureRecord record = new ObjectMapper().readValue(message, FutureRecord.class);
         try {
             recordService.createRecord(record);
-            logger.info("Consume record - " + record.toString());
+            logger.info("Consume record - " + record);
         }catch (Exception ex){
             logger.error("Error to consume create message for record - " + record.toString(), ex);
             throw new AmqpRejectAndDontRequeueException("Ops, an error! Message should go to DLQ");
