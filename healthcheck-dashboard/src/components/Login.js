@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Form, Input, notification } from 'antd';
+import { Button, Form, Input, Card, notification } from 'antd';
 import axios from 'axios';
+import './Login.css'; // Importe seu arquivo CSS
 
 const AUTH_API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/auth';
 
@@ -12,18 +13,13 @@ const Login = () => {
   const onFinish = async (values) => {
     setLoading(true);
     try {
-      // Chamada de API para login
       const response = await axios.post(`${AUTH_API_BASE_URL}/authenticate`, {
         email: values.email,
         password: values.password,
       });
-      // Armazenar o token retornado
       localStorage.setItem('authToken', response.data.access_token);
-      console.log('Login Success:', values);
-      // Se login bem-sucedido, navegar para a página inicial
       navigate('/');
     } catch (error) {
-      console.error('Login failed:', error);
       notification.error({
         message: 'Erro de Login',
         description: 'Email ou senha incorretos. Tente novamente.',
@@ -34,36 +30,38 @@ const Login = () => {
   };
 
   return (
-    <Form
-      name="basic"
-      labelCol={{ span: 8 }}
-      wrapperCol={{ span: 16 }}
-      initialValues={{ remember: true }}
-      onFinish={onFinish}
-      autoComplete="off"
-    >
-      <Form.Item
-        label="Email"
-        name="email"
-        rules={[{ required: true, message: 'Por favor, insira seu e-mail!' }]}
-      >
-        <Input />
-      </Form.Item>
+    <div className="login-container"> {/* Utilize Flexbox ou Grid para centralizar o Card */}
+      <Card title="Login" className="login-card">
+        <Form
+          name="basic"
+          initialValues={{ remember: true }}
+          onFinish={onFinish}
+          autoComplete="off"
+        >
+          <Form.Item
+            label="Email"
+            name="email"
+            rules={[{ required: true, message: 'Por favor, insira seu e-mail!' }]}
+          >
+            <Input />
+          </Form.Item>
 
-      <Form.Item
-        label="Senha"
-        name="password"
-        rules={[{ required: true, message: 'Por favor, insira sua senha!' }]}
-      >
-        <Input.Password />
-      </Form.Item>
+          <Form.Item
+            label="Senha"
+            name="password"
+            rules={[{ required: true, message: 'Por favor, insira sua senha!' }]}
+          >
+            <Input.Password />
+          </Form.Item>
 
-      <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-        <Button type="primary" htmlType="submit" loading={loading}>
-          Login
-        </Button>
-      </Form.Item>
-    </Form>
+          <Form.Item>
+            <Button type="primary" htmlType="submit" loading={loading} block>
+              Login
+            </Button>
+          </Form.Item>
+        </Form>
+      </Card>
+    </div>
   );
 };
 
