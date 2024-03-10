@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logout-button {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
