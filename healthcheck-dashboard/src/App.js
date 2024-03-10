@@ -18,12 +18,14 @@ function App() {
       <Layout className="layout">
         <Header>
           <div className="logo" />
-          <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-            <Menu.Item key="1"><Link to="/">Dashboard</Link></Menu.Item>
-            <Menu.Item key="2"><Link to="/metrics">Metrics</Link></Menu.Item>
-            <Menu.Item key="3"><Link to="/model-accuracies">Model Accuracies</Link></Menu.Item>
-            <Button onClick={handleLogout} type="primary" style={{ marginLeft: 'auto' }}><Link to="/login">Logout</Link></Button>
-          </Menu>
+          <div className="menu-container">
+            <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
+              <Menu.Item key="1"><Link to="/">Dashboard</Link></Menu.Item>
+              <Menu.Item key="2"><Link to="/metrics">Metrics</Link></Menu.Item>
+              <Menu.Item key="3"><Link to="/model-accuracies">Model Accuracies</Link></Menu.Item>
+            </Menu>
+            <Button onClick={handleLogout} type="primary" className="logout-button"><Link to="/login">Logout</Link></Button>
+          </div>
         </Header>
         <Content style={{ padding: '0 50px' }}>
           <div className="site-layout-content">
