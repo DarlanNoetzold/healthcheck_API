@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/healthcheck/v1/gate/model-accuracies")
 @CrossOrigin(origins = "*")
-@PreAuthorize("hasAnyRole('ADMIN', 'MANAGER', 'USER')")
+@PreAuthorize("hasAnyRole('ADMIN')")
 public class ModelAccuracyController {
 
     @Autowired
