@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequestMapping("/healthcheck/v1/gate/metrics")
 @Cacheable("metric")
 @CrossOrigin(origins = "*")
-@PreAuthorize("hasAnyRole('ADMIN', 'MANAGER', 'USER')")
+@PreAuthorize("hasAnyRole('ADMIN')")
 public class MetricController {
 
     @Autowired
