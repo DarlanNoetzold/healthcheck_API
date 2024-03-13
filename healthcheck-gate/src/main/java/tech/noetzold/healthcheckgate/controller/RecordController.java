@@ -15,7 +15,7 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/healthcheck/v1/gate")
-@PreAuthorize("hasAnyRole('ADMIN', 'MANAGER', 'USER')")
+@PreAuthorize("hasAnyRole('ADMIN')")
 public class RecordController {
 
     @Autowired
