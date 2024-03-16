@@ -2,8 +2,6 @@ package tech.noetzold.healthcheckgate.message.config;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.amqp.core.*;
-import org.springframework.amqp.rabbit.listener.RabbitListenerContainerFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
