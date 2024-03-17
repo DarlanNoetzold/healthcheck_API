@@ -1,5 +1,18 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(dirname "$(realpath "$BASH_SOURCE")")
+
+MODEL_TRAINING_FIRST_LAYER="$SCRIPT_DIR/cython_impl/model_training_first_layer.py"
+MODEL_TRAINING_SECOND_LAYER="$SCRIPT_DIR/cython_impl/model_training_second_layer.py"
+
+CRON_JOBS="
+0 0 * * * /usr/bin/python3 $MODEL_TRAINING_FIRST_LAYER >> $SCRIPT_DIR/logs/log_first_layer.txt 2>&1
+0 12 * * * /usr/bin/python3 $MODEL_TRAINING_SECOND_LAYER >> $SCRIPT_DIR/logs/log_second_layer.txt 2>&1
+"
+
+(crontab -l 2>/dev/null; echo "$CRON_JOBS") | crontab -
+
+
 declare -A ports_apps=(
     [8193]="healthcheck-collector"
     [8194]="daily-API"
