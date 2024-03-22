@@ -1,0 +1,2 @@
+0 0 * * * /usr/bin/python3 /caminho/para/model_training_first_layer.py >> /caminho/para/log_first_layer.txt 2>&1
+0 12 * * * /usr/bin/python3 /caminho/para/model_training_second_layer.py >> /caminho/para/log_second_layer.txt 2>&1
