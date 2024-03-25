@@ -6,7 +6,7 @@ import psycopg2
 def extract():
     # Informações de conexão com o banco de dados
     db_config = {
-        "host": "192.168.18.75",
+        "host": "192.168.18.18",
         "port": "5432",
         "user": "postgres",
         "password": "postgres",

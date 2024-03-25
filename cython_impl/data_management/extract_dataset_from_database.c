@@ -2174,7 +2174,7 @@ static const char __pyx_k_initializing[] = "_initializing";
 static const char __pyx_k_is_coroutine[] = "_is_coroutine";
 static const char __pyx_k_jvm_gc_pause[] = "jvm.gc.pause";
 static const char __pyx_k_metric_names[] = "metric_names";
-static const char __pyx_k_192_168_18_75[] = "192.168.18.75";
+static const char __pyx_k_192_168_18_75[] = "192.168.18.18";
 static const char __pyx_k_Authorization[] = "Authorization";
 static const char __pyx_k_Generated_file[] = "Generated file: ";
 static const char __pyx_k_get_auth_token[] = "get_auth_token";
@@ -2215,8 +2215,8 @@ static const char __pyx_k_extract_locals_get_auth_token[] = "extract.<locals>.ge
 static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
 static const char __pyx_k_Failed_to_get_authentication_tok[] = "Failed to get authentication token. Skipping metric upload.";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
-static const char __pyx_k_http_192_168_18_75_8199_healthch[] = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate";
-static const char __pyx_k_http_192_168_18_75_8199_healthch_2[] = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics";
+static const char __pyx_k_http_192_168_18_75_8199_healthch[] = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate";
+static const char __pyx_k_http_192_168_18_75_8199_healthch_2[] = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_token(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
@@ -2836,7 +2836,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
- *         'host': '192.168.18.75',
+ *         'host': '192.168.18.18',
  */
 
 /* Python wrapper */
@@ -2859,7 +2859,7 @@ static PyObject *__pyx_pw_29extract_dataset_from_database_1extract(PyObject *__p
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
 
@@ -2901,7 +2901,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
   /* "extract_dataset_from_database.pyx":35
  * 
  *     def get_auth_token():
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"             # <<<<<<<<<<<<<<
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"             # <<<<<<<<<<<<<<
  *         auth_data = {
  *             "email": "admindarlan@mail.com",
  */
@@ -2909,7 +2909,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
   __pyx_v_login_url = __pyx_kp_s_http_192_168_18_75_8199_healthch;
 
   /* "extract_dataset_from_database.pyx":37
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  *             "email": "admindarlan@mail.com",             # <<<<<<<<<<<<<<
  *             "password": "password"
@@ -3075,7 +3075,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
 
@@ -3101,7 +3101,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
- *         'host': '192.168.18.75',
+ *         'host': '192.168.18.18',
  */
 
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self) {
@@ -3142,7 +3142,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   /* "extract_dataset_from_database.pyx":9
  * def extract():
  *     db_config = {
- *         'host': '192.168.18.75',             # <<<<<<<<<<<<<<
+ *         'host': '192.168.18.18',             # <<<<<<<<<<<<<<
  *         'port': '5432',
  *         'user': 'postgres',
  */
@@ -3368,7 +3368,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_29extract_dataset_from_database_7extract_1get_auth_token, 0, __pyx_n_s_extract_locals_get_auth_token, NULL, __pyx_n_s_extract_dataset_from_database, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -3530,7 +3530,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *         df.to_csv(filename, index=False)
  *         print(f"Generated file: {filename}")             # <<<<<<<<<<<<<<
  * 
- *         metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"
+ *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
  */
     __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_filename, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -3545,7 +3545,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     /* "extract_dataset_from_database.pyx":64
  *         print(f"Generated file: {filename}")
  * 
- *         metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"             # <<<<<<<<<<<<<<
+ *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"             # <<<<<<<<<<<<<<
  * 
  *         for attempt in range(5):
  */
@@ -3553,7 +3553,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     __Pyx_XDECREF_SET(__pyx_v_metric_endpoint, __pyx_kp_s_http_192_168_18_75_8199_healthch_2);
 
     /* "extract_dataset_from_database.pyx":66
- *         metric_endpoint = "http://192.168.18.75:8199/healthcheck/v1/gate/metrics"
+ *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
  * 
  *         for attempt in range(5):             # <<<<<<<<<<<<<<
  *             token = get_auth_token()
@@ -3888,7 +3888,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
- *         'host': '192.168.18.75',
+ *         'host': '192.168.18.18',
  */
 
   /* function exit code */
@@ -4074,7 +4074,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.75:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
   __pyx_tuple_ = PyTuple_Pack(4, __pyx_n_s_login_url, __pyx_n_s_auth_data, __pyx_n_s_attempt, __pyx_n_s_response); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -4109,7 +4109,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
- *         'host': '192.168.18.75',
+ *         'host': '192.168.18.18',
  */
   __pyx_tuple__9 = PyTuple_Pack(16, __pyx_n_s_db_config, __pyx_n_s_metric_names, __pyx_n_s_output_dir, __pyx_n_s_conn, __pyx_n_s_get_auth_token, __pyx_n_s_get_auth_token, __pyx_n_s_metric_name, __pyx_n_s_query, __pyx_n_s_df, __pyx_n_s_filename, __pyx_n_s_metric_endpoint, __pyx_n_s_attempt, __pyx_n_s_token, __pyx_n_s_headers, __pyx_n_s_metric_data, __pyx_n_s_response); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
@@ -4543,7 +4543,7 @@ if (!__Pyx_RefNanny) {
  * 
  * def extract():             # <<<<<<<<<<<<<<
  *     db_config = {
- *         'host': '192.168.18.75',
+ *         'host': '192.168.18.18',
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_29extract_dataset_from_database_1extract, 0, __pyx_n_s_extract, NULL, __pyx_n_s_extract_dataset_from_database, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);

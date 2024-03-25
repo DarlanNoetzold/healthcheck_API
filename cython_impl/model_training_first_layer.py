@@ -20,7 +20,7 @@ import time
 
 np.int = np.int64
 
-API_BASE_URL = "http://192.168.18.75:8199/healthcheck/v1"
+API_BASE_URL = "http://192.168.18.18:8199/healthcheck/v1"
 LOGIN_URL = f"{API_BASE_URL}/auth/authenticate"
 METRICS_URL = f"{API_BASE_URL}/gate/model-accuracies"
 

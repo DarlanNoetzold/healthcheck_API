@@ -16,7 +16,7 @@ metrics_of_interest = [
     "process.uptime", "system.cpu.usage", "system.load.average.1m"
 ]
 
-base_url = "http://192.168.18.75:8194"
+base_url = "http://192.168.18.18:8194"
 size = 100
 
 def fetch_data_from_api(session, page):
