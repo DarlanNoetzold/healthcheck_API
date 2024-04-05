@@ -1,39 +1,30 @@
 # HealthCheck Analytics Platform
 
-## Visão Geral
+## Overview
 
-A HealthCheck Analytics Platform é uma solução abrangente para monitoramento e análise de métricas de saúde de APIs. Este projeto utiliza uma arquitetura de microserviços para coletar, analisar e prever métricas de saúde, permitindo a identificação precoce de problemas e a otimização do desempenho.
+The HealthCheck Analytics Platform is a comprehensive solution for monitoring and analyzing API health metrics. This project employs a microservices architecture to collect, analyze, and predict health metrics, enabling early identification of issues and performance optimization.
 
-O sistema é composto por vários componentes principais:
+The system comprises several key components:
 
-- **API de HealthCheck Collector**: Extrai métricas de outra API a cada 15 minutos, armazenando os resultados em um banco de dados PostgreSQL. Uma procedure é então executada para atualizar uma flag `is_alert`, analisando se o registro está fora do padrão esperado.
+- **HealthCheck Collector API**: Extracts metrics from another API every 15 minutes, storing the results in a PostgreSQL database. A procedure is then executed to update an `is_alert` flag, analyzing whether the record falls outside the expected norm.
 
-- **Scripts de Processamento de Dados**: Inclui `extract_dataset_from_database`, otimizado com Cython para melhorar a performance, e `data_preparation` usando Cnumpy e Cython para preparação de dados.
+- **Data Processing Scripts**: Includes `extract_dataset_from_database`, optimized with Cython for improved performance, and `data_preparation` using Cnumpy and Cython for data preparation.
 
-- **Tuning de Hiperparâmetros e Treinamento de Modelos**: Utiliza GridSearchCV ou RandomizedSearchCV para explorar combinações de parâmetros, treinando modelos de regressão e classificação para cada métrica coletada.
+- **Hyperparameter Tuning and Model Training**: Uses GridSearchCV or RandomizedSearchCV to explore parameter combinations, training regression and classification models for each collected metric.
 
-- **API de Previsão (`predict_next_value`)**: Permite a previsão do valor das métricas e da flag `is_alert` para os próximos 15 minutos com base nos dados fornecidos.
+- **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
 
-- **HealthCheck-gate**: Uma API Spring que atua como intermediária, tratando dados, salvando registros e acurácias no banco e comunicando-se com a API de previsão.
+- **HealthCheck-gate**: A Spring API that acts as an intermediary, processing data, saving records and accuracies in the database, and communicating with the prediction API.
 
-- **HealthCheck Dashboard**: Uma aplicação frontend em React que exibe as métricas, os resultados das previsões e permite a interação do usuário para a previsão de dados.
+- **HealthCheck Dashboard**: A React frontend application that displays metrics, prediction results, and allows user interaction for data forecasting.
 
-## Implantação
+## Deployment
 
-Processo de instação será detalhado futuramente, usando docker para facilitar a instalação ou com uma instalação manual, usando o arquivo [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/start_all.sh).
+The installation process will be detailed in the future, using docker to facilitate installation or with a manual setup, using the [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/start_all.sh) file.
 
-## Fluxograma:
+Postman documentation [here](https://documenter.getpostman.com/view/16000387/2sA2xb7veq).
 
-![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/f32aa5bc-a1a2-411f-862a-bd3e9086aa52)
-
-
-## Arquitetura
-
-![diagram (5)](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/dd84cf34-6025-4b8e-b432-6c34f8bb47fd)
-
-Documentação do Postman [aqui](https://documenter.getpostman.com/view/16000387/2sA2xb7veq).
-
-Front-End [aqui.](http://177.22.91.106:3001/)
+Front-End [here.](http://177.22.91.106:3001/)
 
 ---
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
