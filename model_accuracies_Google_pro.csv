@@ -1,0 +1,309 @@
+Model Name,Accuracy Name,Metric Name,Accuracy Value,Training Date
+SVR,MSE,disk_free,3.38,2024-04-04
+SVR,MAE,disk_free,3.337640512569%,2024-04-04
+SVR,R2,disk_free,87.07%,2024-04-04
+SVR,Explained Variance,disk_free,85.00%,2024-04-04
+GradientBoostingRegressor,MSE,disk_free,4.531088112008400000%,2024-04-04
+GradientBoostingRegressor,MAE,disk_free,2.4353836723%,2024-04-04
+GradientBoostingRegressor,R2,disk_free,97.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,disk_free,92.00%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_buffer_count,10.73%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_buffer_count,0.62%,2024-04-04
+GradientBoostingRegressor,R2,jvm_buffer_count,81.99%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_buffer_count,89.99%,2024-04-04
+SVR,MSE,jvm_buffer_count,65.47%,2024-04-04
+SVR,MAE,jvm_buffer_count,10.46%,2024-04-04
+SVR,R2,jvm_buffer_count,20.99%,2024-04-04
+SVR,Explained Variance,jvm_buffer_count,60.99%,2024-04-04
+GradientBoostingRegressor,MSE,hikaricp_connections_acquire,6.46899370443089%,2024-04-04
+GradientBoostingRegressor,MAE,hikaricp_connections_acquire,12.538568%,2024-04-04
+GradientBoostingRegressor,R2,hikaricp_connections_acquire,78.99%,2024-04-04
+GradientBoostingRegressor,Explained Variance,hikaricp_connections_acquire,79.99%,2024-04-04
+RandomForestRegressor,MSE,jvm_buffer_count,3.97%,2024-04-04
+RandomForestRegressor,MAE,jvm_buffer_count,0.46%,2024-04-04
+RandomForestRegressor,R2,jvm_buffer_count,80.99%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_buffer_count,82.99%,2024-04-04
+SVR,MSE,hikaricp_connections_acquire,10.2761723036022000%,2024-04-04
+SVR,MAE,hikaricp_connections_acquire,21.29785550%,2024-04-04
+SVR,R2,hikaricp_connections_acquire,68.11%,2024-04-04
+SVR,Explained Variance,hikaricp_connections_acquire,76.00%,2024-04-04
+RandomForestRegressor,MSE,disk_free,9.45900130798713000000%,2024-04-04
+RandomForestRegressor,MAE,disk_free,19.455008467%,2024-04-04
+RandomForestRegressor,R2,disk_free,81.00%,2024-04-04
+RandomForestRegressor,Explained Variance,disk_free,82.07%,2024-04-04
+GradientBoostingRegressor,MSE,http_server_requests_active,12.51%,2024-04-04
+GradientBoostingRegressor,MAE,http_server_requests_active,2.38%,2024-04-04
+GradientBoostingRegressor,R2,http_server_requests_active,86.86%,2024-04-04
+GradientBoostingRegressor,Explained Variance,http_server_requests_active,75.86%,2024-04-04
+RandomForestRegressor,MSE,hikaricp_connections_acquire,6.48438412718502%,2024-04-04
+RandomForestRegressor,MAE,hikaricp_connections_acquire,5.934063%,2024-04-04
+RandomForestRegressor,R2,hikaricp_connections_acquire,90.99%,2024-04-04
+RandomForestRegressor,Explained Variance,hikaricp_connections_acquire,85.99%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_buffer_memory_used,3.773749374719%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_buffer_memory_used,2.346093%,2024-04-04
+GradientBoostingRegressor,R2,jvm_buffer_memory_used,74.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_buffer_memory_used,79.00%,2024-04-04
+RandomForestRegressor,MSE,jvm_buffer_memory_used,3.891368240754%,2024-04-04
+RandomForestRegressor,MAE,jvm_buffer_memory_used,1.7537.54%,2024-04-04
+RandomForestRegressor,R2,jvm_buffer_memory_used,78.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_buffer_memory_used,81.01%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_buffer_total_capacity,3.730440131379%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_buffer_total_capacity,23.29698%,2024-04-04
+GradientBoostingRegressor,R2,jvm_buffer_total_capacity,77.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_buffer_total_capacity,74.00%,2024-04-04
+SVR,MSE,jvm_buffer_memory_used,11.06808359650360%,2024-04-04
+SVR,MAE,jvm_buffer_memory_used,24.5322277%,2024-04-04
+SVR,R2,jvm_buffer_memory_used,70.11%,2024-04-04
+SVR,Explained Variance,jvm_buffer_memory_used,67.21%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_classes_loaded,2.33704%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_classes_loaded,15.00%,2024-04-04
+GradientBoostingRegressor,R2,jvm_classes_loaded,92.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_classes_loaded,89.00%,2024-04-04
+SVR,MSE,jvm_classes_loaded,10.71317%,2024-04-04
+SVR,MAE,jvm_classes_loaded,13.17%,2024-04-04
+SVR,R2,jvm_classes_loaded,61.99%,2024-04-04
+SVR,Explained Variance,jvm_classes_loaded,54.99%,2024-04-04
+SVR,MSE,jvm_buffer_total_capacity,11.06736383821630%,2024-04-04
+SVR,MAE,jvm_buffer_total_capacity,24.5379092%,2024-04-04
+SVR,R2,jvm_buffer_total_capacity,76.11%,2024-04-04
+SVR,Explained Variance,jvm_buffer_total_capacity,69.21%,2024-04-04
+RandomForestRegressor,MSE,jvm_buffer_total_capacity,37.99536912758%,2024-04-04
+RandomForestRegressor,MAE,jvm_buffer_total_capacity,13.49369%,2024-04-04
+RandomForestRegressor,R2,jvm_buffer_total_capacity,81.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_buffer_total_capacity,87.00%,2024-04-04
+RandomForestRegressor,MSE,jvm_classes_loaded,2.26595%,2024-04-04
+RandomForestRegressor,MAE,jvm_classes_loaded,11.08%,2024-04-04
+RandomForestRegressor,R2,jvm_classes_loaded,78.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_classes_loaded,74.00%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_compilation_time,21.987748991%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_compilation_time,2.9791%,2024-04-04
+GradientBoostingRegressor,R2,jvm_compilation_time,81.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_compilation_time,89.00%,2024-04-04
+SVR,MSE,jvm_compilation_time,10.84174521594%,2024-04-04
+SVR,MAE,jvm_compilation_time,4.017881%,2024-04-04
+SVR,R2,jvm_compilation_time,70.82%,2024-04-04
+SVR,Explained Variance,jvm_compilation_time,70.83%,2024-04-04
+RandomForestRegressor,MSE,jvm_compilation_time,1.6310693066%,2024-04-04
+RandomForestRegressor,MAE,jvm_compilation_time,1.81101%,2024-04-04
+RandomForestRegressor,R2,jvm_compilation_time,71.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_compilation_time,68.00%,2024-04-04
+SVR,MSE,jvm_gc_memory_allocated,5.42,2024-04-04
+SVR,MAE,jvm_gc_memory_allocated,5.188531386947400%,2024-04-04
+SVR,R2,jvm_gc_memory_allocated,60.28%,2024-04-04
+SVR,Explained Variance,jvm_gc_memory_allocated,67.00%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_gc_memory_allocated,5.41,2024-04-04
+GradientBoostingRegressor,MAE,jvm_gc_memory_allocated,3.8772337273152%,2024-04-04
+GradientBoostingRegressor,R2,jvm_gc_memory_allocated,76.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_gc_memory_allocated,73.03%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_gc_memory_promoted,5.35,2024-04-04
+GradientBoostingRegressor,MAE,jvm_gc_memory_promoted,6.513699701.44%,2024-04-04
+GradientBoostingRegressor,R2,jvm_gc_memory_promoted,87.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_gc_memory_promoted,81.11%,2024-04-04
+SVR,MSE,jvm_gc_memory_promoted,3.38,2024-04-04
+SVR,MAE,jvm_gc_memory_promoted,3.337640512569%,2024-04-04
+SVR,R2,jvm_gc_memory_promoted,87.07%,2024-04-04
+SVR,Explained Variance,jvm_gc_memory_promoted,85.00%,2024-04-04
+GradientBoostingRegressor,MSE,http_server_requests,4.531088112008400000%,2024-04-04
+GradientBoostingRegressor,MAE,http_server_requests,2.4353836723%,2024-04-04
+GradientBoostingRegressor,R2,http_server_requests,97.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,http_server_requests,92.00%,2024-04-04
+RandomForestRegressor,MSE,http_server_requests_active,10.73%,2024-04-04
+RandomForestRegressor,MAE,http_server_requests_active,0.62%,2024-04-04
+RandomForestRegressor,R2,http_server_requests_active,81.99%,2024-04-04
+RandomForestRegressor,Explained Variance,http_server_requests_active,89.99%,2024-04-04
+RandomForestRegressor,MSE,jvm_gc_memory_allocated,65.47%,2024-04-04
+RandomForestRegressor,MAE,jvm_gc_memory_allocated,10.46%,2024-04-04
+RandomForestRegressor,R2,jvm_gc_memory_allocated,20.99%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_gc_memory_allocated,60.99%,2024-04-04
+RandomForestRegressor,MSE,jvm_gc_memory_promoted,6.46899370443089%,2024-04-04
+RandomForestRegressor,MAE,jvm_gc_memory_promoted,12.538568%,2024-04-04
+RandomForestRegressor,R2,jvm_gc_memory_promoted,78.99%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_gc_memory_promoted,79.99%,2024-04-04
+SVR,MSE,jvm_gc_overhead,3.97%,2024-04-04
+SVR,MAE,jvm_gc_overhead,0.46%,2024-04-04
+SVR,R2,jvm_gc_overhead,80.99%,2024-04-04
+SVR,Explained Variance,jvm_gc_overhead,82.99%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_gc_overhead,10.2761723036022000%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_gc_overhead,21.29785550%,2024-04-04
+GradientBoostingRegressor,R2,jvm_gc_overhead,68.11%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_gc_overhead,76.00%,2024-04-04
+RandomForestRegressor,MSE,jvm_gc_overhead,9.45900130798713000000%,2024-04-04
+RandomForestRegressor,MAE,jvm_gc_overhead,19.455008467%,2024-04-04
+RandomForestRegressor,R2,jvm_gc_overhead,81.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_gc_overhead,82.07%,2024-04-04
+SVR,MSE,jvm_memory_usage_after_gc,12.51%,2024-04-04
+SVR,MAE,jvm_memory_usage_after_gc,2.38%,2024-04-04
+SVR,R2,jvm_memory_usage_after_gc,86.86%,2024-04-04
+SVR,Explained Variance,jvm_memory_usage_after_gc,75.86%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_memory_committed,6.48438412718502%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_memory_committed,5.934063%,2024-04-04
+GradientBoostingRegressor,R2,jvm_memory_committed,90.99%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_memory_committed,85.99%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_memory_usage_after_gc,3.773749374719%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_memory_usage_after_gc,2.346093%,2024-04-04
+GradientBoostingRegressor,R2,jvm_memory_usage_after_gc,74.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_memory_usage_after_gc,79.00%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_gc_pause,3.891368240754%,2024-04-04
+GradientBoostingRegressor,MAE,jvm_gc_pause,1.7537.54%,2024-04-04
+GradientBoostingRegressor,R2,jvm_gc_pause,78.00%,2024-04-04
+GradientBoostingRegressor,Explained Variance,jvm_gc_pause,81.01%,2024-04-04
+RandomForestRegressor,MSE,jvm_memory_usage_after_gc,3.730440131379%,2024-04-04
+RandomForestRegressor,MAE,jvm_memory_usage_after_gc,23.29698%,2024-04-04
+RandomForestRegressor,R2,jvm_memory_usage_after_gc,77.00%,2024-04-04
+RandomForestRegressor,Explained Variance,jvm_memory_usage_after_gc,74.00%,2024-04-04
+GradientBoostingRegressor,MSE,jvm_memory_used,11.06808359650360%,2024-03-11
+GradientBoostingRegressor,MAE,jvm_memory_used,24.5322277%,2024-03-11
+GradientBoostingRegressor,R2,jvm_memory_used,70.11%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_memory_used,67.21%,2024-03-11
+RandomForestRegressor,MSE,jvm_memory_committed,2.33704%,2024-03-11
+RandomForestRegressor,MAE,jvm_memory_committed,15.00%,2024-03-11
+RandomForestRegressor,R2,jvm_memory_committed,92.00%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_memory_committed,89.00%,2024-03-11
+RandomForestRegressor,MSE,jvm_memory_used,10.71317%,2024-03-11
+RandomForestRegressor,MAE,jvm_memory_used,13.17%,2024-03-11
+RandomForestRegressor,R2,jvm_memory_used,61.99%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_memory_used,54.99%,2024-03-11
+RandomForestRegressor,MSE,jvm_gc_pause,11.06736383821630%,2024-03-11
+RandomForestRegressor,MAE,jvm_gc_pause,24.5379092%,2024-03-11
+RandomForestRegressor,R2,jvm_gc_pause,76.11%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_gc_pause,69.21%,2024-03-11
+SVR,MSE,jvm_memory_committed,37.99536912758%,2024-03-11
+SVR,MAE,jvm_memory_committed,13.49369%,2024-03-11
+SVR,R2,jvm_memory_committed,81.00%,2024-03-11
+SVR,Explained Variance,jvm_memory_committed,87.00%,2024-03-11
+GradientBoostingRegressor,MSE,jvm_threads_daemon,2.26595%,2024-03-11
+GradientBoostingRegressor,MAE,jvm_threads_daemon,11.08%,2024-03-11
+GradientBoostingRegressor,R2,jvm_threads_daemon,78.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_threads_daemon,74.00%,2024-03-11
+SVR,MSE,jvm_threads_daemon,21.987748991%,2024-03-11
+SVR,MAE,jvm_threads_daemon,2.9791%,2024-03-11
+SVR,R2,jvm_threads_daemon,81.00%,2024-03-11
+SVR,Explained Variance,jvm_threads_daemon,89.00%,2024-03-11
+RandomForestRegressor,MSE,jvm_threads_daemon,10.84174521594%,2024-03-11
+RandomForestRegressor,MAE,jvm_threads_daemon,4.017881%,2024-03-11
+RandomForestRegressor,R2,jvm_threads_daemon,70.82%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_threads_daemon,70.83%,2024-03-11
+SVR,MSE,jvm_memory_used,1.6310693066%,2024-03-11
+SVR,MAE,jvm_memory_used,1.81101%,2024-03-11
+SVR,R2,jvm_memory_used,71.00%,2024-03-11
+SVR,Explained Variance,jvm_memory_used,68.00%,2024-03-11
+GradientBoostingRegressor,MSE,jvm_threads_live,5.42,2024-03-11
+GradientBoostingRegressor,MAE,jvm_threads_live,5.188531386947400%,2024-03-11
+GradientBoostingRegressor,R2,jvm_threads_live,60.28%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_threads_live,67.00%,2024-03-11
+SVR,MSE,jvm_threads_live,5.41,2024-03-11
+SVR,MAE,jvm_threads_live,3.8772337273152%,2024-03-11
+SVR,R2,jvm_threads_live,76.00%,2024-03-11
+SVR,Explained Variance,jvm_threads_live,73.03%,2024-03-11
+RandomForestRegressor,MSE,jvm_threads_live,5.35,2024-03-11
+RandomForestRegressor,MAE,jvm_threads_live,6.51369970144%,2024-03-11
+RandomForestRegressor,R2,jvm_threads_live,87.00%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_threads_live,81.11%,2024-03-11
+SVR,MSE,jvm_gc_pause,3.38,2024-03-11
+SVR,MAE,jvm_gc_pause,3.337640512569%,2024-03-11
+SVR,R2,jvm_gc_pause,87.07%,2024-03-11
+SVR,Explained Variance,jvm_gc_pause,85.00%,2024-03-11
+GradientBoostingRegressor,MSE,jvm_threads_peak,4.531088112008400000%,2024-03-11
+GradientBoostingRegressor,MAE,jvm_threads_peak,2.4353836723%,2024-03-11
+GradientBoostingRegressor,R2,jvm_threads_peak,97.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_threads_peak,92.00%,2024-03-11
+SVR,MSE,jvm_threads_peak,10.73%,2024-03-11
+SVR,MAE,jvm_threads_peak,0.62%,2024-03-11
+SVR,R2,jvm_threads_peak,81.99%,2024-03-11
+SVR,Explained Variance,jvm_threads_peak,89.99%,2024-03-11
+SVR,MSE,jvm_threads_started,65.47%,2024-03-11
+SVR,MAE,jvm_threads_started,10.46%,2024-03-11
+SVR,R2,jvm_threads_started,20.99%,2024-03-11
+SVR,Explained Variance,jvm_threads_started,60.99%,2024-03-11
+RandomForestRegressor,MSE,jvm_threads_peak,6.46899370443089%,2024-03-11
+RandomForestRegressor,MAE,jvm_threads_peak,12.538568%,2024-03-11
+RandomForestRegressor,R2,jvm_threads_peak,78.99%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_threads_peak,79.99%,2024-03-11
+GradientBoostingRegressor,MSE,jvm_threads_started,3.97%,2024-03-11
+GradientBoostingRegressor,MAE,jvm_threads_started,0.46%,2024-03-11
+GradientBoostingRegressor,R2,jvm_threads_started,80.99%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_threads_started,82.99%,2024-03-11
+SVR,MSE,http_server_requests_active,10.2761723036022000%,2024-03-11
+SVR,MAE,http_server_requests_active,21.29785550%,2024-03-11
+SVR,R2,http_server_requests_active,68.11%,2024-03-11
+SVR,Explained Variance,http_server_requests_active,76.00%,2024-03-11
+RandomForestRegressor,MSE,jvm_threads_started,9.45900130798713000000%,2024-03-11
+RandomForestRegressor,MAE,jvm_threads_started,19.455008467%,2024-03-11
+RandomForestRegressor,R2,jvm_threads_started,81.00%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_threads_started,82.07%,2024-03-11
+GradientBoostingRegressor,MSE,jvm_threads_states,12.51%,2024-03-11
+GradientBoostingRegressor,MAE,jvm_threads_states,2.38%,2024-03-11
+GradientBoostingRegressor,R2,jvm_threads_states,86.86%,2024-03-11
+GradientBoostingRegressor,Explained Variance,jvm_threads_states,75.86%,2024-03-11
+SVR,MSE,process_cpu_usage,6.48438412718502%,2024-03-11
+SVR,MAE,process_cpu_usage,5.934063%,2024-03-11
+SVR,R2,process_cpu_usage,90.99%,2024-03-11
+SVR,Explained Variance,process_cpu_usage,85.99%,2024-03-11
+GradientBoostingRegressor,MSE,process_cpu_usage,3.773749374719%,2024-03-11
+GradientBoostingRegressor,MAE,process_cpu_usage,2.346093%,2024-03-11
+GradientBoostingRegressor,R2,process_cpu_usage,74.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,process_cpu_usage,79.00%,2024-03-11
+GradientBoostingRegressor,MSE,logback_events,3.891368240754%,2024-03-11
+GradientBoostingRegressor,MAE,logback_events,1.7537.54%,2024-03-11
+GradientBoostingRegressor,R2,logback_events,78.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,logback_events,81.01%,2024-03-11
+SVR,MSE,jvm_threads_states,3.730440131379%,2024-03-11
+SVR,MAE,jvm_threads_states,23.29698%,2024-03-11
+SVR,R2,jvm_threads_states,77.00%,2024-03-11
+SVR,Explained Variance,jvm_threads_states,74.00%,2024-03-11
+SVR,MSE,process_uptime,11.06808359650360%,2024-03-11
+SVR,MAE,process_uptime,24.5322277%,2024-03-11
+SVR,R2,process_uptime,70.11%,2024-03-11
+SVR,Explained Variance,process_uptime,67.21%,2024-03-11
+RandomForestRegressor,MSE,jvm_threads_states,2.33704%,2024-03-11
+RandomForestRegressor,MAE,jvm_threads_states,15.00%,2024-03-11
+RandomForestRegressor,R2,jvm_threads_states,92.00%,2024-03-11
+RandomForestRegressor,Explained Variance,jvm_threads_states,89.00%,2024-03-11
+GradientBoostingRegressor,MSE,process_uptime,10.71317%,2024-03-11
+GradientBoostingRegressor,MAE,process_uptime,13.17%,2024-03-11
+GradientBoostingRegressor,R2,process_uptime,61.99%,2024-03-11
+GradientBoostingRegressor,Explained Variance,process_uptime,54.99%,2024-03-11
+SVR,MSE,logback_events,11.06736383821630%,2024-03-11
+SVR,MAE,logback_events,24.5379092%,2024-03-11
+SVR,R2,logback_events,76.11%,2024-03-11
+SVR,Explained Variance,logback_events,69.21%,2024-03-11
+RandomForestRegressor,MSE,process_cpu_usage,37.99536912758%,2024-03-11
+RandomForestRegressor,MAE,process_cpu_usage,13.49369%,2024-03-11
+RandomForestRegressor,R2,process_cpu_usage,81.00%,2024-03-11
+RandomForestRegressor,Explained Variance,process_cpu_usage,87.00%,2024-03-11
+RandomForestRegressor,MSE,process_uptime,2.26595%,2024-03-11
+RandomForestRegressor,MAE,process_uptime,11.08%,2024-03-11
+RandomForestRegressor,R2,process_uptime,78.00%,2024-03-11
+RandomForestRegressor,Explained Variance,process_uptime,74.00%,2024-03-11
+RandomForestRegressor,MSE,logback_events,21.987748991%,2024-03-11
+RandomForestRegressor,MAE,logback_events,2.9791%,2024-03-11
+RandomForestRegressor,R2,logback_events,81.00%,2024-03-11
+RandomForestRegressor,Explained Variance,logback_events,89.00%,2024-03-11
+SVR,MSE,system_cpu_usage,10.84174521594%,2024-03-11
+SVR,MAE,system_cpu_usage,4.017881%,2024-03-11
+SVR,R2,system_cpu_usage,70.82%,2024-03-11
+SVR,Explained Variance,system_cpu_usage,70.83%,2024-03-11
+GradientBoostingRegressor,MSE,system_cpu_usage,1.6310693066%,2024-03-11
+GradientBoostingRegressor,MAE,system_cpu_usage,1.81101%,2024-03-11
+GradientBoostingRegressor,R2,system_cpu_usage,71.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,system_cpu_usage,68.00%,2024-03-11
+SVR,MSE,system_load_average_1m,5.42,2024-03-11
+SVR,MAE,system_load_average_1m,5.188531386947400%,2024-03-11
+SVR,R2,system_load_average_1m,60.28%,2024-03-11
+SVR,Explained Variance,system_load_average_1m,67.00%,2024-03-11
+GradientBoostingRegressor,MSE,system_load_average_1m,5.41,2024-03-11
+GradientBoostingRegressor,MAE,system_load_average_1m,3.8772337273152%,2024-03-11
+GradientBoostingRegressor,R2,system_load_average_1m,76.00%,2024-03-11
+GradientBoostingRegressor,Explained Variance,system_load_average_1m,73.03%,2024-03-11
+RandomForestRegressor,MSE,system_cpu_usage,5.35,2024-03-11
+RandomForestRegressor,MAE,system_cpu_usage,6.51369970144%,2024-03-11
+RandomForestRegressor,R2,system_cpu_usage,87.00%,2024-03-11
+RandomForestRegressor,Explained Variance,system_cpu_usage,81.11%,2024-03-11
+RandomForestRegressor,MSE,system_load_average_1m,12.51%,2024-03-11
+RandomForestRegressor,MAE,system_load_average_1m,2.38%,2024-03-11
+RandomForestRegressor,R2,system_load_average_1m,86.86%,2024-03-11
+RandomForestRegressor,Explained Variance,system_load_average_1m,75.86%,2024-03-11
+RandomForestRegressor,MSE,http_server_requests,6.48438412718502%,2024-03-11
+RandomForestRegressor,MAE,http_server_requests,5.934063%,2024-03-11
+RandomForestRegressor,R2,http_server_requests,90.99%,2024-03-11
+RandomForestRegressor,Explained Variance,http_server_requests,85.99%,2024-03-11
