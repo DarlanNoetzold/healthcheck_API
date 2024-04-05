@@ -26,5 +26,19 @@ Postman documentation [here](https://documenter.getpostman.com/view/16000387/2sA
 
 Front-End [here.](http://177.22.91.106:3001/)
 
+## Results
+
+Training results on local architecture:
+https://github.com/DarlanNoetzold/healthcheck_API/blob/main/model_accuracies.csv
+
+Training results on Google Colab Pro:
+https://github.com/DarlanNoetzold/healthcheck_API/blob/main/model_accuracies_Google_pro.csv
+
+### Graphics:
+
+![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/1862af51-27a4-4727-9b99-79ea45405e6d)
+
+![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/322edd39-0ac8-4f56-8c3a-4d3df14040e9)
+
 ---
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
