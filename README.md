@@ -1,5 +1,7 @@
 # HealthCheck Analytics Platform
 
+This repository is subdivided into directories with separate modules from the same project. Below you will find an overview of each module, remembering that it is just a summary.
+
 ## Overview
 
 The HealthCheck Analytics Platform is a comprehensive solution for monitoring and analyzing API health metrics. This project employs a microservices architecture to collect, analyze, and predict health metrics, enabling early identification of issues and performance optimization.
@@ -7,16 +9,20 @@ The HealthCheck Analytics Platform is a comprehensive solution for monitoring an
 The system comprises several key components:
 
 - **HealthCheck Collector API**: Extracts metrics from another API every 15 minutes, storing the results in a PostgreSQL database. A procedure is then executed to update an `is_alert` flag, analyzing whether the record falls outside the expected norm.
-
-- **Data Processing Scripts**: Includes `extract_dataset_from_database`, optimized with Cython for improved performance, and `data_preparation` using Cnumpy and Cython for data preparation.
-
-- **Hyperparameter Tuning and Model Training**: Uses GridSearchCV or RandomizedSearchCV to explore parameter combinations, training regression and classification models for each collected metric.
-
-- **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
+  
+- **HealthCheck Dashboard**: A React frontend application that displays metrics, prediction results, and allows user interaction for data forecasting.
 
 - **HealthCheck-gate**: A Spring API that acts as an intermediary, processing data, saving records and accuracies in the database, and communicating with the prediction API.
 
-- **HealthCheck Dashboard**: A React frontend application that displays metrics, prediction results, and allows user interaction for data forecasting.
+- **Cython Impl**: Implementation that adapted the python code by separating some bottlenecks and transforming these snippets of python code into Cython, to gain performance improvements.
+
+  - **Data Processing Scripts**: Includes `extract_dataset_from_database`, optimized with Cython for improved performance, and `data_preparation` using Cnumpy and Cython for data preparation.
+
+  - **Hyperparameter Tuning and Model Training**: Uses GridSearchCV or RandomizedSearchCV to explore parameter combinations, training regression and classification models for each collected metric.
+
+  - **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
+
+- **Python Impl**: DEPRECATED
 
 ## Deployment
 
@@ -42,6 +48,9 @@ Postman documentation [here](https://documenter.getpostman.com/view/16000387/2sA
 
 Front-End [here.](http://177.22.91.106:3001/)
 
+
+## Google Colab Pro training dash:
+https://colab.research.google.com/drive/15aHlN6EIzTdeBKjvkjyOW_kpJ_ydGNwV?usp=sharing
 
 ---
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
