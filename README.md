@@ -9,8 +9,8 @@ The HealthCheck Analytics Platform is a comprehensive solution for monitoring an
 The system comprises several key components:
 
 - **HealthCheck Collector API**: Extracts metrics from another API every 15 minutes, storing the results in a PostgreSQL database. A procedure is then executed to update an `is_alert` flag, analyzing whether the record falls outside the expected norm. Total amount of metrics collected:
-  ![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/5b9219c2-91a6-45fd-975c-4ddcaf8fe44f)
 
+![image](https://github.com/DarlanNoetzold/healthcheck_API/assets/41628589/5b9219c2-91a6-45fd-975c-4ddcaf8fe44f)
   
 - **HealthCheck Dashboard**: A React frontend application that displays metrics, prediction results, and allows user interaction for data forecasting.
 
