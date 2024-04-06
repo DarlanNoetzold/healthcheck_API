@@ -26,6 +26,15 @@ The system comprises several key components:
 
 - **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
 
+- **Utils**: Auxiliary Scripts:
+  - **start all.sh**: Script para iniciar a aplicação completa, as suas dependências e seus módulos.
+
+  - **procudure_to_update_is_alert_flag.sql**: Procedure utilizada para atualizar a flag is_alert.
+
+  - **crontab**: Modelo do Crontab usado para execução do treinamento dos modelos todo dia (uma vez cada camada).
+  
+  - **Dockerfile**: Dockerfile em desenvolvimento.  
+
 - **Python Impl**: DEPRECATED
 
 ## Deployment
