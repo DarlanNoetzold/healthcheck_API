@@ -19,8 +19,12 @@ The system comprises several key components:
   - **Data Processing Scripts**: Includes `extract_dataset_from_database`, optimized with Cython for improved performance, and `data_preparation` using Cnumpy and Cython for data preparation.
 
   - **Hyperparameter Tuning and Model Training**: Uses GridSearchCV or RandomizedSearchCV to explore parameter combinations, training regression and classification models for each collected metric.
+  
+  - **Model training - First Layer**: Responsible for training the Regression models that will predict the values ​​of the metrics.
+  
+  - **Model training - Second Layer**: Responsible for training the Classification models that will predict the values ​​of the is_alert flags.
 
-  - **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
+- **Prediction API (`predict_next_value`)**: Allows for the prediction of metric values and the `is_alert` flag for the next 15 minutes based on the provided data.
 
 - **Python Impl**: DEPRECATED
 
