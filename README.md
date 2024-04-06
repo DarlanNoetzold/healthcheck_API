@@ -41,12 +41,12 @@ The system comprises several key components:
 
 The installation process will be detailed in the future, using docker to facilitate installation or with a manual setup, using the [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/start_all.sh) file.
 
-## Results
+## Best Results
 
-Training results on local architecture:
+Training Best results on local architecture:
 https://github.com/DarlanNoetzold/healthcheck_API/blob/main/model_accuracies.csv
 
-Training results on Google Colab Pro:
+Training Best results on Google Colab Pro:
 https://github.com/DarlanNoetzold/healthcheck_API/blob/main/model_accuracies_Google_pro.csv
 
 ### Graphics:
