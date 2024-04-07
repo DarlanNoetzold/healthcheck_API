@@ -2174,7 +2174,7 @@ static const char __pyx_k_initializing[] = "_initializing";
 static const char __pyx_k_is_coroutine[] = "_is_coroutine";
 static const char __pyx_k_jvm_gc_pause[] = "jvm.gc.pause";
 static const char __pyx_k_metric_names[] = "metric_names";
-static const char __pyx_k_192_168_18_75[] = "192.168.18.18";
+static const char __pyx_k_192_168_18_18[] = "192.168.18.18";
 static const char __pyx_k_Authorization[] = "Authorization";
 static const char __pyx_k_Generated_file[] = "Generated file: ";
 static const char __pyx_k_get_auth_token[] = "get_auth_token";
@@ -2215,8 +2215,8 @@ static const char __pyx_k_extract_locals_get_auth_token[] = "extract.<locals>.ge
 static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
 static const char __pyx_k_Failed_to_get_authentication_tok[] = "Failed to get authentication token. Skipping metric upload.";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
-static const char __pyx_k_http_192_168_18_75_8199_healthch[] = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate";
-static const char __pyx_k_http_192_168_18_75_8199_healthch_2[] = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics";
+static const char __pyx_k_http_192_168_18_18_8199_healthch[] = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate";
+static const char __pyx_k_http_192_168_18_18_8199_healthch_2[] = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_token(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
@@ -2249,7 +2249,7 @@ typedef struct {
   #endif
   #if CYTHON_USE_MODULE_STATE
   #endif
-  PyObject *__pyx_kp_s_192_168_18_75;
+  PyObject *__pyx_kp_s_192_168_18_18;
   PyObject *__pyx_kp_s_5432;
   PyObject *__pyx_n_s_Authorization;
   PyObject *__pyx_kp_u_Bearer;
@@ -2290,8 +2290,8 @@ typedef struct {
   PyObject *__pyx_n_s_healthcheck;
   PyObject *__pyx_kp_s_hikaricp_connections_acquire;
   PyObject *__pyx_n_s_host;
-  PyObject *__pyx_kp_s_http_192_168_18_75_8199_healthch;
-  PyObject *__pyx_kp_s_http_192_168_18_75_8199_healthch_2;
+  PyObject *__pyx_kp_s_http_192_168_18_18_8199_healthch;
+  PyObject *__pyx_kp_s_http_192_168_18_18_8199_healthch_2;
   PyObject *__pyx_kp_s_http_server_requests;
   PyObject *__pyx_kp_s_http_server_requests_active;
   PyObject *__pyx_n_s_import;
@@ -2413,7 +2413,7 @@ static int __pyx_m_clear(PyObject *m) {
   #ifdef __Pyx_FusedFunction_USED
   Py_CLEAR(clear_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_CLEAR(clear_module_state->__pyx_kp_s_192_168_18_75);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_192_168_18_18);
   Py_CLEAR(clear_module_state->__pyx_kp_s_5432);
   Py_CLEAR(clear_module_state->__pyx_n_s_Authorization);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Bearer);
@@ -2454,8 +2454,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_healthcheck);
   Py_CLEAR(clear_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_CLEAR(clear_module_state->__pyx_n_s_host);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_75_8199_healthch);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_75_8199_healthch_2);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests_active);
   Py_CLEAR(clear_module_state->__pyx_n_s_import);
@@ -2555,7 +2555,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   #ifdef __Pyx_FusedFunction_USED
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
-  Py_VISIT(traverse_module_state->__pyx_kp_s_192_168_18_75);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_192_168_18_18);
   Py_VISIT(traverse_module_state->__pyx_kp_s_5432);
   Py_VISIT(traverse_module_state->__pyx_n_s_Authorization);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Bearer);
@@ -2596,8 +2596,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_healthcheck);
   Py_VISIT(traverse_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_VISIT(traverse_module_state->__pyx_n_s_host);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_75_8199_healthch);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_75_8199_healthch_2);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests_active);
   Py_VISIT(traverse_module_state->__pyx_n_s_import);
@@ -2707,7 +2707,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #if CYTHON_USE_MODULE_STATE
 #endif
-#define __pyx_kp_s_192_168_18_75 __pyx_mstate_global->__pyx_kp_s_192_168_18_75
+#define __pyx_kp_s_192_168_18_18 __pyx_mstate_global->__pyx_kp_s_192_168_18_18
 #define __pyx_kp_s_5432 __pyx_mstate_global->__pyx_kp_s_5432
 #define __pyx_n_s_Authorization __pyx_mstate_global->__pyx_n_s_Authorization
 #define __pyx_kp_u_Bearer __pyx_mstate_global->__pyx_kp_u_Bearer
@@ -2748,8 +2748,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_healthcheck __pyx_mstate_global->__pyx_n_s_healthcheck
 #define __pyx_kp_s_hikaricp_connections_acquire __pyx_mstate_global->__pyx_kp_s_hikaricp_connections_acquire
 #define __pyx_n_s_host __pyx_mstate_global->__pyx_n_s_host
-#define __pyx_kp_s_http_192_168_18_75_8199_healthch __pyx_mstate_global->__pyx_kp_s_http_192_168_18_75_8199_healthch
-#define __pyx_kp_s_http_192_168_18_75_8199_healthch_2 __pyx_mstate_global->__pyx_kp_s_http_192_168_18_75_8199_healthch_2
+#define __pyx_kp_s_http_192_168_18_18_8199_healthch __pyx_mstate_global->__pyx_kp_s_http_192_168_18_18_8199_healthch
+#define __pyx_kp_s_http_192_168_18_18_8199_healthch_2 __pyx_mstate_global->__pyx_kp_s_http_192_168_18_18_8199_healthch_2
 #define __pyx_kp_s_http_server_requests __pyx_mstate_global->__pyx_kp_s_http_server_requests
 #define __pyx_kp_s_http_server_requests_active __pyx_mstate_global->__pyx_kp_s_http_server_requests_active
 #define __pyx_n_s_import __pyx_mstate_global->__pyx_n_s_import
@@ -2905,8 +2905,8 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
  *         auth_data = {
  *             "email": "admindarlan@mail.com",
  */
-  __Pyx_INCREF(__pyx_kp_s_http_192_168_18_75_8199_healthch);
-  __pyx_v_login_url = __pyx_kp_s_http_192_168_18_75_8199_healthch;
+  __Pyx_INCREF(__pyx_kp_s_http_192_168_18_18_8199_healthch);
+  __pyx_v_login_url = __pyx_kp_s_http_192_168_18_18_8199_healthch;
 
   /* "extract_dataset_from_database.pyx":37
  *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
@@ -3148,7 +3148,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_host, __pyx_kp_s_192_168_18_75) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_host, __pyx_kp_s_192_168_18_18) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_port, __pyx_kp_s_5432) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_user, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_password, __pyx_n_s_postgres) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
@@ -3549,8 +3549,8 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  * 
  *         for attempt in range(5):
  */
-    __Pyx_INCREF(__pyx_kp_s_http_192_168_18_75_8199_healthch_2);
-    __Pyx_XDECREF_SET(__pyx_v_metric_endpoint, __pyx_kp_s_http_192_168_18_75_8199_healthch_2);
+    __Pyx_INCREF(__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
+    __Pyx_XDECREF_SET(__pyx_v_metric_endpoint, __pyx_kp_s_http_192_168_18_18_8199_healthch_2);
 
     /* "extract_dataset_from_database.pyx":66
  *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
@@ -3939,7 +3939,7 @@ static PyMethodDef __pyx_methods[] = {
 
 static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
-    {&__pyx_kp_s_192_168_18_75, __pyx_k_192_168_18_75, sizeof(__pyx_k_192_168_18_75), 0, 0, 1, 0},
+    {&__pyx_kp_s_192_168_18_18, __pyx_k_192_168_18_18, sizeof(__pyx_k_192_168_18_18), 0, 0, 1, 0},
     {&__pyx_kp_s_5432, __pyx_k_5432, sizeof(__pyx_k_5432), 0, 0, 1, 0},
     {&__pyx_n_s_Authorization, __pyx_k_Authorization, sizeof(__pyx_k_Authorization), 0, 0, 1, 1},
     {&__pyx_kp_u_Bearer, __pyx_k_Bearer, sizeof(__pyx_k_Bearer), 0, 1, 0, 0},
@@ -3980,8 +3980,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_healthcheck, __pyx_k_healthcheck, sizeof(__pyx_k_healthcheck), 0, 0, 1, 1},
     {&__pyx_kp_s_hikaricp_connections_acquire, __pyx_k_hikaricp_connections_acquire, sizeof(__pyx_k_hikaricp_connections_acquire), 0, 0, 1, 0},
     {&__pyx_n_s_host, __pyx_k_host, sizeof(__pyx_k_host), 0, 0, 1, 1},
-    {&__pyx_kp_s_http_192_168_18_75_8199_healthch, __pyx_k_http_192_168_18_75_8199_healthch, sizeof(__pyx_k_http_192_168_18_75_8199_healthch), 0, 0, 1, 0},
-    {&__pyx_kp_s_http_192_168_18_75_8199_healthch_2, __pyx_k_http_192_168_18_75_8199_healthch_2, sizeof(__pyx_k_http_192_168_18_75_8199_healthch_2), 0, 0, 1, 0},
+    {&__pyx_kp_s_http_192_168_18_18_8199_healthch, __pyx_k_http_192_168_18_18_8199_healthch, sizeof(__pyx_k_http_192_168_18_18_8199_healthch), 0, 0, 1, 0},
+    {&__pyx_kp_s_http_192_168_18_18_8199_healthch_2, __pyx_k_http_192_168_18_18_8199_healthch_2, sizeof(__pyx_k_http_192_168_18_18_8199_healthch_2), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests, __pyx_k_http_server_requests, sizeof(__pyx_k_http_server_requests), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests_active, __pyx_k_http_server_requests_active, sizeof(__pyx_k_http_server_requests_active), 0, 0, 1, 0},
     {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
