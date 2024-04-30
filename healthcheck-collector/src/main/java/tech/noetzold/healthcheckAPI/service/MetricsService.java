@@ -69,8 +69,18 @@ public class MetricsService {
         }
     }
 
+    public MetricResponse enrichMetricResponseWithJvmDetails(MetricResponse metricResponse) {
+        MetricResponse jvmDetails = metricsClient.getJvmDetails();
+        metricResponse.setJvmArguments(jvmDetails.getJvmArguments());
+        metricResponse.setHeapMemoryMax(jvmDetails.getHeapMemoryMax());
+        metricResponse.setHeapMemoryUsed(jvmDetails.getHeapMemoryUsed());
+        metricResponse.setGcCollectionTimes(jvmDetails.getGcCollectionTimes());
+        return metricResponse;
+    }
+
     public List<MetricResponse> getAllMetricsPaginated(Pageable pageable) {
         logger.info("Iniciando getAllMetricsPaginated");
+
         List<MetricResponse> responses = metricsRepository.findAll(pageable).getContent();
         logger.info("Finalizando getAllMetricsPaginated");
         return responses;
@@ -94,6 +104,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveApplicationReadyTime() {
         MetricResponse response = metricsClient.getApplicationReadyTime();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -114,6 +125,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveApplicationStartedTime() {
         MetricResponse response = metricsClient.getApplicationStartedTime();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -134,6 +146,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveCacheGets() {
         MetricResponse response = metricsClient.getCacheGets();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -154,6 +167,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveCacheLockDuration() {
         MetricResponse response = metricsClient.getCacheLockDuration();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -174,6 +188,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveCachePuts() {
         MetricResponse response = metricsClient.getCachePuts();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -194,6 +209,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveCacheRemovals() {
         MetricResponse response = metricsClient.getCacheRemovals();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -214,6 +230,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveDiskFree() {
         MetricResponse response = metricsClient.getDiskFree();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -234,6 +251,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveDiskTotal() {
         MetricResponse response = metricsClient.getDiskTotal();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -254,6 +272,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorActive() {
         MetricResponse response = metricsClient.getExecutorActive();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -274,6 +293,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorCompleted() {
         MetricResponse response = metricsClient.getExecutorCompleted();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -294,6 +314,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorPoolCore() {
         MetricResponse response = metricsClient.getExecutorPoolCore();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -314,6 +335,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorPoolMax() {
         MetricResponse response = metricsClient.getExecutorPoolMax();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -334,6 +356,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorPoolSize() {
         MetricResponse response = metricsClient.getExecutorPoolSize();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -354,6 +377,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorQueueRemaining() {
         MetricResponse response = metricsClient.getExecutorQueueRemaining();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -374,6 +398,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveExecutorQueued() {
         MetricResponse response = metricsClient.getExecutorQueued();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -394,6 +419,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnections() {
         MetricResponse response = metricsClient.getHikaricpConnections();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -414,6 +440,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsAcquire() {
         MetricResponse response = metricsClient.getHikaricpConnectionsAcquire();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -434,6 +461,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsActive() {
         MetricResponse response = metricsClient.getHikaricpConnectionsActive();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -454,6 +482,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsCreation() {
         MetricResponse response = metricsClient.getHikaricpConnectionsCreation();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -474,6 +503,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsIdle() {
         MetricResponse response = metricsClient.getHikaricpConnectionsIdle();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -494,6 +524,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsMax() {
         MetricResponse response = metricsClient.getHikaricpConnectionsMax();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -514,6 +545,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsMin() {
         MetricResponse response = metricsClient.getHikaricpConnectionsMin();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -534,6 +566,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsPending() {
         MetricResponse response = metricsClient.getHikaricpConnectionsPending();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -554,6 +587,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsTimeout() {
         MetricResponse response = metricsClient.getHikaricpConnectionsTimeout();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -574,6 +608,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHikaricpConnectionsUsage() {
         MetricResponse response = metricsClient.getHikaricpConnectionsUsage();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -594,6 +629,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHttpServerRequests() {
         MetricResponse response = metricsClient.getHttpServerRequests();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -614,6 +650,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveHttpServerRequestsActive() {
         MetricResponse response = metricsClient.getHttpServerRequestsActive();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -634,6 +671,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJdbcConnectionsActive() {
         MetricResponse response = metricsClient.getJdbcConnectionsActive();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -654,6 +692,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJdbcConnectionsIdle() {
         MetricResponse response = metricsClient.getJdbcConnectionsIdle();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -674,6 +713,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJdbcConnectionsMax() {
         MetricResponse response = metricsClient.getJdbcConnectionsMax();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -694,6 +734,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJdbcConnectionsMin() {
         MetricResponse response = metricsClient.getJdbcConnectionsMin();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -714,6 +755,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmBufferCount() {
         MetricResponse response = metricsClient.getJvmBufferCount();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -734,6 +776,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmBufferMemoryUsed() {
         MetricResponse response = metricsClient.getJvmBufferMemoryUsed();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -754,6 +797,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmBufferTotalCapacity() {
         MetricResponse response = metricsClient.getJvmBufferTotalCapacity();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -774,6 +818,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmClassesLoaded() {
         MetricResponse response = metricsClient.getJvmClassesLoaded();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -794,6 +839,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmClassesUnloaded() {
         MetricResponse response = metricsClient.getJvmClassesUnloaded();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -814,6 +860,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmCompilationTime() {
         MetricResponse response = metricsClient.getJvmCompilationTime();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -834,6 +881,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcLiveDataSize() {
         MetricResponse response = metricsClient.getJvmGcLiveDataSize();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -854,6 +902,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcMaxDataSize() {
         MetricResponse response = metricsClient.getJvmGcMaxDataSize();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -874,6 +923,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcMemoryAllocated() {
         MetricResponse response = metricsClient.getJvmGcMemoryAllocated();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -894,6 +944,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcMemoryPromoted() {
         MetricResponse response = metricsClient.getJvmGcMemoryPromoted();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -914,6 +965,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcOverhead() {
         MetricResponse response = metricsClient.getJvmGcOverhead();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -934,6 +986,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmGcPause() {
         MetricResponse response = metricsClient.getJvmGcPause();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -954,6 +1007,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmInfo() {
         MetricResponse response = metricsClient.getJvmInfo();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -974,6 +1028,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmMemoryCommitted() {
         MetricResponse response = metricsClient.getJvmMemoryCommitted();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -994,6 +1049,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmMemoryMax() {
         MetricResponse response = metricsClient.getJvmMemoryMax();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1014,6 +1070,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmMemoryUsageAfterGc() {
         MetricResponse response = metricsClient.getJvmMemoryUsageAfterGc();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1034,6 +1091,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmMemoryUsed() {
         MetricResponse response = metricsClient.getJvmMemoryUsed();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1054,6 +1112,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmThreadsDaemon() {
         MetricResponse response = metricsClient.getJvmThreadsDaemon();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1074,6 +1133,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmThreadsLive() {
         MetricResponse response = metricsClient.getJvmThreadsLive();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1094,6 +1154,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmThreadsPeak() {
         MetricResponse response = metricsClient.getJvmThreadsPeak();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1114,6 +1175,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmThreadsStarted() {
         MetricResponse response = metricsClient.getJvmThreadsStarted();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1134,6 +1196,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveJvmThreadsStates() {
         MetricResponse response = metricsClient.getJvmThreadsStates();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1154,6 +1217,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveLettuceCommandCompletion() {
         MetricResponse response = metricsClient.getLettuceCommandCompletion();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1174,6 +1238,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveLettuceCommandFirstresponse() {
         MetricResponse response = metricsClient.getLettuceCommandFirstresponse();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1194,6 +1259,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveLogbackEvents() {
         MetricResponse response = metricsClient.getLogbackEvents();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1214,6 +1280,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveProcessCpuUsage() {
         MetricResponse response = metricsClient.getProcessCpuUsage();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1234,6 +1301,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveProcessFilesMax() {
         MetricResponse response = metricsClient.getProcessFilesMax();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1254,6 +1322,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveProcessFilesOpen() {
         MetricResponse response = metricsClient.getProcessFilesOpen();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1274,6 +1343,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveProcessStartTime() {
         MetricResponse response = metricsClient.getProcessStartTime();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1294,6 +1364,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveProcessUptime() {
         MetricResponse response = metricsClient.getProcessUptime();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1314,6 +1385,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveSpringDataRepositoryInvocations() {
         MetricResponse response = metricsClient.getSpringDataRepositoryInvocations();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1334,6 +1406,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveSystemCpuCount() {
         MetricResponse response = metricsClient.getSystemCpuCount();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1354,6 +1427,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveSystemCpuUsage() {
         MetricResponse response = metricsClient.getSystemCpuUsage();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
@@ -1374,6 +1448,7 @@ public class MetricsService {
     @Transactional
     public void fetchAndSaveSystemLoadAverage1M() {
         MetricResponse response = metricsClient.getSystemLoadAverage1M();
+        response = enrichMetricResponseWithJvmDetails(response);
         MetricResponse savedResponse = metricsRepository.save(response);
 
         if (savedResponse.getMeasurements() != null) {
