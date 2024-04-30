@@ -5,8 +5,11 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import tech.noetzold.healthcheckAPI.converter.JpaConverterJson;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @Data
 @Entity
@@ -27,6 +30,14 @@ public class MetricResponse {
     @OneToMany(mappedBy = "metricResponse", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Tag> availableTags = new ArrayList<>();
+
+    private List<String> jvmArguments;
+    private Long heapMemoryMax;
+    private Long heapMemoryUsed;
+
+    @Convert(converter = JpaConverterJson.class)
+    @Column(columnDefinition = "json")
+    private Map<String, Long> gcCollectionTimes;
 
     public void addMeasurement(Measurement measurement) {
         measurements.add(measurement);
