@@ -74,7 +74,7 @@ public class MetricsService {
         metricResponse.setJvmArguments(jvmDetails.getJvmArguments());
         metricResponse.setHeapMemoryMax(jvmDetails.getHeapMemoryMax());
         metricResponse.setHeapMemoryUsed(jvmDetails.getHeapMemoryUsed());
-        metricResponse.setGcCollectionTimes(jvmDetails.getGcCollectionTimes());
+        metricResponse.setGarbageCollectors(jvmDetails.getGarbageCollectors());
         return metricResponse;
     }
 
