@@ -181,8 +181,8 @@ public interface MetricsClient {
     @GetMapping("/actuator/metrics/process.cpu.usage")
     MetricResponse getProcessCpuUsage();
 
-    @GetMapping("/actuator/metrics/process.files.max")
-    MetricResponse getProcessFilesMax();
+    //@GetMapping("/actuator/metrics/process.files.max")
+    //MetricResponse getProcessFilesMax();
 
     @GetMapping("/actuator/metrics/process.files.open")
     MetricResponse getProcessFilesOpen();
