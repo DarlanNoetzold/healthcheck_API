@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import tech.noetzold.healthcheckAPI.converter.JpaConverterJson;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,10 +33,7 @@ public class MetricResponse {
     private List<String> jvmArguments;
     private Long heapMemoryMax;
     private Long heapMemoryUsed;
-
-    @Convert(converter = JpaConverterJson.class)
-    @Column(columnDefinition = "json")
-    private Map<String, Long> gcCollectionTimes;
+    private String garbageCollectors;
 
     public void addMeasurement(Measurement measurement) {
         measurements.add(measurement);
