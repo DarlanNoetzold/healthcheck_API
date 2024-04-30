@@ -4,8 +4,11 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import tech.noetzold.healthcheckAPI.model.MetricResponse;
 
-@FeignClient(name = "metricsClient", url = "http://192.168.18.18:8193")
+@FeignClient(name = "metricsClient", url = "http://localhost:8193")
 public interface MetricsClient {
+
+    @GetMapping("/actuator/jvmDetails")
+    MetricResponse getJvmDetails();
 
     @GetMapping("/actuator/metrics/application.ready.time")
     MetricResponse getApplicationReadyTime();
