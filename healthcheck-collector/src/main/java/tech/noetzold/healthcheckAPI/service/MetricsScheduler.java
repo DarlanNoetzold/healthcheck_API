@@ -72,7 +72,7 @@ public class MetricsScheduler {
         metricsService.fetchAndSaveJvmThreadsStates();
         metricsService.fetchAndSaveLogbackEvents();
         metricsService.fetchAndSaveProcessCpuUsage();
-        metricsService.fetchAndSaveProcessFilesMax();
+        //metricsService.fetchAndSaveProcessFilesMax();
         metricsService.fetchAndSaveProcessFilesOpen();
         metricsService.fetchAndSaveProcessStartTime();
         metricsService.fetchAndSaveProcessUptime();
