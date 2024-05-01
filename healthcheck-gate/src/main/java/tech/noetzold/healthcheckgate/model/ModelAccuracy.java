@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Entity
@@ -25,6 +26,10 @@ public class ModelAccuracy implements Serializable {
     private String metricName;
     private double accuracyValue;
     private Date trainingDate;
+    private List<String> jvmArguments;
+    private Long heapMemoryMax;
+    private Long heapMemoryUsed;
+    private String garbageCollectors;
 
 }
 
