@@ -1298,27 +1298,28 @@ public class MetricsService {
             }
         }
     }
-    @Transactional
-    public void fetchAndSaveProcessFilesMax() {
-        MetricResponse response = metricsClient.getProcessFilesMax();
-        response = enrichMetricResponseWithJvmDetails(response);
-        MetricResponse savedResponse = metricsRepository.save(response);
-
-        if (savedResponse.getMeasurements() != null) {
-            for (Measurement measurement : savedResponse.getMeasurements()) {
-
-                measurement.setMetricResponse(savedResponse);
-                measurementRepository.save(measurement);
-            }
-        }
-
-        if (savedResponse.getAvailableTags() != null) {
-            for (Tag tag : savedResponse.getAvailableTags()) {
-                tag.setMetricResponse(savedResponse);
-                tagRepository.save(tag);
-            }
-        }
-    }
+    
+    //@Transactional
+    //public void fetchAndSaveProcessFilesMax() {
+    //    MetricResponse response = metricsClient.getProcessFilesMax();
+    //    response = enrichMetricResponseWithJvmDetails(response);
+    //    MetricResponse savedResponse = metricsRepository.save(response);
+//
+    //    if (savedResponse.getMeasurements() != null) {
+    //        for (Measurement measurement : savedResponse.getMeasurements()) {
+//
+    //            measurement.setMetricResponse(savedResponse);
+    //            measurementRepository.save(measurement);
+    //        }
+    //    }
+//
+    //    if (savedResponse.getAvailableTags() != null) {
+    //        for (Tag tag : savedResponse.getAvailableTags()) {
+    //            tag.setMetricResponse(savedResponse);
+    //            tagRepository.save(tag);
+    //        }
+    //    }
+    //}
     @Transactional
     public void fetchAndSaveProcessFilesOpen() {
         MetricResponse response = metricsClient.getProcessFilesOpen();
