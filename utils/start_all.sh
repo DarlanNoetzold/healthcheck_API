@@ -36,11 +36,11 @@ done
 
 sleep 5
 
-docker start fa9167a4bbb4  # Redis
-docker start 18b78a64099b  # PostgreSQL
-docker start 59abf8bdb67f  # RabbitMQ
+docker start e3f6bca18032  # Redis
+docker start 1e61b17136ce  # PostgreSQL
+docker start f5b367414fe7  # RabbitMQ
 
-base_dir="/home/darlan/projetos/healthcheck_API"
+base_dir="/home/umbrel/projetos/healthcheck_API"
 
 cd $base_dir
 git reset --hard
@@ -66,6 +66,6 @@ npm install
 npm start &
 
 
-jmeter_path="/home/darlan/projetos/apache-jmeter-5.5/bin/jmeter.sh"
-test_plan="/home/darlan/projetos/apache-jmeter-5.5/bin/testeApi.jmx"
+jmeter_path="/home/umbrel/projetos/apache-jmeter-5.5/bin/jmeter.sh"
+test_plan="/home/umbrel/projetos/apache-jmeter-5.5/bin/testeApi.jmx"
 $jmeter_path -n -t $test_plan
