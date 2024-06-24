@@ -41,7 +41,7 @@ The system comprises several key components:
 
 ## Deployment
 
-The installation process will be detailed in the future, using docker to facilitate installation or with a manual setup, using the [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/start_all.sh) file.
+The installation process will be detailed in the future, using docker to facilitate installation or with a manual setup, using the [start.sh](https://github.com/DarlanNoetzold/healthcheck_API/blob/main/utils/start_all.sh) file.
 
 ## Best Results
 
@@ -60,8 +60,6 @@ https://github.com/DarlanNoetzold/healthcheck_API/blob/main/model_accuracies_Goo
 
 ## More Information:
 Postman documentation [here](https://documenter.getpostman.com/view/16000387/2sA2xb7veq).
-
-Front-End [here.](http://177.22.91.106:3001/)
 
 
 ## Google Colab Pro training dash:
