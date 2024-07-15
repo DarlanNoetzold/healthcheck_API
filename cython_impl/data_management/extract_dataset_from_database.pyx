@@ -22,7 +22,7 @@ def extract():
         "jvm.memory.committed", "jvm.memory.usage.after.gc",
         "jvm.memory.used", "jvm.threads.daemon", "jvm.threads.live", "jvm.threads.peak",
         "jvm.threads.started", "jvm.threads.states", "logback.events", "process.cpu.usage",
-        "process.uptime", "system.cpu.usage", "system.load.average.1m"
+        "process.uptime", "system.cpu.usage"
     ]
     output_dir = "metrics_from_database"
 
@@ -34,7 +34,7 @@ def extract():
     def get_auth_token():
         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
         auth_data = {
-            "email": "admindarlan1231@mail.com",
+            "email": "teste@mail.com",
             "password": "password"
         }
         for attempt in range(5):
