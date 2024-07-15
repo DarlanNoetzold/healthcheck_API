@@ -2181,6 +2181,7 @@ static const char __pyx_k_get_auth_token[] = "get_auth_token";
 static const char __pyx_k_logback_events[] = "logback.events";
 static const char __pyx_k_process_uptime[] = "process.uptime";
 static const char __pyx_k_read_sql_query[] = "read_sql_query";
+static const char __pyx_k_teste_mail_com[] = "teste@mail.com";
 static const char __pyx_k_jvm_gc_overhead[] = "jvm.gc.overhead";
 static const char __pyx_k_jvm_memory_used[] = "jvm.memory.used";
 static const char __pyx_k_metric_endpoint[] = "metric_endpoint";
@@ -2203,9 +2204,7 @@ static const char __pyx_k_jvm_memory_committed[] = "jvm.memory.committed";
 static const char __pyx_k_metrics_from_database[] = "metrics_from_database";
 static const char __pyx_k_jvm_buffer_memory_used[] = "jvm.buffer.memory.used";
 static const char __pyx_k_jvm_gc_memory_promoted[] = "jvm.gc.memory.promoted";
-static const char __pyx_k_system_load_average_1m[] = "system.load.average.1m";
 static const char __pyx_k_jvm_gc_memory_allocated[] = "jvm.gc.memory.allocated";
-static const char __pyx_k_admindarlan1231_mail_com[] = "admindarlan1231@mail.com";
 static const char __pyx_k_jvm_buffer_total_capacity[] = "jvm.buffer.total.capacity";
 static const char __pyx_k_jvm_memory_usage_after_gc[] = "jvm.memory.usage.after.gc";
 static const char __pyx_k_http_server_requests_active[] = "http.server.requests.active";
@@ -2265,7 +2264,6 @@ typedef struct {
   PyObject *__pyx_kp_u__7;
   PyObject *__pyx_n_s__8;
   PyObject *__pyx_n_s_access_token;
-  PyObject *__pyx_kp_s_admindarlan1231_mail_com;
   PyObject *__pyx_n_s_asyncio_coroutines;
   PyObject *__pyx_n_s_attempt;
   PyObject *__pyx_n_s_auth_data;
@@ -2354,8 +2352,8 @@ typedef struct {
   PyObject *__pyx_n_s_spec;
   PyObject *__pyx_n_s_status_code;
   PyObject *__pyx_kp_s_system_cpu_usage;
-  PyObject *__pyx_kp_s_system_load_average_1m;
   PyObject *__pyx_n_s_test;
+  PyObject *__pyx_kp_s_teste_mail_com;
   PyObject *__pyx_n_s_text;
   PyObject *__pyx_n_s_time;
   PyObject *__pyx_n_s_to_csv;
@@ -2429,7 +2427,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u__7);
   Py_CLEAR(clear_module_state->__pyx_n_s__8);
   Py_CLEAR(clear_module_state->__pyx_n_s_access_token);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_admindarlan1231_mail_com);
   Py_CLEAR(clear_module_state->__pyx_n_s_asyncio_coroutines);
   Py_CLEAR(clear_module_state->__pyx_n_s_attempt);
   Py_CLEAR(clear_module_state->__pyx_n_s_auth_data);
@@ -2518,8 +2515,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
   Py_CLEAR(clear_module_state->__pyx_n_s_status_code);
   Py_CLEAR(clear_module_state->__pyx_kp_s_system_cpu_usage);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_system_load_average_1m);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_teste_mail_com);
   Py_CLEAR(clear_module_state->__pyx_n_s_text);
   Py_CLEAR(clear_module_state->__pyx_n_s_time);
   Py_CLEAR(clear_module_state->__pyx_n_s_to_csv);
@@ -2571,7 +2568,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u__7);
   Py_VISIT(traverse_module_state->__pyx_n_s__8);
   Py_VISIT(traverse_module_state->__pyx_n_s_access_token);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_admindarlan1231_mail_com);
   Py_VISIT(traverse_module_state->__pyx_n_s_asyncio_coroutines);
   Py_VISIT(traverse_module_state->__pyx_n_s_attempt);
   Py_VISIT(traverse_module_state->__pyx_n_s_auth_data);
@@ -2660,8 +2656,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
   Py_VISIT(traverse_module_state->__pyx_n_s_status_code);
   Py_VISIT(traverse_module_state->__pyx_kp_s_system_cpu_usage);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_system_load_average_1m);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_teste_mail_com);
   Py_VISIT(traverse_module_state->__pyx_n_s_text);
   Py_VISIT(traverse_module_state->__pyx_n_s_time);
   Py_VISIT(traverse_module_state->__pyx_n_s_to_csv);
@@ -2723,7 +2719,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u__7 __pyx_mstate_global->__pyx_kp_u__7
 #define __pyx_n_s__8 __pyx_mstate_global->__pyx_n_s__8
 #define __pyx_n_s_access_token __pyx_mstate_global->__pyx_n_s_access_token
-#define __pyx_kp_s_admindarlan1231_mail_com __pyx_mstate_global->__pyx_kp_s_admindarlan1231_mail_com
 #define __pyx_n_s_asyncio_coroutines __pyx_mstate_global->__pyx_n_s_asyncio_coroutines
 #define __pyx_n_s_attempt __pyx_mstate_global->__pyx_n_s_attempt
 #define __pyx_n_s_auth_data __pyx_mstate_global->__pyx_n_s_auth_data
@@ -2812,8 +2807,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
 #define __pyx_n_s_status_code __pyx_mstate_global->__pyx_n_s_status_code
 #define __pyx_kp_s_system_cpu_usage __pyx_mstate_global->__pyx_kp_s_system_cpu_usage
-#define __pyx_kp_s_system_load_average_1m __pyx_mstate_global->__pyx_kp_s_system_load_average_1m
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
+#define __pyx_kp_s_teste_mail_com __pyx_mstate_global->__pyx_kp_s_teste_mail_com
 #define __pyx_n_s_text __pyx_mstate_global->__pyx_n_s_text
 #define __pyx_n_s_time __pyx_mstate_global->__pyx_n_s_time
 #define __pyx_n_s_to_csv __pyx_mstate_global->__pyx_n_s_to_csv
@@ -2903,7 +2898,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
  *     def get_auth_token():
  *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"             # <<<<<<<<<<<<<<
  *         auth_data = {
- *             "email": "admindarlan1231@mail.com",
+ *             "email": "teste@mail.com",
  */
   __Pyx_INCREF(__pyx_kp_s_http_localhost_8199_healthcheck);
   __pyx_v_login_url = __pyx_kp_s_http_localhost_8199_healthcheck;
@@ -2911,13 +2906,13 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
   /* "extract_dataset_from_database.pyx":37
  *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
- *             "email": "admindarlan1231@mail.com",             # <<<<<<<<<<<<<<
+ *             "email": "teste@mail.com",             # <<<<<<<<<<<<<<
  *             "password": "password"
  *         }
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 37, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_email, __pyx_kp_s_admindarlan1231_mail_com) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_email, __pyx_kp_s_teste_mail_com) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_password, __pyx_n_s_password) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   __pyx_v_auth_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
@@ -3163,7 +3158,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *         "disk.free", "hikaricp.connections.acquire",
  *         "http.server.requests", "http.server.requests.active",
  */
-  __pyx_t_1 = PyList_New(26); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(25); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_disk_free);
   __Pyx_GIVEREF(__pyx_kp_s_disk_free);
@@ -3240,14 +3235,11 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
   __Pyx_INCREF(__pyx_kp_s_system_cpu_usage);
   __Pyx_GIVEREF(__pyx_kp_s_system_cpu_usage);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 24, __pyx_kp_s_system_cpu_usage)) __PYX_ERR(0, 16, __pyx_L1_error);
-  __Pyx_INCREF(__pyx_kp_s_system_load_average_1m);
-  __Pyx_GIVEREF(__pyx_kp_s_system_load_average_1m);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 25, __pyx_kp_s_system_load_average_1m)) __PYX_ERR(0, 16, __pyx_L1_error);
   __pyx_v_metric_names = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
   /* "extract_dataset_from_database.pyx":27
- *         "process.uptime", "system.cpu.usage", "system.load.average.1m"
+ *         "process.uptime", "system.cpu.usage"
  *     ]
  *     output_dir = "metrics_from_database"             # <<<<<<<<<<<<<<
  * 
@@ -3955,7 +3947,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 1, 0, 0},
     {&__pyx_n_s__8, __pyx_k__8, sizeof(__pyx_k__8), 0, 0, 1, 1},
     {&__pyx_n_s_access_token, __pyx_k_access_token, sizeof(__pyx_k_access_token), 0, 0, 1, 1},
-    {&__pyx_kp_s_admindarlan1231_mail_com, __pyx_k_admindarlan1231_mail_com, sizeof(__pyx_k_admindarlan1231_mail_com), 0, 0, 1, 0},
     {&__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
     {&__pyx_n_s_attempt, __pyx_k_attempt, sizeof(__pyx_k_attempt), 0, 0, 1, 1},
     {&__pyx_n_s_auth_data, __pyx_k_auth_data, sizeof(__pyx_k_auth_data), 0, 0, 1, 1},
@@ -4044,8 +4035,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
     {&__pyx_n_s_status_code, __pyx_k_status_code, sizeof(__pyx_k_status_code), 0, 0, 1, 1},
     {&__pyx_kp_s_system_cpu_usage, __pyx_k_system_cpu_usage, sizeof(__pyx_k_system_cpu_usage), 0, 0, 1, 0},
-    {&__pyx_kp_s_system_load_average_1m, __pyx_k_system_load_average_1m, sizeof(__pyx_k_system_load_average_1m), 0, 0, 1, 0},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
+    {&__pyx_kp_s_teste_mail_com, __pyx_k_teste_mail_com, sizeof(__pyx_k_teste_mail_com), 0, 0, 1, 0},
     {&__pyx_n_s_text, __pyx_k_text, sizeof(__pyx_k_text), 0, 0, 1, 1},
     {&__pyx_n_s_time, __pyx_k_time, sizeof(__pyx_k_time), 0, 0, 1, 1},
     {&__pyx_n_s_to_csv, __pyx_k_to_csv, sizeof(__pyx_k_to_csv), 0, 0, 1, 1},
