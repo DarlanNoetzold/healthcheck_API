@@ -32,9 +32,9 @@ def extract():
     conn = psycopg2.connect(**db_config)
 
     def get_auth_token():
-        login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+        login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
         auth_data = {
-            "email": "admindarlan@mail.com",
+            "email": "admindarlan1231@mail.com",
             "password": "password"
         }
         for attempt in range(5):
@@ -61,7 +61,7 @@ def extract():
         df.to_csv(filename, index=False)
         print(f"Generated file: {filename}")
 
-        metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
+        metric_endpoint = "http://localhost:8199/healthcheck/v1/gate/metrics"
 
         for attempt in range(5):
             token = get_auth_token()
