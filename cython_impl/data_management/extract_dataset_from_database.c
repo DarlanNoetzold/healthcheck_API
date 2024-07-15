@@ -2197,7 +2197,6 @@ static const char __pyx_k_jvm_threads_daemon[] = "jvm.threads.daemon";
 static const char __pyx_k_jvm_threads_states[] = "jvm.threads.states";
 static const char __pyx_k_jvm_threads_started[] = "jvm.threads.started";
 static const char __pyx_k_Error_sending_metric[] = "Error sending metric ";
-static const char __pyx_k_admindarlan_mail_com[] = "admindarlan@mail.com";
 static const char __pyx_k_http_server_requests[] = "http.server.requests";
 static const char __pyx_k_jvm_compilation_time[] = "jvm.compilation.time";
 static const char __pyx_k_jvm_memory_committed[] = "jvm.memory.committed";
@@ -2206,6 +2205,7 @@ static const char __pyx_k_jvm_buffer_memory_used[] = "jvm.buffer.memory.used";
 static const char __pyx_k_jvm_gc_memory_promoted[] = "jvm.gc.memory.promoted";
 static const char __pyx_k_system_load_average_1m[] = "system.load.average.1m";
 static const char __pyx_k_jvm_gc_memory_allocated[] = "jvm.gc.memory.allocated";
+static const char __pyx_k_admindarlan1231_mail_com[] = "admindarlan1231@mail.com";
 static const char __pyx_k_jvm_buffer_total_capacity[] = "jvm.buffer.total.capacity";
 static const char __pyx_k_jvm_memory_usage_after_gc[] = "jvm.memory.usage.after.gc";
 static const char __pyx_k_http_server_requests_active[] = "http.server.requests.active";
@@ -2213,10 +2213,10 @@ static const char __pyx_k_hikaricp_connections_acquire[] = "hikaricp.connections
 static const char __pyx_k_extract_dataset_from_database[] = "extract_dataset_from_database";
 static const char __pyx_k_extract_locals_get_auth_token[] = "extract.<locals>.get_auth_token";
 static const char __pyx_k_SELECT_mr_name_AS_metric_name_m[] = "\n        SELECT mr.name AS metric_name, mr.description, mr.base_unit,\n        m.statistic, m.value AS measurement_value, t.tag, tv.value AS tag_value, m.is_alert AS is_alert\n        FROM metric_response mr\n        LEFT JOIN measurement m ON mr.id = m.metric_response_id\n        LEFT JOIN tag t ON mr.id = t.metric_response_id\n        LEFT JOIN tag_values tv ON t.id = tv.tag_id\n        WHERE mr.name = %s\n        ORDER BY mr.name, m.id, t.id, tv.tag_id;\n        ";
+static const char __pyx_k_http_localhost_8199_healthcheck[] = "http://localhost:8199/healthcheck/v1/auth/authenticate";
 static const char __pyx_k_Failed_to_get_authentication_tok[] = "Failed to get authentication token. Skipping metric upload.";
 static const char __pyx_k_extract_dataset_from_database_py[] = "extract_dataset_from_database.pyx";
-static const char __pyx_k_http_192_168_18_18_8199_healthch[] = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate";
-static const char __pyx_k_http_192_168_18_18_8199_healthch_2[] = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics";
+static const char __pyx_k_http_localhost_8199_healthcheck_2[] = "http://localhost:8199/healthcheck/v1/gate/metrics";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_token(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
@@ -2265,7 +2265,7 @@ typedef struct {
   PyObject *__pyx_kp_u__7;
   PyObject *__pyx_n_s__8;
   PyObject *__pyx_n_s_access_token;
-  PyObject *__pyx_kp_s_admindarlan_mail_com;
+  PyObject *__pyx_kp_s_admindarlan1231_mail_com;
   PyObject *__pyx_n_s_asyncio_coroutines;
   PyObject *__pyx_n_s_attempt;
   PyObject *__pyx_n_s_auth_data;
@@ -2290,8 +2290,8 @@ typedef struct {
   PyObject *__pyx_n_s_healthcheck;
   PyObject *__pyx_kp_s_hikaricp_connections_acquire;
   PyObject *__pyx_n_s_host;
-  PyObject *__pyx_kp_s_http_192_168_18_18_8199_healthch;
-  PyObject *__pyx_kp_s_http_192_168_18_18_8199_healthch_2;
+  PyObject *__pyx_kp_s_http_localhost_8199_healthcheck;
+  PyObject *__pyx_kp_s_http_localhost_8199_healthcheck_2;
   PyObject *__pyx_kp_s_http_server_requests;
   PyObject *__pyx_kp_s_http_server_requests_active;
   PyObject *__pyx_n_s_import;
@@ -2429,7 +2429,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u__7);
   Py_CLEAR(clear_module_state->__pyx_n_s__8);
   Py_CLEAR(clear_module_state->__pyx_n_s_access_token);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_admindarlan_mail_com);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_admindarlan1231_mail_com);
   Py_CLEAR(clear_module_state->__pyx_n_s_asyncio_coroutines);
   Py_CLEAR(clear_module_state->__pyx_n_s_attempt);
   Py_CLEAR(clear_module_state->__pyx_n_s_auth_data);
@@ -2454,8 +2454,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_healthcheck);
   Py_CLEAR(clear_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_CLEAR(clear_module_state->__pyx_n_s_host);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_localhost_8199_healthcheck);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_http_localhost_8199_healthcheck_2);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests);
   Py_CLEAR(clear_module_state->__pyx_kp_s_http_server_requests_active);
   Py_CLEAR(clear_module_state->__pyx_n_s_import);
@@ -2571,7 +2571,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u__7);
   Py_VISIT(traverse_module_state->__pyx_n_s__8);
   Py_VISIT(traverse_module_state->__pyx_n_s_access_token);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_admindarlan_mail_com);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_admindarlan1231_mail_com);
   Py_VISIT(traverse_module_state->__pyx_n_s_asyncio_coroutines);
   Py_VISIT(traverse_module_state->__pyx_n_s_attempt);
   Py_VISIT(traverse_module_state->__pyx_n_s_auth_data);
@@ -2596,8 +2596,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_healthcheck);
   Py_VISIT(traverse_module_state->__pyx_kp_s_hikaricp_connections_acquire);
   Py_VISIT(traverse_module_state->__pyx_n_s_host);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_localhost_8199_healthcheck);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_http_localhost_8199_healthcheck_2);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests);
   Py_VISIT(traverse_module_state->__pyx_kp_s_http_server_requests_active);
   Py_VISIT(traverse_module_state->__pyx_n_s_import);
@@ -2723,7 +2723,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u__7 __pyx_mstate_global->__pyx_kp_u__7
 #define __pyx_n_s__8 __pyx_mstate_global->__pyx_n_s__8
 #define __pyx_n_s_access_token __pyx_mstate_global->__pyx_n_s_access_token
-#define __pyx_kp_s_admindarlan_mail_com __pyx_mstate_global->__pyx_kp_s_admindarlan_mail_com
+#define __pyx_kp_s_admindarlan1231_mail_com __pyx_mstate_global->__pyx_kp_s_admindarlan1231_mail_com
 #define __pyx_n_s_asyncio_coroutines __pyx_mstate_global->__pyx_n_s_asyncio_coroutines
 #define __pyx_n_s_attempt __pyx_mstate_global->__pyx_n_s_attempt
 #define __pyx_n_s_auth_data __pyx_mstate_global->__pyx_n_s_auth_data
@@ -2748,8 +2748,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_healthcheck __pyx_mstate_global->__pyx_n_s_healthcheck
 #define __pyx_kp_s_hikaricp_connections_acquire __pyx_mstate_global->__pyx_kp_s_hikaricp_connections_acquire
 #define __pyx_n_s_host __pyx_mstate_global->__pyx_n_s_host
-#define __pyx_kp_s_http_192_168_18_18_8199_healthch __pyx_mstate_global->__pyx_kp_s_http_192_168_18_18_8199_healthch
-#define __pyx_kp_s_http_192_168_18_18_8199_healthch_2 __pyx_mstate_global->__pyx_kp_s_http_192_168_18_18_8199_healthch_2
+#define __pyx_kp_s_http_localhost_8199_healthcheck __pyx_mstate_global->__pyx_kp_s_http_localhost_8199_healthcheck
+#define __pyx_kp_s_http_localhost_8199_healthcheck_2 __pyx_mstate_global->__pyx_kp_s_http_localhost_8199_healthcheck_2
 #define __pyx_kp_s_http_server_requests __pyx_mstate_global->__pyx_kp_s_http_server_requests
 #define __pyx_kp_s_http_server_requests_active __pyx_mstate_global->__pyx_kp_s_http_server_requests_active
 #define __pyx_n_s_import __pyx_mstate_global->__pyx_n_s_import
@@ -2859,7 +2859,7 @@ static PyObject *__pyx_pw_29extract_dataset_from_database_1extract(PyObject *__p
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
 
@@ -2901,23 +2901,23 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
   /* "extract_dataset_from_database.pyx":35
  * 
  *     def get_auth_token():
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"             # <<<<<<<<<<<<<<
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"             # <<<<<<<<<<<<<<
  *         auth_data = {
- *             "email": "admindarlan@mail.com",
+ *             "email": "admindarlan1231@mail.com",
  */
-  __Pyx_INCREF(__pyx_kp_s_http_192_168_18_18_8199_healthch);
-  __pyx_v_login_url = __pyx_kp_s_http_192_168_18_18_8199_healthch;
+  __Pyx_INCREF(__pyx_kp_s_http_localhost_8199_healthcheck);
+  __pyx_v_login_url = __pyx_kp_s_http_localhost_8199_healthcheck;
 
   /* "extract_dataset_from_database.pyx":37
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
- *             "email": "admindarlan@mail.com",             # <<<<<<<<<<<<<<
+ *             "email": "admindarlan1231@mail.com",             # <<<<<<<<<<<<<<
  *             "password": "password"
  *         }
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 37, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_email, __pyx_kp_s_admindarlan_mail_com) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_email, __pyx_kp_s_admindarlan1231_mail_com) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_password, __pyx_n_s_password) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   __pyx_v_auth_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
@@ -3075,7 +3075,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_7extract_get_auth_toke
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
 
@@ -3368,7 +3368,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_29extract_dataset_from_database_7extract_1get_auth_token, 0, __pyx_n_s_extract_locals_get_auth_token, NULL, __pyx_n_s_extract_dataset_from_database, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -3530,7 +3530,7 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
  *         df.to_csv(filename, index=False)
  *         print(f"Generated file: {filename}")             # <<<<<<<<<<<<<<
  * 
- *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
+ *         metric_endpoint = "http://localhost:8199/healthcheck/v1/gate/metrics"
  */
     __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_filename, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -3545,15 +3545,15 @@ static PyObject *__pyx_pf_29extract_dataset_from_database_extract(CYTHON_UNUSED 
     /* "extract_dataset_from_database.pyx":64
  *         print(f"Generated file: {filename}")
  * 
- *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"             # <<<<<<<<<<<<<<
+ *         metric_endpoint = "http://localhost:8199/healthcheck/v1/gate/metrics"             # <<<<<<<<<<<<<<
  * 
  *         for attempt in range(5):
  */
-    __Pyx_INCREF(__pyx_kp_s_http_192_168_18_18_8199_healthch_2);
-    __Pyx_XDECREF_SET(__pyx_v_metric_endpoint, __pyx_kp_s_http_192_168_18_18_8199_healthch_2);
+    __Pyx_INCREF(__pyx_kp_s_http_localhost_8199_healthcheck_2);
+    __Pyx_XDECREF_SET(__pyx_v_metric_endpoint, __pyx_kp_s_http_localhost_8199_healthcheck_2);
 
     /* "extract_dataset_from_database.pyx":66
- *         metric_endpoint = "http://192.168.18.18:8199/healthcheck/v1/gate/metrics"
+ *         metric_endpoint = "http://localhost:8199/healthcheck/v1/gate/metrics"
  * 
  *         for attempt in range(5):             # <<<<<<<<<<<<<<
  *             token = get_auth_token()
@@ -3955,7 +3955,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 1, 0, 0},
     {&__pyx_n_s__8, __pyx_k__8, sizeof(__pyx_k__8), 0, 0, 1, 1},
     {&__pyx_n_s_access_token, __pyx_k_access_token, sizeof(__pyx_k_access_token), 0, 0, 1, 1},
-    {&__pyx_kp_s_admindarlan_mail_com, __pyx_k_admindarlan_mail_com, sizeof(__pyx_k_admindarlan_mail_com), 0, 0, 1, 0},
+    {&__pyx_kp_s_admindarlan1231_mail_com, __pyx_k_admindarlan1231_mail_com, sizeof(__pyx_k_admindarlan1231_mail_com), 0, 0, 1, 0},
     {&__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
     {&__pyx_n_s_attempt, __pyx_k_attempt, sizeof(__pyx_k_attempt), 0, 0, 1, 1},
     {&__pyx_n_s_auth_data, __pyx_k_auth_data, sizeof(__pyx_k_auth_data), 0, 0, 1, 1},
@@ -3980,8 +3980,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_healthcheck, __pyx_k_healthcheck, sizeof(__pyx_k_healthcheck), 0, 0, 1, 1},
     {&__pyx_kp_s_hikaricp_connections_acquire, __pyx_k_hikaricp_connections_acquire, sizeof(__pyx_k_hikaricp_connections_acquire), 0, 0, 1, 0},
     {&__pyx_n_s_host, __pyx_k_host, sizeof(__pyx_k_host), 0, 0, 1, 1},
-    {&__pyx_kp_s_http_192_168_18_18_8199_healthch, __pyx_k_http_192_168_18_18_8199_healthch, sizeof(__pyx_k_http_192_168_18_18_8199_healthch), 0, 0, 1, 0},
-    {&__pyx_kp_s_http_192_168_18_18_8199_healthch_2, __pyx_k_http_192_168_18_18_8199_healthch_2, sizeof(__pyx_k_http_192_168_18_18_8199_healthch_2), 0, 0, 1, 0},
+    {&__pyx_kp_s_http_localhost_8199_healthcheck, __pyx_k_http_localhost_8199_healthcheck, sizeof(__pyx_k_http_localhost_8199_healthcheck), 0, 0, 1, 0},
+    {&__pyx_kp_s_http_localhost_8199_healthcheck_2, __pyx_k_http_localhost_8199_healthcheck_2, sizeof(__pyx_k_http_localhost_8199_healthcheck_2), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests, __pyx_k_http_server_requests, sizeof(__pyx_k_http_server_requests), 0, 0, 1, 0},
     {&__pyx_kp_s_http_server_requests_active, __pyx_k_http_server_requests_active, sizeof(__pyx_k_http_server_requests_active), 0, 0, 1, 0},
     {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -4074,7 +4074,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     conn = psycopg2.connect(**db_config)
  * 
  *     def get_auth_token():             # <<<<<<<<<<<<<<
- *         login_url = "http://192.168.18.18:8199/healthcheck/v1/auth/authenticate"
+ *         login_url = "http://localhost:8199/healthcheck/v1/auth/authenticate"
  *         auth_data = {
  */
   __pyx_tuple_ = PyTuple_Pack(4, __pyx_n_s_login_url, __pyx_n_s_auth_data, __pyx_n_s_attempt, __pyx_n_s_response); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 34, __pyx_L1_error)
