@@ -73,12 +73,12 @@ public class MetricsScheduler {
         metricsService.fetchAndSaveLogbackEvents();
         metricsService.fetchAndSaveProcessCpuUsage();
         //metricsService.fetchAndSaveProcessFilesMax();
-        metricsService.fetchAndSaveProcessFilesOpen();
+        //metricsService.fetchAndSaveProcessFilesOpen();
         metricsService.fetchAndSaveProcessStartTime();
         metricsService.fetchAndSaveProcessUptime();
         metricsService.fetchAndSaveSystemCpuCount();
         metricsService.fetchAndSaveSystemCpuUsage();
-        metricsService.fetchAndSaveSystemLoadAverage1M();
+        //metricsService.fetchAndSaveSystemLoadAverage1M();
         logger.info("End Schedulling");
 
         logger.info("Init update isAlert");
