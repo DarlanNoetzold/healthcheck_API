@@ -25,7 +25,7 @@ LOGIN_URL = f"{API_BASE_URL}/auth/authenticate"
 METRICS_URL = f"{API_BASE_URL}/gate/model-accuracies"
 
 auth_data = {
-    "email": "admindarlan1231@mail.com",
+    "email": "teste@mail.com",
     "password": "password"
 }
 
@@ -60,7 +60,7 @@ def send_metric(metric_name, model_name, accuracy_name, accuracy_value, training
                 else:
                     print(f"Tentativa {attempt + 1}: Falha ao enviar {accuracy_name} para {model_name} - {metric_name}: {response.text}")
             except requests.exceptions.RequestException as e:
-                print(f"Tentativa {attempt + 1}: Erro de conexão ao enviar {accuracy_name} para {model_name} - {metric_name}: {e}")
+                print(f"Tentativa {attempt + 1}: Erro de conexão ao enviar {accuracy_name} para {model_name} - {metric_name}: {str(e)}")
         else:
             print("Não foi possível obter o token de autenticação.")
             break

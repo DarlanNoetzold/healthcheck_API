@@ -12,12 +12,12 @@ from data_management.extract_dataset_from_database import extract
 import requests
 import datetime
 
-API_BASE_URL = "http://192.168.18.18:8199/healthcheck/v1"
+API_BASE_URL = "http://localhost:8199/healthcheck/v1"
 LOGIN_URL = f"{API_BASE_URL}/auth/authenticate"
 METRICS_URL = f"{API_BASE_URL}/gate/model-accuracies"
 
 auth_data = {
-    "email": "admindarlan@mail.com",
+    "email": "teste@mail.com",
     "password": "password"
 }
 
