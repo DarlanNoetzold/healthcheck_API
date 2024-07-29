@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/gate';
+const API_BASE_URL = 'http://localhost:8199/healthcheck/v1/gate';
 
 const api = axios.create({
     baseURL: API_BASE_URL,

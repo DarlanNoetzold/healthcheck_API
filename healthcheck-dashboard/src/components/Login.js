@@ -4,7 +4,7 @@ import { Button, Form, Input, Card, notification } from 'antd';
 import axios from 'axios';
 import './Login.css'; // Importe seu arquivo CSS
 
-const AUTH_API_BASE_URL = 'http://177.22.91.106:8199/healthcheck/v1/auth';
+const AUTH_API_BASE_URL = 'http://localhost:8199/healthcheck/v1/auth';
 
 const Login = () => {
   const navigate = useNavigate();
